@@ -179,3 +179,9 @@ dans le tableau [2](#org26bffc8).
 
 On obtient ainsi 100101.
 
+### Conversion en sens inverse
+
+La conversion de octal (respectivement, hexadécimal) à binaire se fait
+simplement en remplaçant chaque chiffre octal (resp. hexadécimal) par
+le groupe de trois (resp. quatre) bits correspondant, en partant du
+moins significatif.
