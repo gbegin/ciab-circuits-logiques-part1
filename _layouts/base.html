@@ -33,8 +33,6 @@
 	<link rel="shortcut icon" href="{{ site.baseurl }}/img/favicon.ico">
 	<script type="text/javascript" src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
 
-<script src=”https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id=”MathJax-script” async src=”https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	
 </head>
 <body {% if page.itemtype %}itemscope itemtype="{{ page.itemtype }}"{% endif %}
@@ -67,7 +65,7 @@
 	{% include ga.html %}
 {% endif %}
 
-
+{% include mathjax.html %}
 
 </body>
 </html>
