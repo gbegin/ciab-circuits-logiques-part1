@@ -1,3 +1,5 @@
+## Objectifs
+
 -   Comprendre le fonctionnement du système de numération binaire
 -   Pouvoir effectuer des conversions entre nombres en représentation
     binaire, octale, hexadécimale
