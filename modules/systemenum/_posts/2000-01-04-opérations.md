@@ -9,8 +9,8 @@ seront négatifs.
 
 Le tableau [7](#org473ef5b) donne par exemple le détail de l'évaluation
 de la valeur du nombre fractionnaire (101,11)2. On obtient comme
-valeur \(1 \times 4 + 0 \times 2 + 1 \times 1 + 1 \times 1/2 + 1
-\times 1/4 = 5,75\).
+valeur $$1 \times 4 + 0 \times 2 + 1 \times 1 + 1 \times 1/2 + 1
+\times 1/4 = 5,75$$.
 
 <table id="org473ef5b" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 7 :</span> évaluation de la valeur du nombre fractionnaire (101,11)2</caption>
@@ -42,11 +42,11 @@ valeur \(1 \times 4 + 0 \times 2 + 1 \times 1 + 1 \times 1/2 + 1
 <tbody>
 <tr>
 <td class="org-left">Valeur</td>
-<td class="org-right">\(2^2\)</td>
-<td class="org-right">\(2^1\)</td>
-<td class="org-right">\(2^0\)</td>
-<td class="org-right">\(2^{-1}\)</td>
-<td class="org-right">\(2^{-2}\)</td>
+<td class="org-right">$$2^2$$</td>
+<td class="org-right">$$2^1$$</td>
+<td class="org-right">$$2^0$$</td>
+<td class="org-right">$$2^{-1}$$</td>
+<td class="org-right">$$2^{-2}$$</td>
 </tr>
 
 
@@ -95,8 +95,8 @@ entier, on devra insérer un zéro à la position zéro. Si le nombre est
 fractionnaire, bit le plus significatif de la partie fractionnaire se
 retrouvera à la position zéro.
 
-\[ (10011)2 \times 2 = (100110)2 \]
-\[ (100,11)2 \times 2 = (1001,1)2 \]
+$$ (10011)2 \times 2 = (100110)2 $$
+$$ (100,11)2 \times 2 = (1001,1)2 $$
 
 Pour diviser un nombre binaire par deux, il suffit de décaler tous ses
 bits d'une position vers la droite. Une division fractionnaire
@@ -105,14 +105,14 @@ suivant.
 
 1.  Division fractionnaire
 
-    \[ (10011)2 \div 2 = (1001,1)2 \]
+    $$ (10011)2 \div 2 = (1001,1)2 $$
 
 2.  Division entière
 
     Pour une division entière (sans fraction), on éliminera le bit qui
     aurait été placé après la virgule.
     
-    \[ (10011)2 \div 2 = (1001)2 \]
+    $$ (10011)2 \div 2 = (1001)2 $$
     
     Il est évident de généraliser ces opérations pour les multiplications
     ou divisions par des puissances de 2: 4, 8, 16, etc.
