@@ -411,7 +411,7 @@ Voici quelques observations importantes sur cette représentation.
     re-donnera le nombre initial, conformément à la double négation
     $$--n = n$$.
 
-![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux")
+![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
 *Relations entre les codes dans l'assignation en complément à deux*
 
 
