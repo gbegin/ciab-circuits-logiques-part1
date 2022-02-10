@@ -1,3 +1,6 @@
+---
+title: Objectifs
+---
 ## Objectifs
 
 -   Comprendre le fonctionnement du système de numération binaire

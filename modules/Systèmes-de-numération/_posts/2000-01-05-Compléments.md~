@@ -1,25 +1,21 @@
----
-title: Compléments de nombres
----
-
 # Compléments de nombres
 
 Les compléments de nombres jouent un rôle dans la simplification de
 certaines opérations mathématiques et logiques. Dans un système de
 numération de base $$b$$, on considère deux types de compléments: le
 complément à $$b$$ et le complément à $$b-1$$. Pour la base 10, nous
-aurons donc le complément à dix et le complément à neuf. Pour les nombres
+aurons donc le complément à 10 et le complément à 9. Pour les nombres
 binaires (base 2), on aura le complément à deux et le complément à un. 
 Pour évaluer les compléments, on doit tenir compte du nombre de
 chiffres que comportent lescomposant le nombre.
 
-## Complément à neuf et complément à un
+## Complément à 9 et complément à un
 
 Soit un nombre entier $$N$$ en base $$b$$ constitué de $$n$$ chiffres. Le
 complément à $$b-1$$ de $$N$$ est $$(b^n-1)-N$$.
 
-Par exemple, en base $$b=10$$, le complément à neuf pour le nombre décimal
-$$N = 4576$$ formé de $$n=4$$ chiffres sera $$(b^n-1)-N = (10^4 -1) -
+Par exemple en base $$b=10$$, le complément à 9 pour le nombre décimal
+$$N = 4576$$ formé de $$n=4$$ chiffres sera $$b^n-1)-N = (10^4 -1) -
 4576 = 5424 $$.
 
 En base $$b=2$$, le complément à un pour le nombre binaire $$N =
@@ -31,20 +27,19 @@ complément à un, sans effectuer de calculs, en inversant simplement
 chacun des bits de la représentation binaire du nombre à
 complémenter. Ainsi, avec notre exemple, on trouve:
 
-$$ 10011 $$
-
-$$ 01100 $$
+10011
+01100
 
 Remarquons ici un zéro non significatif comme premier bit à gauche.
 
 
-## Complément à un et complément à deux
+## Complément à 10 et complément à deux
 
 Le complément à $$b$$ de l'entier $$N$$ s'évalue comme
 $$(b^n)-N$$. Cela correspond à ajouter 1 au complément à $$b-1$$.
 
-Ainsi pour notre exemple précédent en base $$b=10$$, le complément à un pour le nombre
-décimal $$N = 4576$$ formé de $$n=4$$ chiffres sera $$(b^n)-N =
+Ainsi pour notre exemple précédent en base $$b=10$$, le complément à 10 pour le nombre
+décimal $$N = 4576$$ formé de $$n=4$$ chiffres sera $$b^n)-N =
 (10^4) - 4576 = 5425 $$.
 
 Pour notre autre exemple, en base $$b=2$$, le complément à deux pour
@@ -66,7 +61,7 @@ tableau [8](#org6c42995). Les étapes sont numérotées selon la position
 considérée, à partir de la droite.
 
 <table id="org6c42995" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 8 :</span> Étapes pour complément à deux</caption>
+<caption class="t-above"><span class="table-number">Tableau 8 :</span> Étape pour complément à deux</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -164,17 +159,17 @@ naturel. Dans l'optique où on voudra stocker ces nombres dans une
 mémoire binaire numérique, il n'y a qu'à prévoir une taille suffisante
 (en nombre de bits) pour pouvoir accommoder des nombres assez grands
 pour l'application considérée. Avec $$n$$ bits, il est possible de
-représenter des entiers de 0 à $$2^n-1$$.
+représenter des entiers de 0 à $$2^n-1)$$.
 
 Mais on peut se demander comment représenter des nombres négatifs $$<
 0$$. Une première observation est le fait que si on considère des
 nombres positif **et** négatifs, on double en quelque sorte la quantité
 de valeurs à représenter. Par exemple, il y a 21 nombres à représenter
-si on veut pouvoir utiliser les valeurs comprises entre $$-10$$ et
+si on veut pouvoir représenter les valeurs comprises entre $$-10$$ et
 $$+10$$, comme on peut le voir dans le tableau [9](#orgfd9f2e2).
 
 <table id="orgfd9f2e2" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 9 :</span> Nombre de valeurs à représenter entre $$-10 \mbox{ et } +10$$</caption>
+<caption class="t-above"><span class="table-number">Tableau 9 :</span> Nombre de valeurs à représenter entre $$-10$$ et $$+10$$</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -215,7 +210,7 @@ $$+10$$, comme on peut le voir dans le tableau [9](#orgfd9f2e2).
 </tbody>
 </table>
 
-Nous devons donc nous assurer d'avoir autant de combinaisons de bits qu'il
+Nous devons donc prévoir suffisamment de combinaisons de bits qu'il
 sera nécessaire. La deuxième observation est qu'il faudra un moyen de
 distinguer les nombres positifs des nombres négatifs. Si on veut que
 cette distinction puisse se faire non seulement sur papier, mais
@@ -240,11 +235,11 @@ arbitrairement, mais elle sera sans doute plus utile si elle peut
 contribuer à faciliter des opérations courantes réalisées avec les
 éléments à représenter. Puisqu'il est question ici de nombre entiers
 signés, l'opération à considérer en priorité est l'addition. On aussi
-devrait considérer les trois points suivants dans notre choix de convention
-pour attribuer des codes binaires aux valeurs. (Pour illustrer notre
+devrait considérer les points suivants dans notre choix de convention
+pour attribuer des codes binaires aux valeurs. Pour illustrer notre
 réflexion, nous allons considérer des nombre pouvant être représentés
 par des codes binaires de quatre bits, ce qui permet en théorie de
-représenter un total de 16 valeurs.)
+représenter un total de 16 valeurs.
 
 1.  Puisqu'il faudra partager notre ensemble de codes binaires en deux,
     il serait logique de placer la représentation pour zéro au centre
@@ -264,9 +259,7 @@ L'ordre naturel, du moins pour les nombres entiers positifs, serait de
 passer de 0000 à 0001 à 0010, etc. Il faudra cependant limiter le
 nombre de valeurs positives, car il faut réserver des codes pour les
 valeurs négatives, et nous avons déjà utilisé un code pour le
-zéro. 
-
-Quel code binaire devrait-on placer juste avant le zéro, pour
+zéro. Quel code binaire devrait-on placer juste avant le zéro, pour
 représenter -1? Si on dispose l'ensemble des codes binaires entre 0000
 et 1111 selon un cycle, tel qu'illustré sur la figure [69](#org0ae272e),
 alors le code approprié pour -1 sera 1111. Et le code pour -2
@@ -415,9 +408,7 @@ Voici quelques observations importantes sur cette représentation.
     re-donnera le nombre initial, conformément à la double négation
     $$--n = n$$.
 
-![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
-*Relations entre les codes dans l'assignation en complément à deux*
-
+![img](cycle.png "Relations entre les codes dans l'assignation en complément à deux")
 
 Il existe d'autres conventions pour la représentation de nombres
 signés, comme par exemple, la représentation signe+magnitude, mais la
@@ -603,7 +594,7 @@ La soustraction s'effectue en faisant $$ A - B = A + (-B) $$, comme suit:
     retenue qui émane de la position la plus significative ne doit pas
     être prise en compte.
 
-Le résultat s'interprétera comme un nombre signé en complément à deux. 
+Le résultat s'interprétera comme un nombre signé en complément à deux.    
 
 
 # Codes binaires
@@ -770,6 +761,7 @@ entiers binaires, on aurait observé pour ce cas une transition entre
 </tbody>
 </table>
 
+
 ## Codes alphanumériques et autres
 
 Vous rencontrerez sans doute plusieurs autres encodages courants,
@@ -784,3 +776,8 @@ la transmission des données encodées. Ces codes sont construits en
 fonction de règles d'encodage, qui, lorsqu'elles ne sont pas
 respectées, permettent de constater la présence d'erreurs.
 
+
+# Notes de bas de page
+
+<sup><a id="fn.1" href="#fnr.1">1</a></sup> Pour simplifier, dans le contexte, on appellera ici ces cinq
+lettres des *chiffres* de la notation hexadécimale.

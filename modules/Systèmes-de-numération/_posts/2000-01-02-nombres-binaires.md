@@ -1,3 +1,6 @@
+---
+title: Nombres binaires
+---
 # Nombres binaires
 
 Les nombres binaires sont essentiellement construits de la même façon

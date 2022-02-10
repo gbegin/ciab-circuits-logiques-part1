@@ -1,3 +1,6 @@
+---
+title: Opérations
+---
 ## Nombres binaires fractionnaires
 
 Il est aussi possible de représenter des nombres fractionnaires en

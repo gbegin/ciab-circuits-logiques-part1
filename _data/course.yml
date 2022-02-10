@@ -1,3 +1,3 @@
 title: Introduction aux circuits logiques
 description: Ce cours est une introduction aux circuits logiques, qui sont au coeur de tous les systèmes numériques, du plus simple au plus complexe
-modules: [Systèmes-de-numération]
+modules: [Systèmes-de-numération, Logique-binaire]
