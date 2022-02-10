@@ -22,11 +22,11 @@ respecte un jeu d'axiomes ou postulats. Une algèbre nécessite donc:
 3.   L'application des opérateurs aux différents éléments doit respecter
     un certain nombre de propriétés appelées postulat, comme par exemple:
 
-        -   Fermeture
-        -   Associativité
-        -   Commutativité
-        -   Existence d'élément identité
-        -   Existence d'élément inverse
+        -  Fermeture
+        -  Associativité
+        -  Commutativité
+        -  Existence d'élément identité
+        -  Existence d'élément inverse
         -  Distributivité
 
 Selon le choix des postulats, on arrive à définir différents types de
@@ -90,9 +90,9 @@ Observons des différences entre une algèbre de Boole et le corps des réels:
 
 # Algèbre de Boole à deux valeurs
 
-L'ensemble de définition: \(B : \{0, 1 \}\).
+L'ensemble de définition: $$B : \{0, 1 \}$$.
 
-Opérateur \(\cdot\):
+Opérateur $$\cdot$$:
 
 <div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -109,10 +109,10 @@ Opérateur \(\cdot\):
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
-<th scope="col" class="org-right">\(y\)</th>
+<th scope="col" class="org-right">$$x$$</th>
+<th scope="col" class="org-right">$$y$$</th>
 <th scope="col" class="org-right">&#xa0;</th>
-<th scope="col" class="org-right">\(x \cdot y\)</th>
+<th scope="col" class="org-right">$$x \cdot y$$</th>
 </tr>
 </thead>
 
@@ -128,8 +128,8 @@ Opérateur \(\cdot\):
 <tr>
 <td class="org-right">0</td>
 <td class="org-right">1</td>
-<td class="org-right">0</td>
 <td class="org-right">&#xa0;</td>
+<td class="org-right">0</td>
 </tr>
 
 
@@ -151,7 +151,7 @@ Opérateur \(\cdot\):
 </table>
 </div>
 
-Opérateur \(+\):
+Opérateur $$+$$:
 
 <div class="org-center">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -168,10 +168,10 @@ Opérateur \(+\):
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
-<th scope="col" class="org-right">\(y\)</th>
+<th scope="col" class="org-right">$$x$$</th>
+<th scope="col" class="org-right">$$y$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(x + y\)</th>
+<th scope="col" class="org-right">$$x + y$$</th>
 </tr>
 </thead>
 
@@ -225,9 +225,9 @@ Règle de complémentation:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
+<th scope="col" class="org-right">$$x$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(x^{\prime}\)</th>
+<th scope="col" class="org-right">$$x^{\prime}$$</th>
 </tr>
 </thead>
 
