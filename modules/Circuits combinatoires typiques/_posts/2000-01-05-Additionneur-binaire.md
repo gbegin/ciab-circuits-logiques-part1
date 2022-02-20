@@ -13,7 +13,7 @@ de conception que nous avons vues.
 ## Additionneur binaire
 
 Une des opérations binaires les plus utilisées est l'addition (et la
-soustraction). Nous avons présenté à la section  [Compléments]({% post_url /modules/Systèmes-de-numération/2000-01-05-Compléments %}) le tableau de vérité pour un additionneur binaire dont les
+soustraction). Nous avons présenté à la section  [Compléments]({% post_url /modules/Systèmes de numération/2000-01-05-Compléments %}) le tableau de vérité pour un additionneur binaire dont les
 entrées sont $$a_{i}$$ et $$b_{i}$$, les bits des nombres à
 additionner et $$r_{i-1}$$, la retenue provenant de la position
 $$i-1$$. En sortie, on a la somme $$S_{i}$$ et la retenue
