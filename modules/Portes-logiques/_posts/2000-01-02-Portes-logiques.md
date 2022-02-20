@@ -242,6 +242,6 @@ valeurs de la fonction. Par exemple, en complémentant les valeurs de
 sorte dans le tableau de vérité, on effectue ce changement.
 
 On peut aussi effectuer ce changement en appliquant les théorèmes de
-DeMorgan (Théorème 5 (a) et (b) du tableau dans [Théorèmes de base]({% post_url /modules/Théorèmes et propriétés/2000-01-02-Théorèmes-et-propriétés %}) qui
+DeMorgan (Théorème 5 (a) et (b) du tableau dans [Théorèmes de base]({% post_url /modules/Théorèmes-et-propriétés/2000-01-02-Théorèmes-et-propriétés %}) qui
 peuvent se généraliser à plus de deux variables.
 

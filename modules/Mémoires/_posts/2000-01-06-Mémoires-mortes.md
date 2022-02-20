@@ -35,7 +35,7 @@ de 8 bits chacun.
 
 ### Implémentation de fonctions combinatoires
 
-Comme on l'a vu dans la section [Décodeur]({% post_url /modules/Circuits combinatoires typiques/2000-01-09-Décodeur %}), un décodeur permet de
+Comme on l'a vu dans la section [Décodeur]({% post_url /modules/Circuits-combinatoires-typiques/2000-01-09-Décodeur %}), un décodeur permet de
 générer les $$2^k$$ minterms possibles avec ses $$k$$
 entrées. Regrouper avec une porte OU les minterms d'une
 fonction permet d'implémenter cette fonction. Une mémoire ROM permet
