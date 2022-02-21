@@ -72,4 +72,4 @@ Les registres à décalage sont notamment utilisés pour convertir des
 données parallèles en données sérielles et vice versa, des opérations
 très utiles dans le contexte d'interfaces de communication. On peut
 également s'en servir pour faire des multiplications ou divisions par
-deux, comme on l'a vu à la section [Multiplication et division par deux]({% post_url /modules/Systèmes-de-numération/2000-01-04-opérations %}).
+deux, comme on l'a vu à la section [Multiplication et division par deux]({{site.baseurl}}{% post_url modules/Systèmes-de-numération/2000-01-04-opérations %}).

@@ -10,7 +10,7 @@ binaires correspondants. On obtient ainsi un **tableau de transition**,
 qui permet d'élaborer les expressions logiques pour le décodeur de
 prochain état. Le type de bascules à utiliser déterminera les sorties
 nécessaires pour le décodeur d'état, en se basant sur les tableaux
-caractéristiques de la section [7.6.6](#org928c36c). [Tableaux caractéristiques]({% post_url /modules/Circuits-séquentiels/2000-01-08-Tableau-et-équation-caractéristique %})
+caractéristiques de la section [7.6.6](#org928c36c). [Tableaux caractéristiques]({{site.baseurl}}{% post_url modules/Circuits-séquentiels/2000-01-08-Tableau-et-équation-caractéristique %})
 
 
 ## Décodeur de sorties
