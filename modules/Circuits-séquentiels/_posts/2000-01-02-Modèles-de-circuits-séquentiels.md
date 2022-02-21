@@ -6,7 +6,7 @@ title: Modèle d'un circuit séquentiel
 
 Les circuits logiques séquentiels sont ceux qui comportent de la
 mémoire. Le modèle général d'un circuit séquentiel est illustré sur la
-figure [491](#orgf171663). On y voit qu'il y a une boucle de rétroaction, qui
+figure ci-dessous. On y voit qu'il y a une boucle de rétroaction, qui
 fait que les valeurs binaires stockées dans les éléments de mémoire
 contribuent au calcul des sorties. Les sorties du circuit à un instant
 donné ne dépendent donc pas seulement des entrées présentes à ce
@@ -42,14 +42,14 @@ produisent à des instants discrets. Les éléments de mémoire qui
 stockent les valeurs binaires sont appelés **bascules** (*flip-flops* en
 anglais). Il existe différents types de bascules. Nous les étudierons
 en détail, car elles sont à la base des circuits séquentiels les plus
-utilisés. La figure [494](#org63e635a) présente le modèle général d'un
+utilisés. La figure suivante présente le modèle général d'un
 circuit séquentiel synchrone.
 
 ![img]({{site.baseurl}}/img/circuit_seq_sync.png "Modèle de circuit séquentiel synchrone")
-*Modèle de circuit séquentiel synchrone"*
+*Modèle de circuit séquentiel synchrone*
 
 Le signal d'horloge est typiquement une onde carrée, telle
-qu'illustré sur la figure [496](#org74a3f11).
+qu'illustré sur la figure suivante.
 
 ![img]({{site.baseurl}}/img/horloge.svg "Signal d'horloge")
 *Signal d'horloge*

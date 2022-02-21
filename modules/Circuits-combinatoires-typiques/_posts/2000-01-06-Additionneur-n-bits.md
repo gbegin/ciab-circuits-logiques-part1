@@ -10,7 +10,7 @@ conçu en combinant des additionneurs complets en cascade, en reliant
 la retenue de sortie provenant de la position 0 (la moins
 significative) à l'entrée de retenue de la position 1, &#x2026; la retenue
 de sortie provenant de la position $$i-1$$ à l'entrée de retenue de la
-position $$i$$, etc. (figure [411](#org0eda19e)).
+position $$i$$, etc. (Voir figure ci-bas).
 
 Pour en faire un circuit général pouvant également se combiner en
 chaîne, on prévoit une entrée pour une retenue au niveau 0, $$r_0$$ et
@@ -18,7 +18,7 @@ une sortie pour une retenue du dernier niveau $$n-1$$, $$R_{n-1}$$. On
 doit donc, pour le chaînage, acheminer la sortie retenue du niveau
 courant à l'entrée de retenue du niveau suivant.
 
-![img]({{site.baseurl}}/img/additionneur_cascade.png "Chaîne d'addition")
+![img]({{site.baseurl}}/img/additionneur_cascade.png "Chaîne d'addition"){:id="org0eda19e"}
 *Chaîne d'addition*
 
 Cette réalisation en forme de chaîne, en réutilisant de façon

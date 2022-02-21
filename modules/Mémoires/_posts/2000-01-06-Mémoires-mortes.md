@@ -9,10 +9,13 @@ Dans son mode d'utilisation normal, une mémoire morte peut seulement
 sera effectuée. Il y aura donc des entrées pour les adresses et un
 signal de contrôle de type *CS*.
 
-La figure [793](#org70cfa8b) montre l'essentiel d'une mémoire ROM de
+La figure suivante montre l'essentiel d'une mémoire ROM de
 16 mots de 4 bits. Un décodeur d'adresse permet de sélectionner quel
 mot sera lu, et la sortie est disponible sur les lignes $$A_3, \ldots,
 A_0$$. 
+
+![img]({{site.baseurl}}/img/proto_rom1_prog.svg "Modèle d'une mémoire ROM")
+*Modèle d'une mémoire ROM*
 
 Pour simplifier la représentation de genre de configuration, on
 utilise une schématisation symbolique compacte pour les portes OR de
@@ -24,9 +27,6 @@ entrées de la porte.  Avec cette schématisation, on peut voir que les
 deux premiers mots stockés dans la mémoire illustrée dans l'exemple
 seraient 0101 et 1101. La même schématisation compacte est aussi
 employée pour des portes ET.
-
-![img]({{site.baseurl}}/img/proto_rom1_prog.svg "Modèle d'une mémoire ROM")
-*Modèle d'une mémoire ROM*
 
 Cette relativement petite mémoire comporte ainsi 64 intersections
 programmables, permettant de définir la valeur des 16 mots de mémoire
@@ -48,7 +48,7 @@ mettre en oeuvre $$m$$ fonctions combinatoires différentes (une par
 bit de mot) de $$k$$ entrées.
 
 Par exemple, la sortie $$A_2$$ de la mémoire de la figure
-[793](#org70cfa8b) implémente la fonction $$ A_2 = \sum (0,1,4,8) $$
+précédente implémente la fonction $$ A_2 = \sum (0,1,4,8) $$
 exprimée en somme de minterms.
 
 

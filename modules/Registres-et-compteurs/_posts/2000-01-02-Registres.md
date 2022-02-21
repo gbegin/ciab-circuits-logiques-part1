@@ -10,7 +10,7 @@ mémoire. Différentes configurations d'interconnexion entre les
 bascules et éventuellement des composantes combinatoires permettent de
 concevoir des types de registres pouvant remplir des rôles variés.
 
-La figure [695](#org1556394) montre un registre parallèle de quatre bits,
+La figure suivante montre un registre parallèle de quatre bits,
 qui permet de stocker 4 valeurs binaires indépendantes. Le schéma du
 bas est une représentation symbolique du registre, dans laquelle on
 représente les entrées et sorties comme des vecteurs de quatre bits.
@@ -42,7 +42,7 @@ La solution consiste à toujours mettre à jour le contenu des bascules:
     externe qui est sélectionnée pour écrire un nouveau contenu.
 
 La sélection se fait au moyen d'un multiplexeur deux-vers-un à
-l'entrée de chaque bascule. La figure [702](#org75f3122) montre le schéma
+l'entrée de chaque bascule. La figure suivante montre le schéma
 du registre chargeable.
 
 ![img]({{site.baseurl}}/img/reg_4_paral.svg "Registre parallèle à quatre bits chargeable")

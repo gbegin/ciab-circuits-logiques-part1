@@ -27,7 +27,7 @@ prochain état et les valeurs de sortie.
 Deux états sont équivalents si, pour chaque combinaison d'entrées, ils
 produisent la même sortie et amènent le système dans le même état ou
 dans un état équivalent. Considérons le diagramme d'état de la figure
-[645](#org9a7366b) et le tableau d'état correspondant
+suivante et le tableau d'état correspondant
 [52](#org135cabe).
 
 ![img]({{site.baseurl}}/img/exemp_simplif_net.svg "Diagramme d'état")

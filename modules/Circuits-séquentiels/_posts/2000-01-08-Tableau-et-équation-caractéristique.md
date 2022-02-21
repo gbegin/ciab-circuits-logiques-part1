@@ -4,7 +4,7 @@ title: Tableau et équation caractéristique
 
 ### Tableaux caractéristiques
 
-On résume le fonctionnement des différentes bascules au moyen de tableaux qui décrivent, selon les conditions d'entrée et l'état présent, quel sera le prochain état après le déclenchement. $$Q(t)$$ représente l'état présent et  $$Q(t+1)x$$ l'état suivant.
+On résume le fonctionnement des différentes bascules au moyen de tableaux qui décrivent, selon les conditions d'entrée et l'état présent, quel sera le prochain état après le déclenchement. $$Q(t)$$ représente l'état présent et  $$Q(t+1)$$ l'état suivant.
 
 
 
@@ -173,7 +173,7 @@ l'effet n'est pas soumis à l'horloge. Ces entrées sont typiquement
 utilisées pour faire un *reset* ou un *set* de la bascule, par exemple
 pour une remise à zéro initiale d'un circuit séquentiel. Une
 configuration typique est illustrée par la bascule de la figure
-[570](#org701f1fd) qui comporte une entrée *Reset'* qui permet de
+suivante qui comporte une entrée *Reset'* qui permet de
 forcer l'état en agissant sur une porte NAND de chacune des paires de
 portes. Cette entrée est active au niveau bas, c'est pourquoi il y a une indication de complément dans son symbole.
 

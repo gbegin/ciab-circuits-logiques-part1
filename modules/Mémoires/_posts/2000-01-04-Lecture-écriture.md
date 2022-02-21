@@ -76,7 +76,7 @@ utilise des tampons émetteur-récepteurs de bus (voir section [Portes à trois 
 **bus de données** qui permet un aller-retour des données, selon le sens
 de l'action. Un signal dérivé du signal *Lecture/écriture* et *Chip
 select (CS)* est typiquement utilisé pour commander l'entrée de
-contrôle (voir [783](#org1b392ec)).
+contrôle, comme on le voit sur la figure suivante.
 
  
 

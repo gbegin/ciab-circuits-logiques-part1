@@ -152,7 +152,7 @@ différentes. On peut vérifier facilement que les autres cas sans
 débordement donnent des retenues égales. Si on fait un OU-exclusif
 entre ces deux retenues, un résultat 1 indiquera un débordement. Ce
 mécanisme de détection de débordement a été ajouté au circuit
-additionneur/soustracteur 4 bits dans la figure suivantepour générer
+additionneur/soustracteur 4 bits dans la figure suivante pour générer
 le signal $$D$$ qui indique un débordement.
 
 ![img]({{site.baseurl}}/img/add_sous_deb.svg "Circuit additionneur/soustracteur 4 bits avec débordement")

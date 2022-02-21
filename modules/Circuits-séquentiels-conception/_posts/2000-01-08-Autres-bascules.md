@@ -298,7 +298,7 @@ $$ J_{Z_0} = A $$
 
 $$ K_{Z_0} = (A + Z_1^n)^\prime $$
 
-Ce qui nous donne l'implémentation de la figure [688](#org1354a59).
+Ce qui nous donne l'implémentation de la figure suivante.
 
 ![img]({{site.baseurl}}/img/exemp_seq101_JK.svg "Détecteur pour la séquence 101, bascules JK")
 *Détecteur pour la séquence 101, bascules JK*

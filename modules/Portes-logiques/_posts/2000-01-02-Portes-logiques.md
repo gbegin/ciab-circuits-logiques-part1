@@ -145,7 +145,7 @@ On utilise souvent l'élément symbolique qui est placé à la sortie de
 l'inverseur (un petit cercle) pour indiquer l'inversion d'une entrée
 ou d'une sortie d'une porte. C'est le cas à la sortie des portes NAND
 et NOR comme on vient de le voir. Un autre exemple est la porte NAND
-de la figure [210](#orgee17092), où une des entrées est également
+de la figure suivante, où une des entrées est également
 inversée. La porte évalue donc $$S =  (A^\prime \cdot B  \cdot C)^\prime $$.
 
 ![img]({{site.baseurl}}/img/nand3_logique_invin1.svg "NAND à trois entrées dont une inversée"){:id="orgee17092"} 

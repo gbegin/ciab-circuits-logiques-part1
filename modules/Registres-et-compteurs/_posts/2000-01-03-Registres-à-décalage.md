@@ -5,7 +5,7 @@ title: Registres à décalage
 ## Registres à décalage
 
 Un registre à décalage consiste en une chaîne de bascules, la sortie
-de l'une reliée à l'entrée de la suivante. La figure [704](#org01bbfba) montre
+de l'une reliée à l'entrée de la suivante. La figure ci-bas montre
 un registre à décalage de quatre bits. À chaque coup d'horloge,
 l'entrée est insérée dans la première bascule, à droite, et le contenu
 du registre est décalé d'une position vers la gauche. La sortie

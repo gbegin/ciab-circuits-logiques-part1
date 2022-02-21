@@ -7,7 +7,7 @@ Un compteur en anneau est un registre à décalage connecté en boucle où
 une seule bascule est active à la fois. Il y a donc dans la sortie un
 seul bit 1, qui se décale  de façon cyclique: $$ 0010 \rightarrow 0001
 \rightarrow 1000 \rightarrow 0100 \rightarrow 0010, \ldots$$ La
-figure [734](#orgc2985c6) illustre un compteur en anneau de quatre bits. Une
+figure suivante illustre un compteur en anneau de quatre bits. Une
 entrée *Init* permet d'injecter un bit 1 dans le registre au début. La
 trace montre les formes d'onde obtenues.
 
@@ -22,7 +22,7 @@ dans le cycle, pendant une période d'horloge.
 
 Un compteur Johnson permet de doubler le nombre d'états distincts par
 rapport au compteur en anneau en injectant le complément du dernier
-bit dans l'entrée du registre à décalage.  La figure [736](#orgc8dc91d)
+bit dans l'entrée du registre à décalage.  La figure suivante 
 illustre un compteur en anneau Johnson de quatre bits, de même que la
 trace de fonctionnement. La séquence d'états est données dans le
 tableau [63](#org585130d).
@@ -146,14 +146,14 @@ donne les paires de sorties à combiner pour ce faire avec le compteur
 Johnson de quatre bits.
 
 Nous avons appliqué ce principe à un compteur Johsonson de deux bits,
-présenté sur la figure [739](#org09846f8). La figure montre une trace
+présenté sur la figure ci-bas. La figure montre une trace
 d'exécution avec les signaux de sortie. On y voit que chacun des
 quatres signaux est activé à son tour.
 
 ![img]({{site.baseurl}}/img/johnson2_quad_decode.svg "Compteur Johnson à 2 bits")
 *Compteur Johnson à 2 bits*
 
-Si on s'intéresse aux sorties des bascules de ce même compteur Johnson, on peut voir sur la trace d'exécution de la figure [741](#org8ae1e10) qu'on obtient des signaux en **quadrature**, c'est-à-dire que les sorties sont déphasées de 90 degrés les unes par rapport aux autres, comme le sont des fonctions $$ \sin(), \cos(), -\sin(), -\cos() $$.
+Si on s'intéresse aux sorties des bascules de ce même compteur Johnson, on peut voir sur la trace d'exécution de la figure suivante qu'on obtient des signaux en **quadrature**, c'est-à-dire que les sorties sont déphasées de 90 degrés les unes par rapport aux autres, comme le sont des fonctions $$ \sin(), \cos(), -\sin(), -\cos() $$.
 
 ![img]({{site.baseurl}}/img/johnson2_quad.svg "Compteur Johnson à 2 bits")
 *Compteur Johnson à 2 bits*
@@ -174,13 +174,13 @@ diviseurs, comme trois ou cinq, qui ne sont pas des puissances de deux.
 
 ### Compteur à chargement parallèle
 
-Un compteur à chargement parallèle est illustré à la figure
-[746](#org3da3b36). En activant l'entrée *Compte*, le comptage se fait vers le haut. En activant l'entrée *Charge*, les entrées $$ I_i, i=0, \ldots, 3$$ sont insérées dans les bascules. Il y a aussi une sortie *ov* qui indique lorsque le compteur atteint sa valeur maximale. Cette sortie peut être utilisée pour activer un autre compteur pour des bits de plus haut niveau.
-
-La trace d’exécution de la figure [747](#orgebe8be8) montre le comptage de 4 jusqu'à 15 et retour à 0. On voit le signal *ov* s'activer sur 15.
+Un compteur à chargement parallèle est illustré sur la figure
+suivante. En activant l'entrée *Compte*, le comptage se fait vers le haut. En activant l'entrée *Charge*, les entrées $$ I_i, i=0, \ldots, 3$$ sont insérées dans les bascules. Il y a aussi une sortie *ov* qui indique lorsque le compteur atteint sa valeur maximale. Cette sortie peut être utilisée pour activer un autre compteur pour des bits de plus haut niveau.
 
 ![img]({{site.baseurl}}/img/compt_chargement.svg "Compteur à chargement parallèle")
 *Compteur à chargement parallèle*
+
+La trace d’exécution de la figure suivante montre le comptage de 4 jusqu'à 15 et retour à 0. On voit le signal *ov* s'activer sur 15.
 
 ![img]({{site.baseurl}}/img/compt_chargement_tracecompte.svg "Trace d'exécution, de 0 à 15")
 *Trace d'exécution, de 0 à 15*

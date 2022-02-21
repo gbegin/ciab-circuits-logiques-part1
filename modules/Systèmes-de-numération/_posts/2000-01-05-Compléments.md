@@ -268,11 +268,16 @@ zéro.
 
 Quel code binaire devrait-on placer juste avant le zéro, pour
 représenter -1? Si on dispose l'ensemble des codes binaires entre 0000
-et 1111 selon un cycle, tel qu'illustré sur la figure [69](#org0ae272e),
+et 1111 selon un cycle, tel qu'illustré sur la figure suivante,
 alors le code approprié pour -1 sera 1111. Et le code pour -2
 sera 1110. Un avantage de cette disposition est que, en ajoutant 1
 pour passer de -2 à -1, on parcourt le cycle dans le même sens qu'en
 ajoutant 1 pour passer de 1 à 2.
+
+
+![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
+*Relations entre les codes dans l'assignation en complément à deux*
+
 
 En suivant cette logique, on pourra, comme indiqué sur la figure,
 assigner les codes en jaune à des valeurs positives et les codes en
@@ -414,9 +419,6 @@ Voici quelques observations importantes sur cette représentation.
     son complément à deux. Le complément à deux du complément à deux nous
     re-donnera le nombre initial, conformément à la double négation
     $$--n = n$$.
-
-![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
-*Relations entre les codes dans l'assignation en complément à deux*
 
 
 Il existe d'autres conventions pour la représentation de nombres
