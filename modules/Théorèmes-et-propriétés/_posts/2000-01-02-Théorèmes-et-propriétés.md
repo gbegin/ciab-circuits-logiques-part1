@@ -19,11 +19,11 @@ le dual d'une expression en changeant les 0 pour des 1, les 1 pour des
 
 # Théorèmes de base
 
-Le tableau [1](#orgb76f0a7) résume les postulats et théorèmes de base de notre
+Le tableau [13](#orgb76f0a7) résume les postulats et théorèmes de base de notre
 algèbre. On présente en parallèle chaque version et sa version duale.
 
 <table id="orgb76f0a7" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 1 :</span> Théorèmes de l'algèbre de Boole</caption>
+<caption class="t-above"><span class="table-number">Tableau 13 :</span> Théorèmes de l'algèbre de Boole</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -129,7 +129,7 @@ La fonction NON-ET, souvent désignée NAND est obtenue en complémentant
 la sortie d'une fonction ET: $$(x \cdot y)^\prime$$.
 
 <table id="orge3d657b" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 2 :</span> Tableau de vérité de la fonction NON-ET</caption>
+<caption class="t-above"><span class="table-number">Tableau 14 :</span> Tableau de vérité de la fonction NON-ET</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -190,7 +190,7 @@ La fonction NON-OU, souvent désignée NOR est obtenue en complémentant
 la sortie d'une fonction OU: $$(x + y)^\prime$$.
 
 <table id="orgc7a557e" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 3 :</span> Tableau de vérité de la fonction NON-OU</caption>
+<caption class="t-above"><span class="table-number">Tableau 15 :</span> Tableau de vérité de la fonction NON-OU</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -253,7 +253,7 @@ une seule des entrées est 1. On verra plus loin que cette fonction
 joue un rôle important dans la formulation d'un additionneur.
 
 <table id="orgf83558d" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 4 :</span> Tableau de vérité de la fonction OU-exclusif</caption>
+<caption class="t-above"><span class="table-number">Tableau 16 :</span> Tableau de vérité de la fonction OU-exclusif</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -331,10 +331,10 @@ parenthèses, (2) NON, (3) ET, et (4) OU.
 
 Il est possible de construire le tableau de vérité pour $$F_1$$ en
 évaluant la fonction pour les $$2^3 = 8$$ combinaisons d'entrées
-possibles, comme dans le tableau [5](#orgb65522a).
+possibles, comme dans le tableau [17](#orgb65522a).
 
 <table id="orgb65522a" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 5 :</span> Fonction de trois variables</caption>
+<caption class="t-above"><span class="table-number">Tableau 17 :</span> Fonction de trois variables</caption>
 
 <colgroup>
 <col  class="org-right" />

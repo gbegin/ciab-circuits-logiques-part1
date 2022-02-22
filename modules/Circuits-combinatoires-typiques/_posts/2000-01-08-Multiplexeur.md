@@ -42,7 +42,7 @@ aurait un vecteur de $$n$$ signaux de sélection.
 
 
 <table id="orgf6a5ff8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 1 :</span> Tableau de vérité du multiplexeur quatre-vers-un</caption>
+<caption class="t-above"><span class="table-number">Tableau 26 :</span> Tableau de vérité du multiplexeur quatre-vers-un</caption>
 
 <colgroup>
 <col  class="org-right" />

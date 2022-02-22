@@ -1,6 +1,26 @@
 ---
 title: Nombres binaires
 ---
+
+# Systèmes numériques
+
+Les systèmes numériques sont omniprésents dans notre monde
+technologique. La grande force des systèmes numériques est leur
+capacité à représenter l'information sous toutes ses formes et à
+permettre la manipulation de cette information. Tout ensemble dont les
+éléments peuvent être dénombrés, comme un alphabet ou un ensemble fini
+de couleurs, se prête naturellement à une représentation
+numérique. Mais il et également possible de représenter des
+informations qui correspondent à des informations provenant
+d'ensembles continus, comme par exemple des informations sonores, en
+procédant à une numérisation par échantillonnage et codage.
+
+Une bonne façon de se familiariser avec la représentation numérique de
+l'information est d'étudier le système de numération binaire. Dans un
+chapitre suivant, nous étudierons les principes fondamentaux de la
+logique binaire. C'est sur ces deux bases que nous pourrons établir
+notre exploration des circuits logiques.
+
 # Nombres binaires
 
 Les nombres binaires sont essentiellement construits de la même façon
@@ -182,9 +202,3 @@ dans le tableau [2](#org26bffc8).
 
 On obtient ainsi 100101.
 
-### Conversion en sens inverse
-
-La conversion de octal (respectivement, hexadécimal) à binaire se fait
-simplement en remplaçant chaque chiffre octal (resp. hexadécimal) par
-le groupe de trois (resp. quatre) bits correspondant, en partant du
-moins significatif.

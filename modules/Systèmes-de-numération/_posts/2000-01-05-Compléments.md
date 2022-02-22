@@ -239,12 +239,12 @@ Une convention de représentation peut être établie totalement
 arbitrairement, mais elle sera sans doute plus utile si elle peut
 contribuer à faciliter des opérations courantes réalisées avec les
 éléments à représenter. Puisqu'il est question ici de nombre entiers
-signés, l'opération à considérer en priorité est l'addition. On aussi
-devrait considérer les trois points suivants dans notre choix de convention
-pour attribuer des codes binaires aux valeurs. (Pour illustrer notre
-réflexion, nous allons considérer des nombre pouvant être représentés
-par des codes binaires de quatre bits, ce qui permet en théorie de
-représenter un total de 16 valeurs.)
+signés, l'opération à considérer en priorité est l'addition. On
+devrait aussi considérer les trois points suivants dans notre choix de
+convention pour attribuer des codes binaires aux valeurs. (Pour
+illustrer notre réflexion, nous allons considérer des nombre pouvant
+être représentés par des codes binaires de quatre bits, ce qui permet
+en théorie de représenter un total de 16 valeurs.)
 
 1.  Puisqu'il faudra partager notre ensemble de codes binaires en deux,
     il serait logique de placer la représentation pour zéro au centre
@@ -283,12 +283,12 @@ En suivant cette logique, on pourra, comme indiqué sur la figure,
 assigner les codes en jaune à des valeurs positives et les codes en
 vert à des valeurs négatives. Si on assigne autant de valeur positives
 que de valeurs négatives, un seul code binaire ne sera pas utilisable,
-le code 1000. Tout mouvement selon le sens des flèches correspond à
-une addition; tout mouvement en sens inverse correspond à une
+le code 1000. Tout déplacement selon le sens des flèches correspond à
+une addition; tout déplacement en sens inverse correspond à une
 soustraction. Les nombres binaires seront ainsi symétriques par
 rapport à notre zéro.
 
-Nous obtenous ainsi l'assignation du tableau [10](#org86e68b2).
+Nous obtenons ainsi l'assignation du tableau [10](#org86e68b2).
 
 <table id="org86e68b2" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 10 :</span> Assignation de codes aux nombres de 4 bits</caption>
@@ -559,7 +559,7 @@ grand pour être représenté avec le nombre de bits initial.
 ## Addition de nombres signés
 
 L'addition de nombre signés codés avec la représentation en complément
-à 2 est nettement avantageuse. Il suffit d’additionner les deux
+à deux est nettement avantageuse. Il suffit d’additionner les deux
 nombres comme s'il s'agissait de nombre non signés, en incluant les
 bits de signe dans le calcul. La retenue qui émane de la position la
 plus significative ne doit pas être prise en compte. 

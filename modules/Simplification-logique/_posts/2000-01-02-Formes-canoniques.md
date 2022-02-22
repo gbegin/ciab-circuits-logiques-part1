@@ -45,13 +45,13 @@ telle qu'elle si le bit correspondant est 0 et complémentée si le bit
 est 1. Chaque maxterm est le complément du minterm correspondant, et
 *vice versa*.
 
-Dans le tableau [1](#orgf76f003), on utilise pour les minterms les
+Dans le tableau [18](#orgf76f003), on utilise pour les minterms les
 symboles de la forme $$m_j$$ avec $$j$$ qui est l'équivalent décimal
 de la combinaison de bits correspondante. Les maxterms sont dénotés
 $$M_j$$.
 
 <table id="orgf76f003" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 1 :</span> Minterms et maxterms pour trois variables</caption>
+<caption class="t-above"><span class="table-number">Tableau 18 :</span> Minterms et maxterms pour trois variables</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -174,7 +174,7 @@ Pour la fonction $$F_1$$,
 
 
 <table id="orgee31b82" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 2 :</span> Fonction de trois variables</caption>
+<caption class="t-above"><span class="table-number">Tableau 19 :</span> Fonction de trois variables</caption>
 
 <colgroup>
 <col  class="org-right" />
