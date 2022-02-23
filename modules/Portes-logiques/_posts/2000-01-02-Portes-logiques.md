@@ -36,8 +36,11 @@ pourrait avoir les correspondances suivantes.
 </tbody>
 </table>
 
-Les portes logiques manufacturées selon différents standards utilisent
-les même références de niveaux pour pouvoir fonctionner ensemble
+
+Les portes logiques sont manufacturées selon différents standards
+technologiques qu'on appelle familièrement des **familles
+logiques**. Au sein d'une même famille, les portes respectent les
+mêmes références de niveaux pour pouvoir fonctionner ensemble
 adéquatement.
 
 Une porte peut comporter une ou plusieurs entrées et agit généralement
@@ -243,7 +246,7 @@ bas. En effet, le signal $$a^\prime$$ est retardé d'un délai de
 propagation $$t_{p1}$$ par rapport à $$a$$.
 
 ![img]({{site.baseurl}}/img/course.svg "Cas à risque de condition de course")
-*Cas à risque de condition de cours*
+*Cas à risque de condition de course*
 
 En pratique, on pourrait observer un chronogramme qui s'apparente à
 celui de la figure suivante, où on voit
