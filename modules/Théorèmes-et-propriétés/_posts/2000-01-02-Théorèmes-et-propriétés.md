@@ -434,3 +434,14 @@ possibles, comme dans le tableau [17](#orgb65522a).
 En général, pour une fonction à $$n$$ entrées, le tableau de vérité
 comportera $$2^n$$ lignes.
 
+## Théorèmes de DeMorgan
+
+Le complément d'une fonction $$F$$ est $$F^\prime$$ et s'obtient en
+remplaçant tous les 0 par des 1 et tous les 1 par des 0 dans les
+valeurs de la fonction. Par exemple, en complémentant les valeurs de
+sorte dans le tableau de vérité, on effectue ce changement.
+
+On peut aussi effectuer ce changement en appliquant les théorèmes de
+DeMorgan (Théorème 5 (a) et (b) du tableau dans [Théorèmes de base]({{site.baseurl}}{% post_url modules/Théorèmes-et-propriétés/2000-01-02-Théorèmes-et-propriétés %}) qui
+peuvent se généraliser à plus de deux variables.
+

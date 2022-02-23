@@ -205,7 +205,6 @@ On verra plus loin qu'il est aussi possible de réaliser
 avantageusement des fonctions quelconques avec des portes NAND en
 exploitant la forme **somme de produits**.
 
-
 ## *Fan-out*
 
 Le *fan-out* d'une porte logique mesure sa capacité à commander
@@ -220,7 +219,6 @@ connecte plus d'entrées à une sortie que sa valeur de *fan-out*, la
 sortie ne pourra pas atteindre le niveau de tension adéquat, et les
 opérations logiques seront faussées.
 
-
 ## Porte tampon
 
 La valeur binaire à la sortie d'une porte tampon est la même qu'à
@@ -233,15 +231,30 @@ de placer deux inverseurs l'un à la suite de l'autre. L'utilisation de
 portes tampon est un des moyens de s'assurer de respecter les
 conditions de *fan-out*.
 
+##  Modèles de délai
 
-## Théorèmes de DeMorgan
+Un autre effet néfaste potentiel des délais à considérer est ce qu'on
+appelle une **condition de course**. Considérons le circuit de la
+figure suivante.  La sortie de la porte est $$s = a \cdot a^\prime$$
+qui devrait normalement donner systématiquement 0. Mais le chemin
+menant de l'entrée $$a$$ à l'entrée du haut de la porte ET est plus
+court (en termes de délais) que le chemin qui mène à l'entrée du
+bas. En effet, le signal $$a^\prime$$ est retardé d'un délai de
+propagation $$t_{p1}$$ par rapport à $$a$$.
 
-Le complément d'une fonction $$F$$ est $$F^\prime$$ et s'obtient en
-remplaçant tous les 0 par des 1 et tous les 1 par des 0 dans les
-valeurs de la fonction. Par exemple, en complémentant les valeurs de
-sorte dans le tableau de vérité, on effectue ce changement.
+![img]({{site.baseurl}}/img/course.svg "Cas à risque de condition de course")
+*Cas à risque de condition de cours*
 
-On peut aussi effectuer ce changement en appliquant les théorèmes de
-DeMorgan (Théorème 5 (a) et (b) du tableau dans [Théorèmes de base]({{site.baseurl}}{% post_url modules/Théorèmes-et-propriétés/2000-01-02-Théorèmes-et-propriétés %}) qui
-peuvent se généraliser à plus de deux variables.
+En pratique, on pourrait observer un chronogramme qui s'apparente à
+celui de la figure suivante, où on voit
+que les deux signaux à l'entrée de la porte ET sont simultanément
+égaux à 1 pendant une courte période. Une courte impulsion 1 sera donc
+générée sur le signal $$s$$ en sortie de la porte ET, après le délai
+de propagation $$t_{p2}$$ de celle-ci. Cette impulsion, qui ne
+correspond à rien selon la logique du circuit est appelé un **aléa** (ou
+en anglais, *glitch*).
 
+![img]({{site.baseurl}}/img/chronocourse.svg "Chronogramme de la condition de course")
+*Chronogramme de la condition de course*
+
+Ces aléas peuvent être la source de problèmes et de dysfonctionnements qui sont parfois difficiles à diagnostiquer, et il faut vraiment s'en méfier. Une telle impulsion, quasi imperceptible, pourrait par exemple déclencher le basculement de la valeur d'une cellule mémoire plus loin dans le circuit.
