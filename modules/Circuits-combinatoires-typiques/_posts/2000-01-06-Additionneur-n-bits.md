@@ -61,7 +61,7 @@ porte ET et une porte OU. Pour un additionneur de $$n$$ bits
 comprenant $$n$$ additionneurs complets, on aura une profondeur de
 retenue totale de $$2n$$ portes.
 
-![img]({{site.baseurl}}/img/fulladder_xorPG.svg "Circuit additionneur complet, signaux intermédiaires")
+![img]({{site.baseurl}}/img/fulladderxorPG.svg "Circuit additionneur complet, signaux intermédiaires")
 *Circuit additionneur complet, signaux intermédiaires*
 
 

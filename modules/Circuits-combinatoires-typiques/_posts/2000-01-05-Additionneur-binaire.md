@@ -245,6 +245,6 @@ $$ R_{i} = a_i b_i + a_i r_{i-1} + b_i r_{i-1} $$
 Comme on le disait précédemment, il est possible de combiner deux
 demi-additionneurs pour réaliser un additionneur complet, comme on peut le voir ici.
 
-![img]({{site.baseurl}}/img/fulladder_xor.svg "Circuit additionneur complet avec deux demi-additionneurs et une porte OU")
+![img]({{site.baseurl}}/img/fulladderxor.svg "Circuit additionneur complet avec deux demi-additionneurs et une porte OU")
 *Circuit additionneur complet avec deux demi-additionneurs et une porte OU*
 

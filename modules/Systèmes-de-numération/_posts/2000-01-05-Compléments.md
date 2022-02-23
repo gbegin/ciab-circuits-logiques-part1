@@ -653,7 +653,7 @@ erreur sur un bit n'introduit pas un gros changement dans
 l'interprétation de la valeur encodée. Un code Gray permet d'atteindre
 cet objectif.
 
-Avec code Gray du tableau [12](#orgdea8e5e), on peut voir par exemple que la
+Avec le code Gray du tableau [12](#orgdea8e5e), on peut voir par exemple que la
 transition entre les codes pour 7 et 8 n’entraîne qu'un changement sur
 un bit, de 0110 à 1100. Avec un encodage classique basé sur les
 entiers binaires, on aurait observé pour ce cas une transition entre
