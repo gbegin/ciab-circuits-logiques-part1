@@ -18,9 +18,9 @@ A_0$$.
 *Modèle d'une mémoire ROM*
 
 Pour simplifier la représentation de genre de configuration, on
-utilise une schématisation symbolique compacte pour les portes OR de
+utilise une schématisation symbolique compacte pour les portes OU de
 sortie, dans laquelle chacune des 16 lignes horizontales représente en
-fait 16 entrées d'une porte OR. La présence d'une croix à
+fait 16 entrées d'une porte OU. La présence d'une croix à
 l'intersection d'une ligne horizontale et d'une ligne verticale
 signifie que le signal de la ligne horizontale est connecté à une des
 entrées de la porte.  Avec cette schématisation, on peut voir que les

@@ -172,7 +172,7 @@ raisonnement pour un compteur quelconque:
 
 Le compteur à quatre bits de la figure suivante a été conçu
 selon cette approche, à partir de bascules JK.  L'utilisation d'une
-porte AND par bascule permet de mettre en oeuvre les
+porte ET par bascule permet de mettre en oeuvre les
 conditions. L'entrée $$E$$ est un contrôle *enable* pour activer le
 comptage. On a aussi prévu une sortie *Prochain* pour pouvoir
 connecter en cascade d'autres compteurs.

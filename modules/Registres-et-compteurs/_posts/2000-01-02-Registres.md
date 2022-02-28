@@ -27,7 +27,7 @@ maintenir les valeurs déjà mémoriser. On ajoutera donc une entrée
 
 Comment mettre en oeuvre ce chargement/maintien demande un peu de
 réflexion. Il serait possible d'agir (à la façon d'un signal *enable*
-via une porte AND par exemple) sur l'entrée d'horloge des bascules
+via une porte ET par exemple) sur l'entrée d'horloge des bascules
 pour empêcher leur contenu d'être affectés par les entrées. Mais
 alors, on briserait le principe de synchronisation qui veut que tous
 les éléments d'un système soient tous commandés en même temps par une

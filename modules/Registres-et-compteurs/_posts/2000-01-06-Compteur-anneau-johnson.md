@@ -140,7 +140,7 @@ tableau [63](#org585130d).
 </table>
 
 On peut construire des signaux de synchronisation distincts en
-combinant deux par deux au moyen d'une porte AND des signaux de sortie
+combinant deux par deux au moyen d'une porte ET des signaux de sortie
 voisins (dans le cycle) ou leurs compléments. Le tableau [63](#org585130d)
 donne les paires de sorties à combiner pour ce faire avec le compteur
 Johnson de quatre bits.
@@ -196,7 +196,7 @@ La trace de la figure suivante montre le compteur qui passe de 0 à 5, puis un c
 On peut réaliser aisément un compteur modulo dont le cycle est plus
 court que le maximum possible, en utilisant un compteur avec
 chargement parallèle.  Par exemple, pour réaliser un compteur qui
-compte de 0 jusqu'à 12, il suffit de décoder au moyen d'une porte AND
+compte de 0 jusqu'à 12, il suffit de décoder au moyen d'une porte ET
 l'état qui doit être le dernier du cycle, et d'utiliser le signal de
 sortie obtenu pour charger la valeur 0 dans le compteur. On obtient
 ainsi un compteur modulo-13, dont le cycle compte 13 états.  La figure

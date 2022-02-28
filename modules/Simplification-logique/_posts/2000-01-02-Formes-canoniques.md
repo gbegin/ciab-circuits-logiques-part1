@@ -31,7 +31,7 @@ expression qui sera plus simple à implémenter avec des portes.
 
 Dans une expression, une variable $$x$$ peut apparaître telle qu'elle
 $$x$$ ou complémentée $$x^\prime$$. Si on considère les combinaisons
-possibles de deux variables via un opérateur AND, on a alors quatres
+possibles de deux variables via un opérateur ET, on a alors quatres
 possibilités: $$x^\prime y^\prime, x^\prime y, x y^\prime,x
 y$$. Chacun de ces quatres termes s'appelle un **minterm**.
 
@@ -39,8 +39,8 @@ De façon générale, pour $$n$$ variables, on aura $$2^n$$ minterms
 différents possibles.
 
 De façon équivalente (duale, en vérité), $$n$$ variables reliées par
-une fonction OR peuvent donner lieu à $$2^n$$ termes distincts,
-appelés **maxterms**. Dans le OR d'un maxterm, une variable est 
+une fonction OU peuvent donner lieu à $$2^n$$ termes distincts,
+appelés **maxterms**. Dans le OU d'un maxterm, une variable est 
 telle qu'elle si le bit correspondant est 0 et complémentée si le bit
 est 1. Chaque maxterm est le complément du minterm correspondant, et
 *vice versa*.
@@ -288,7 +288,7 @@ $$F_1 = \sum (2, 4, 5, 6, 7)$$
 Si on veut exprimer le complément d'une fonction, on peut lire dans le
 tableau de vérité les combinaisons pour lesquelles la fonction
 vaut 0. En prenant un minterm pour chaque combinaison où la fonction
-vaut 0 et en faisant un OR de ces termes, on obtient l'expression pour
+vaut 0 et en faisant un OU de ces termes, on obtient l'expression pour
 le complément de la fonction. Ainsi, pour la fonction $$F_1^\prime$$,
 on a
 
@@ -323,9 +323,9 @@ Si on veut convertir en forme canonique somme de produit l'expression
 pour une fonction qui ne serait pas sous cette forme, on commence par
 faire l'expansion de l'expression en forme *somme de produits*. Ensuite,
 on vérifie chaque terme pour voir si toutes les variables en font
-partie. S'il manque une ou des variables, on peut faire un AND du
+partie. S'il manque une ou des variables, on peut faire un ET du
 terme avec une expression du type $$x + x^\prime$$ dans laquelle $$x$$
-est une variable manquante. Ce AND ne change pas la valeur de la
+est une variable manquante. Ce ET ne change pas la valeur de la
 fonction puisque $$x + x^\prime = 1$$.
 
 Évidemment, on peut toujours trouver la formulation en forme canonique
@@ -340,8 +340,8 @@ faire l'expansion de l'expression en forme *somme de produits*. On peut
 avantageusement faire appel à la distributivité de $$+$$ sur $$\cdot$$
 pour ce faire. Ensuite, on vérifie chaque terme pour voir si toutes
 les variables en font partie. S'il manque une ou des variables, on
-peut faire un OR du terme avec une expression du type $$x \cdot
-x^\prime$$ dans laquelle $$x$$ est une variable manquante. Ce OR ne
+peut faire un OU du terme avec une expression du type $$x \cdot
+x^\prime$$ dans laquelle $$x$$ est une variable manquante. Ce OU ne
 change pas la valeur de la fonction puisque $$x \cdot x^\prime = 0$$.
 
 
@@ -366,7 +366,7 @@ fonction exemple, on peut écrire
 $$F_1 = x + y z^\prime$$
 
 Lorsqu'on implémente une telle fonction avec des portes logiques, il
-faut une porte AND pour chaque terme produit (qui comporte plus d'une
+faut une porte ET pour chaque terme produit (qui comporte plus d'une
 variable) et une porte OU pour faire la somme finale. On obtient une
 implémentation à deux niveaux.
 

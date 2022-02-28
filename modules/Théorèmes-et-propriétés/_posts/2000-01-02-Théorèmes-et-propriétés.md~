@@ -14,7 +14,7 @@ d'éléments identité sont interchangés.
 Puisque notre algèbre ne comporte que deux éléments, les deux éléments
 identité sont en fait les deux seuls éléments, 0 et 1. On obtient donc
 le dual d'une expression en changeant les 0 pour des 1, les 1 pour des
-0 et les AND pour des OR, les OR pour des AND.
+0 et les ET pour des OU, les OU pour des ET.
 
 
 # Théorèmes de base

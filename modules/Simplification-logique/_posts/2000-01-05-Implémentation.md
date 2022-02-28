@@ -1,6 +1,6 @@
 # Implémentation des fonctions simplifiées
 
-Les circuits logiques simplifiés en forme *produit de sommes* ou *somme de produits* sont souvent mis en oeuvre au moyen de portes NAND ou NOR plutôt qu'avec des portes AND et OR. La raison est qu'il est plus simple en pratique de réaliser ces portes.
+Les circuits logiques simplifiés en forme *produit de sommes* ou *somme de produits* sont souvent mis en oeuvre au moyen de portes NAND ou NOR plutôt qu'avec des portes ET et OU. La raison est qu'il est plus simple en pratique de réaliser ces portes.
 
 
 ## Implémentation à deux niveaux
