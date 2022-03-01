@@ -12,29 +12,12 @@ convention préétablie. En général, on établit des valeurs binaires en
 se basant sur la tension des signaux, en définissant une
 correspondance entre des gammes de tensions et les valeurs logiques 0
 et 1. Par exemple, pour une tension d'alimentation $$V_{DD}$$, on
-pourrait avoir les correspondances suivantes.
+pourrait avoir les correspondances suivantes:
 
-<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-
-
-<colgroup>
-<col  class="org-left" />
-
-<col  class="org-left" />
-</colgroup>
-<tbody>
-<tr>
-<td class="org-left">de 0 à  $$V_{DD}/3$$</td>
-<td class="org-left">Niveau bas</td>
-</tr>
-
-
-<tr>
-<td class="org-left">de $$2V_{DD}/3$$ à  $$V_{DD}$$</td>
-<td class="org-left">Niveau haut</td>
-</tr>
-</tbody>
-</table>
+| Gamme de tensions              || Niveau      |
+|--------------------------------||-------------|
+| de 0 à  $$V_{DD}/3$$           || Niveau bas  |
+| de $$2V_{DD}/3$$ à  $$V_{DD}$$ || Niveau haut |
 
 
 Les portes logiques sont manufacturées selon différents standards
