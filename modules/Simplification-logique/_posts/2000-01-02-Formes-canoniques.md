@@ -170,7 +170,7 @@ $$M_j$$.
 </tbody>
 </table>
 
-Pour la fonction $$F_1$$,
+Pour la fonction $$F_1$$:
 
 
 <table id="orgee31b82" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -319,7 +319,7 @@ dans le tableau de vérité de la fonction. Puisque la fonction peur
 valoir 0 ou 1 pour chaque minterm, le nombre total de fonctions
 différentes qui peuvent être définies avec $$n$$ variables est de $$2^{2n}$$.
 
-Si on veut convertir en forme canonique somme de produit l'expression
+Si on veut convertir en forme canonique *somme de produits* l'expression
 pour une fonction qui ne serait pas sous cette forme, on commence par
 faire l'expansion de l'expression en forme *somme de produits*. Ensuite,
 on vérifie chaque terme pour voir si toutes les variables en font
@@ -370,7 +370,7 @@ faut une porte ET pour chaque terme produit (qui comporte plus d'une
 variable) et une porte OU pour faire la somme finale. On obtient une
 implémentation à deux niveaux.
 
-De façon duale, on peut également obtenir une formulation en produit
-de somme qui aboutira à une implémentation à deux niveaux avec une
+De façon duale, on peut également obtenir une formulation en *produit
+de sommes* qui aboutira à une implémentation à deux niveaux avec une
 porte OU par terme et une porte ET pour le produit final.
 
