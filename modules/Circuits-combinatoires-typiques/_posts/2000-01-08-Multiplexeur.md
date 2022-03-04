@@ -55,10 +55,10 @@ aurait un vecteur de $$n$$ signaux de sélection.
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(S_1\)</th>
-<th scope="col" class="org-right">\(S_0\)</th>
+<th scope="col" class="org-right">$$S_1$$</th>
+<th scope="col" class="org-right">$$S_0$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left">\(Y\)</th>
+<th scope="col" class="org-left">$$Y$$</th>
 </tr>
 </thead>
 
@@ -67,7 +67,7 @@ aurait un vecteur de $$n$$ signaux de sélection.
 <td class="org-right">0</td>
 <td class="org-right">0</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\(I_0\)</td>
+<td class="org-left">$$I_0$$</td>
 </tr>
 
 
@@ -75,7 +75,7 @@ aurait un vecteur de $$n$$ signaux de sélection.
 <td class="org-right">0</td>
 <td class="org-right">1</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\(I_1\)</td>
+<td class="org-left">$$I_1$$</td>
 </tr>
 
 
@@ -83,7 +83,7 @@ aurait un vecteur de $$n$$ signaux de sélection.
 <td class="org-right">1</td>
 <td class="org-right">0</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\(I_2\)</td>
+<td class="org-left">$$I_2$$</td>
 </tr>
 
 
@@ -91,7 +91,7 @@ aurait un vecteur de $$n$$ signaux de sélection.
 <td class="org-right">1</td>
 <td class="org-right">1</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">\(I_3\)</td>
+<td class="org-left">$$I_3$$</td>
 </tr>
 </tbody>
 </table>

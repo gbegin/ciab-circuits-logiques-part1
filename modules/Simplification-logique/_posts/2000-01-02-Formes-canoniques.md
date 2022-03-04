@@ -189,11 +189,11 @@ Pour la fonction $$F_1$$:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
-<th scope="col" class="org-right">\(y\)</th>
-<th scope="col" class="org-right">\(z\)</th>
+<th scope="col" class="org-right">$$x$$</th>
+<th scope="col" class="org-right">$$y$$</th>
+<th scope="col" class="org-right">$$z$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(F_1\)</th>
+<th scope="col" class="org-right">$$F_1$$</th>
 </tr>
 </thead>
 
@@ -315,7 +315,7 @@ $$F_1 = \prod (0,1,3)$$
 Pour $$n$$ variables binaires, on a $$2^n$$ minterms différents
 possibles. Les minterms qui participent à la somme dans l'expression
 en forme canonique *somme de produits* sont ceux qui produisent un 1
-dans le tableau de vérité de la fonction. Puisque la fonction peur
+dans le tableau de vérité de la fonction. Puisque la fonction peut
 valoir 0 ou 1 pour chaque minterm, le nombre total de fonctions
 différentes qui peuvent être définies avec $$n$$ variables est de $$2^{2n}$$.
 

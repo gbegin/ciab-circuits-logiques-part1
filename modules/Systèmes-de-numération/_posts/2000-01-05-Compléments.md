@@ -7,11 +7,11 @@ title: Compléments de nombres
 Les compléments de nombres jouent un rôle dans la simplification de
 certaines opérations mathématiques et logiques. Dans un système de
 numération de base $$b$$, on considère deux types de compléments: le
-complément à $$b$$ et le complément à $$b-1$$. Pour la base 10, nous
+complément à $$b$$ et le complément à $$b-1$$. Pour la base dix, nous
 aurons donc le complément à dix et le complément à neuf. Pour les nombres
 binaires (base 2), on aura le complément à deux et le complément à un. 
 Pour évaluer les compléments, on doit tenir compte du nombre de
-chiffres que comportent lescomposant le nombre.
+chiffres que comporte le nombre.
 
 ## Complément à neuf et complément à un
 
@@ -38,22 +38,22 @@ $$ 01100 $$
 Remarquons ici un zéro non significatif comme premier bit à gauche.
 
 
-## Complément à un et complément à deux
+## Complément à dix et complément à deux
 
 Le complément à $$b$$ de l'entier $$N$$ s'évalue comme
 $$(b^n)-N$$. Cela correspond à ajouter 1 au complément à $$b-1$$.
 
-Ainsi pour notre exemple précédent en base $$b=10$$, le complément à un pour le nombre
-décimal $$N = 4576$$ formé de $$n=4$$ chiffres sera $$(b^n)-N =
-(10^4) - 4576 = 5425 $$.
+Ainsi pour notre exemple précédent en base $$b=10$$, le complément à
+dix pour le nombre décimal $$N = 4576$$ formé de $$n=4$$ chiffres sera
+$$b^n)-N = (10^4) - 4576 = 5425 $$.
 
 Pour notre autre exemple, en base $$b=2$$, le complément à deux pour
 le nombre binaire $$N = (10011)2 = (19)10 $$ formé de $$n=5$$ bits
 sera $$(b^n)-N = (2^5) - 19 = 13 $$ ce qui donne en binaire:
 $$(13)10 = (1101)2 $$.
 
-L'évaluation directe à la main, sans calculs, du complément à deux est également
-possible en suivant la démarche suivante:
+L'évaluation directe à la main, sans calculs, du complément à deux est
+également possible en suivant la démarche suivante:
 
 1.  On parcourt le nombre binaire initial à partir (à droite) du bit le moins
     significatif, et on retranscrit les bits rencontrés jusqu'à

@@ -34,7 +34,7 @@ systèmes algébriques. Par exemple, les nombres réels avec
 lequel nous sommes familiers est un système algébrique d'un type appelé **corps**.
 
 
-# Algèbre de Boole
+## Algèbre de Boole
 
 Une algèbre de Boole est un type de système algébrique défini sur un
 ensemble $$B$$, muni de deux opérateurs dénotés $$+$$ et $$\cdot$$, et qui
@@ -88,7 +88,7 @@ Observons des différences entre une algèbre de Boole et le corps des réels:
     part l'ensemble $$B: \{0, 1 \}$$ pour notre algèbre de Boole.
 
 
-# Algèbre de Boole à deux valeurs
+## Algèbre de Boole à deux valeurs
 
 L'ensemble de définition: $$B : \{0, 1 \}$$.
 
@@ -251,9 +251,7 @@ Règle de complémentation:
 </div>
 
 
-
-
-# Vérification des postulats
+## Vérification des postulats
 
 1.  La fermeture est évidente (en regardant les tableaux des opérations).
 

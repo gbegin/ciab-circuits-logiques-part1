@@ -116,10 +116,10 @@ Opération ET:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
-<th scope="col" class="org-right">\(y\)</th>
+<th scope="col" class="org-right">$$x$$</th>
+<th scope="col" class="org-right">$$y$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(x \cdot y\)</th>
+<th scope="col" class="org-right">$$x \cdot y$$</th>
 </tr>
 </thead>
 
@@ -173,10 +173,10 @@ Opération OU:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
-<th scope="col" class="org-right">\(y\)</th>
+<th scope="col" class="org-right">$$x$$</th>
+<th scope="col" class="org-right">$$y$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(x + y\)</th>
+<th scope="col" class="org-right">$$x + y$$</th>
 </tr>
 </thead>
 
@@ -228,9 +228,9 @@ Opération complément:
 </colgroup>
 <thead>
 <tr>
-<th scope="col" class="org-right">\(x\)</th>
+<th scope="col" class="org-right">$$x$$</th>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-right">\(x^{\prime}\)</th>
+<th scope="col" class="org-right">$$x^{\prime}$$</th>
 </tr>
 </thead>
 

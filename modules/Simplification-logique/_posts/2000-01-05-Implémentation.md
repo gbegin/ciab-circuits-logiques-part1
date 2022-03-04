@@ -1,6 +1,9 @@
 # Implémentation des fonctions simplifiées
 
-Les circuits logiques simplifiés en forme *produit de sommes* ou *somme de produits* sont souvent mis en oeuvre au moyen de portes NAND ou NOR plutôt qu'avec des portes ET et OU. La raison est qu'il est plus simple en pratique de réaliser ces portes.
+Les circuits logiques simplifiés en forme *produit de sommes* ou
+*somme de produits* sont souvent mis en oeuvre au moyen de portes NAND
+ou NOR plutôt qu'avec des portes ET et OU. La raison est qu'il est
+plus simple en pratique de réaliser ces portes.
 
 
 ## Implémentation à deux niveaux
@@ -13,7 +16,7 @@ finale. Considérons par exemple $$F = AB + CD$$.
 
 La fonction peut aussi s'implémenter tout naturellement en faisant
 appel uniquement à des portes NAND. On peut vérifier facilement que le
-circuit suivant implémente la même fonction $$F = ((AB)^\prime \cdot  (CD)^\prime)^\prime = AB + CD $$
+circuit suivant implémente la même fonction $$F = ((AB)^\prime \cdot  (CD)^\prime)^\prime = AB + CD$$
 
 ![img]({{site.baseurl}}/img/produit_sommeNAND2.svg "Produit de sommes NAND") 
 

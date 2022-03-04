@@ -75,7 +75,7 @@ valeur $$1 \times 4 + 0 \times 2 + 1 \times 1 + 1 \times 1/2 + 1
 </table>
 
 
-<a id="orgc278ef2"></a>
+
 
 ## Opérations arithmétiques binaires
 
@@ -88,7 +88,7 @@ utilisés pour les nombres, notamment la représentation des nombres
 signés.
 
 
-<a id="org7a3e7ae"></a>
+
 
 ### Multiplication et division par deux
 
@@ -108,15 +108,15 @@ suivant.
 
 1.  Division fractionnaire
 
-    $$ (10011)2 \div 2 = (1001,1)2 $$
+	$$ (10011)2 \div 2 = (1001,1)2 $$
 
 2.  Division entière
 
-    Pour une division entière (sans fraction), on éliminera le bit qui
-    aurait été placé après la virgule.
+	Pour une division entière (sans fraction), on éliminera le bit qui
+	aurait été placé après la virgule.
     
-    $$ (10011)2 \div 2 = (1001)2 $$
+	$$ (10011)2 \div 2 = (1001)2 $$
     
-    Il est évident de généraliser ces opérations pour les multiplications
-    ou divisions par des puissances de 2: 4, 8, 16, etc.
+	Il est évident de généraliser ces opérations pour les multiplications
+	ou divisions par des puissances de 2: 4, 8, 16, etc.
 

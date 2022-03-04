@@ -244,7 +244,6 @@ la sortie d'une fonction OU: $$(x + y)^\prime$$.
 </tbody>
 </table>
 
-
 ### Fonction OU-exclusif (XOR)
 
 La fonction OU-exclusif, souvent désignée XOR, est obtenue par $$x

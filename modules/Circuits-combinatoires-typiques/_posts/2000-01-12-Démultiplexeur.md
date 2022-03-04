@@ -169,7 +169,7 @@ La fonctionnalité trois-états permet aussi de concevoir un
 émetteur-récepteur de bus. Ce dispositif, illustré à la figure
 suivante, permet d'établir une connexion bidirectionnelle entre I/O et
 O/I. Lorsque l'entrée de contrôle $$E = 0 $$, c'est le tampon du haut
-qui est actif, et O/I détermine la valeur de O\I. Lorsque $$E = 1 $$,
+qui est actif, et O/I détermine la valeur de O/I. Lorsque $$E = 1 $$,
 c'est le tampon du bas qui est actif, et I/O détermine la valeur de
 O/I.
 

@@ -21,7 +21,7 @@ chapitre suivant, nous étudierons les principes fondamentaux de la
 logique binaire. C'est sur ces deux bases que nous pourrons établir
 notre exploration des circuits logiques.
 
-# Nombres binaires
+## Nombres binaires
 
 Les nombres binaires sont essentiellement construits de la même façon
 que les nombres décimaux avec lesquels nous sont plus familiers. La
@@ -116,7 +116,7 @@ moins significatif** à droite. Chaque chiffre vaut 2 fois plus que le
 chiffre immédiatement placé à sa droite.
 
 
-# Conversion binaire <-> décimal
+## Conversion binaire <-> décimal
 
 Convertir un nombre entier binaire en nombre décimal se fait
 naturellement, en s'appuyant sur les valeurs associées à la notation

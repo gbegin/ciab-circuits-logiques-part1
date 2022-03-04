@@ -102,9 +102,9 @@ B^\prime C^\prime + A B + A C^\prime $$.
 Certaines fonctions sont incomplètement définies, dans le sens où
 certaines combinaisons d'entrées ne se produiront jamais ou seront
 sans conséquences si elles se produisent. On parle de **cas
-indifférents** ou **facultatifs** (en anglais, *don't care*). Pour la simplification, ces
-cas pourront être traités tantôt comme des 0, tantôt comme des 1,
-selon ce qui sera le plus avantageux.
+indifférents** ou **facultatifs** (en anglais, *don't care*). Pour la
+simplification, ces cas pourront être traités tantôt comme des 0,
+tantôt comme des 1, selon ce qui sera le plus avantageux.
 
 Pour tenir compte de ces cas, les minterms seront notés avec un X dans
 le diagramme de Karnaugh. Dans l'exemple suivant, sur deux cas
@@ -124,7 +124,8 @@ Le choix des regroupements à utiliser doit toujours viser à s'assurer que:
 
 1.  Tous les minterms de la fonction sont couverts par les regroupements choisis.
 2.  Le nombre de termes retenus pour l'expression est minimal.
-3.  Il n'y a pas de termes redondants, c'est-à-dire, qui couvrent uniquement des minterms déjà couverts.
+3.  Il n'y a pas de termes redondants, c'est-à-dire, qui couvrent
+    uniquement des minterms déjà couverts.
 
 Il y a parfois des plus d'une expression qui rencontre ces critères. Il est possible de systématiser le choix des termes en prenant en compte le caractère essentiel des termes. 
 

@@ -219,6 +219,47 @@ conditions de *fan-out*.
 
 ##  Modèles de délai
 
+Dans la mesure où on respecte ses contraintes d'utilisation, notamment
+de *fan-out*, une porte logique se comporte globalement de la façon
+attendue, étant donné sa fonction et les conventions de niveaux de
+signal établies. Par exemple, le niveau signal à la sortie d'un
+inverseur correspondra au niveau de signal attendu pour le complément
+de la valeur logique à son entrée. Mais il faut garder à l'esprit que
+les portes sont des dispositifs électroniques, et donc physiques,
+sujets à des «imperfections» qui diffèrent du comportement idéalisé.
+
+Une de ces «imperfections» dont on doit impérativement tenir compte
+est le **délai de propagation** qui se manifeste comme un retard entre
+le moment où le signal à l'entrée de la porte assume (se stabilise à)
+son niveau de signal, et le moment où la sortie de la porte atteint
+son niveau de signal attendu. C'est en quelque sorte le délai entre
+une action à l'entrée et son effet sur la sortie. Ce délai limite la
+vitesse à laquelle on peut utiliser notre circuit logique. Si on
+essaie d'effectuer des transitions plus rapides que le délai, le
+comportement ne sera plus conforme aux attentes de conception. On doit
+donc respecter une vitesse de commutation maximale.
+
+Le délai de propagation peut dépendre de plusieurs facteurs: la
+famille logique, le type de porte, le sens de la transition, le
+*fan-out* effectif, les caractéristiques d'interconnexions, etc. Pour
+faciliter l'analyse, on fait appel à des modèles de délais plus ou
+moins sophistiqués. Un modèle très simple consiste à supposer un délai
+de propagation moyen, constant pour toutes les portes d'une famille
+donnée. Un modèle un peu plus subtil pourrait prendre en compte des
+délais de propagation moyens différents par types de portes. Le délai
+de propagation moyen est une caractéristique clé qui différencies les
+différentes familles logiques. Les délais sont typiquement de l'ordre
+de nanosecondes, permettant des vitesse de commutation dans les
+dizaines, centaines, voire. milliers de MHz.
+
+Lorsqu'un signal doit se propager à travers plusieurs portes, les
+délais de propagation s'ajoutent, limitant encore davantage la vitesse
+de commutation de l'ensemble du circuit. La vitesse qui pourra être
+atteinte pour l'ensemble d'un circuit sera typiquement déterminée par
+le plus lent chemin en terme de temps de propagation.
+
+### Condition de course et aléas
+
 Un autre effet néfaste potentiel des délais à considérer est ce qu'on
 appelle une **condition de course**. Considérons le circuit de la
 figure suivante.  La sortie de la porte est $$s = a \cdot a^\prime$$
@@ -243,4 +284,8 @@ en anglais, *glitch*).
 ![img]({{site.baseurl}}/img/chronocourse.svg "Chronogramme de la condition de course")
 *Chronogramme de la condition de course*
 
-Ces aléas peuvent être la source de problèmes et de dysfonctionnements qui sont parfois difficiles à diagnostiquer, et il faut vraiment s'en méfier. Une telle impulsion, quasi imperceptible, pourrait par exemple déclencher le basculement de la valeur d'une cellule mémoire plus loin dans le circuit.
+Ces aléas peuvent être la source de problèmes et de dysfonctionnements
+qui sont parfois difficiles à diagnostiquer, et il faut vraiment s'en
+méfier. Une telle impulsion, quasi imperceptible, pourrait par exemple
+déclencher le basculement de la valeur d'une cellule mémoire plus loin
+dans le circuit.

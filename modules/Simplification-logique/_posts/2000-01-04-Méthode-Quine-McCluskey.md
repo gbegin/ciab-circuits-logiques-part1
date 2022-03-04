@@ -176,6 +176,6 @@ couverture, car le fait que la solution finale couvre la colonne
 dominée assure que la colonne dominante sera couverte aussi. Donc ici,
 la colonne $$m_h$$ peut être éliminée.
 
-En cas d'égalité, comme on a ici pour $$m_e = m_g$$, on peut choisir quelle
-colonne éliminer.
+En cas d'égalité, comme on a ici pour $$m_e = m_g$$, on peut librement
+choisir quelle colonne éliminer.
 
