@@ -25,7 +25,7 @@ pour l'entrée et un symbole majuscule, $$R_{i}$$, pour la sortie.
 *Additionneur complet*
 
 <table id="org18af8cd" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 22 :</span> Tableau de vérité pour l'additionneur binaire</caption>
+<caption class="t-above"><span class="table-number">Tableau 2 :</span> Tableau de vérité pour l'additionneur binaire</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -145,7 +145,7 @@ possible d'implémenter l'additionneur complet avec deux
 demi-additionneurs.
 
 <table id="org3332911" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 23 :</span> Tableau de vérité pour un demi-additionneur</caption>
+<caption class="t-above"><span class="table-number">Tableau 3 :</span> Tableau de vérité pour un demi-additionneur</caption>
 
 <colgroup>
 <col  class="org-right" />

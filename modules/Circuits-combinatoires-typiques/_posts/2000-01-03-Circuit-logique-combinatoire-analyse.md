@@ -38,7 +38,7 @@ Considérons le circuit combinatoire à analyser suivant:
        \cdot C \cdot D^\prime $$.
 
 <table id="orgfdd76b5" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 21 :</span> Tableaux de vérité des fonctions intermédiaires et de la sortie</caption>
+<caption class="t-above"><span class="table-number">Tableau 1 :</span> Tableaux de vérité des fonctions intermédiaires et de la sortie</caption>
 
 <colgroup>
 <col  class="org-right" />

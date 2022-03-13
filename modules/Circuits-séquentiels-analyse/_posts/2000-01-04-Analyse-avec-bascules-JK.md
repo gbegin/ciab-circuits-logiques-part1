@@ -29,7 +29,7 @@ $$ K_1 = (q_0^{n})^\prime \cdot q_1^{n} $$
 on peut remplir le tableau d'excitation.
 
 <table id="orgd626e95" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 41 :</span> Tableau d'excitation circuit séquentiel JK</caption>
+<caption class="t-above"><span class="table-number">Tableau 2 :</span> Tableau d'excitation circuit séquentiel JK</caption>
 
 <colgroup>
 <col  class="org-right" />

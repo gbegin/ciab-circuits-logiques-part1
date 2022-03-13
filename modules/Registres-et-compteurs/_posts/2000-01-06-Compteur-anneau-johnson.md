@@ -25,13 +25,13 @@ rapport au compteur en anneau en injectant le complément du dernier
 bit dans l'entrée du registre à décalage.  La figure suivante 
 illustre un compteur en anneau Johnson de quatre bits, de même que la
 trace de fonctionnement. La séquence d'états est données dans le
-tableau [63](#org585130d).
+tableau [4](#org585130d).
 
 ![img]({{site.baseurl}}/img/johnson4.svg "Compteur Johnson à 4 bits")
 *Compteur Johnson à 4 bits*
 
 <table id="org585130d" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 54 :</span> Séquence d'états du compteur Johnson</caption>
+<caption class="t-above"><span class="table-number">Tableau 4 :</span> Séquence d'états du compteur Johnson</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -53,7 +53,7 @@ tableau [63](#org585130d).
 <th scope="col" class="org-right">$$b$$</th>
 <th scope="col" class="org-right">$$c$$</th>
 <th scope="col" class="org-right">$$d$$</th>
-<th scope="col" class="org-left">AND requis</th>
+<th scope="col" class="org-left">ET requis</th>
 </tr>
 </thead>
 
@@ -141,7 +141,7 @@ tableau [63](#org585130d).
 
 On peut construire des signaux de synchronisation distincts en
 combinant deux par deux au moyen d'une porte ET des signaux de sortie
-voisins (dans le cycle) ou leurs compléments. Le tableau [63](#org585130d)
+voisins (dans le cycle) ou leurs compléments. Le tableau [4](#org585130d)
 donne les paires de sorties à combiner pour ce faire avec le compteur
 Johnson de quatre bits.
 

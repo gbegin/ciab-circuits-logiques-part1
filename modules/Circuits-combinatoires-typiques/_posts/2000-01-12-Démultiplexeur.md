@@ -52,7 +52,7 @@ haute-impédance.  Lorsque l'entrée de contrôle $$E = 0$$, la sortie est
 en haute-impédance.
 
 <table id="org7c00c7f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 32 :</span> Tableau de vérité pour un  multiplexeur quatre-vers-un trois états</caption>
+<caption class="t-above"><span class="table-number">Tableau 12 :</span> Tableau de vérité pour un  multiplexeur quatre-vers-un trois états</caption>
 
 <colgroup>
 <col  class="org-right" />

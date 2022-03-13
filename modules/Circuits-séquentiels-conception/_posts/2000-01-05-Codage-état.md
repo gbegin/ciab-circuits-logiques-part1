@@ -17,11 +17,11 @@ dans l'ordre naturel d'énumération binaire, assigner selon un code
 Gray, ou encore choisir une assignation où il y a un seul bit 1 par
 code binaire (approche dite *one-hot*). L'approche *one-hot* requiert
 plus de bascules, mais permet souvent de simplifier les décodeurs de
-prochain état et de sortie. Le tableau [54](#org4cfbb66) montre
+prochain état et de sortie. Le tableau [5](#org4cfbb66) montre
 un exemple possible d'assignation pour chacune de ces approches.
 
 <table id="org4cfbb66" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 45 :</span> Possibilités d'assignation de codes d'états</caption>
+<caption class="t-above"><span class="table-number">Tableau 5 :</span> Possibilités d'assignation de codes d'états</caption>
 
 <colgroup>
 <col  class="org-left" />

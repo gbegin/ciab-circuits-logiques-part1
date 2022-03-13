@@ -1,3 +1,7 @@
+---
+title: Limites physiques
+---
+
 # Limites physiques
 
 Les portes logiques qu'on utilisera en pratique sont des dispositifs
@@ -56,13 +60,47 @@ délais de propagation moyens différents par types de portes. Le délai
 de propagation moyen est une caractéristique clé qui différencies les
 différentes familles logiques. Les délais sont typiquement de l'ordre
 de nanosecondes, permettant des vitesse de commutation dans les
-dizaines, centaines, voire. milliers de MHz.
+dizaines, centaines, voire, des milliers de MHz.
 
 Lorsqu'un signal doit se propager à travers plusieurs portes, les
 délais de propagation s'ajoutent, limitant encore davantage la vitesse
 de commutation de l'ensemble du circuit. La vitesse qui pourra être
 atteinte pour l'ensemble d'un circuit sera typiquement déterminée par
 le plus lent chemin en terme de temps de propagation.
+
+### Modèles simples
+
+Considérons pour illustrer une porte ET à deux entrées $$S = A B$$.
+
+Le modèle le plus simple suppose une porte idéale, sans aucun délai:
+le chronogramme suivant montre la sortie qui commute immédiatement
+lorsque les conditions d'entrée changent.
+
+![img]({{site.baseurl}}/img/chronopasdelais.svg "Porte ET sans délai")
+*Porte ET sans délai*
+
+#### Avec délai en sortie
+
+Le modèle avec délai en sortie consiste à considérer un délai
+fixe, qui affecte la sortie de la porte: la commutation prend
+effet en sortie après un délai $$t_p$$.
+    
+![img]({{site.baseurl}}/img/chrononodelaisortie.svg "Porte ET avec délai en sortie")
+	*Porte ET avec délai en sortie*
+
+#### Avec délai en entrée
+
+Le modèle avec délai en entrée est plus nuancé, car il permet de
+spécifier un délai différent selon l'entrée qui entraîne le
+changement à la sortie.
+
+![img]({{site.baseurl}}/img/chrononodelaientree.svg "Porte ET avec délai aux entrées")
+*Porte ET avec délai aux entrées*
+
+#### Modèle combiné
+
+Le modèle combiné consiste à considérer des délais différents par
+entrée, et en plus, un délai global en sortie.
 
 ### Condition de course et aléas
 

@@ -34,7 +34,7 @@ suivante et le tableau d'état correspondant
 *Diagramme d'état*
 
 <table id="org1a30b39" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 42 :</span> Tableau d'état</caption>
+<caption class="t-above"><span class="table-number">Tableau 1 :</span> Tableau d'état</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -172,7 +172,7 @@ En inspectant les différents états, on voit que les états *c* et *f* sont
 nouveau tableau d'état [52](#org135cabe).
 
 <table id="org135cabe" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 43 :</span> Tableau d'état après une simplification</caption>
+<caption class="t-above"><span class="table-number">Tableau 2 :</span> Tableau d'état après une simplification</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -293,7 +293,7 @@ simplifié [53](#org71ff726). Il n'y a plus de simplification
 possible. Nous sommes passés de six états à quatre.
 
 <table id="org71ff726" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 44 :</span> Tableau d'état après simplification</caption>
+<caption class="t-above"><span class="table-number">Tableau 3 :</span> Tableau d'état après simplification</caption>
 
 <colgroup>
 <col  class="org-left" />

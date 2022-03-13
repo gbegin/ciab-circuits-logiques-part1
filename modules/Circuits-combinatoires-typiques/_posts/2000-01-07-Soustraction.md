@@ -50,7 +50,7 @@ représente le signe. Si on additionne (+50)10 = (00110010)2 avec
 des deux derniers niveaux. Le bit de signe a été séparé des autres.
 
 <table id="orgf92473f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 24 :</span> Addition de (+50)10 + (+100)10 = (00110010)2 + (01100100)2</caption>
+<caption class="t-above"><span class="table-number">Tableau 4 :</span> Addition de (+50)10 + (+100)10 = (00110010)2 + (01100100)2</caption>
 
 <colgroup>
 <col  class="org-left" />
@@ -100,7 +100,7 @@ Refaisons le même exercice avec deux nombres négatifs: on additionne
 (-50)10 = (1100 1110)2 avec (-100)10 = (1001 1100)2. 
 
 <table id="orgeae1ca6" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 25 :</span> Addition de (-50)10 + (-100)10 = (1100 1110)2 + (1001 1100)2</caption>
+<caption class="t-above"><span class="table-number">Tableau 5 :</span> Addition de (-50)10 + (-100)10 = (1100 1110)2 + (1001 1100)2</caption>
 
 <colgroup>
 <col  class="org-left" />

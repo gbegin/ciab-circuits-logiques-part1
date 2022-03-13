@@ -22,10 +22,10 @@ $$D$$ et le *chargement parallèle*, avec les entrées $$I_i, i=1, \ldots,
 4$$.
 
 Les différentes opérations sont commandées par les deux signaux de
-sélection, tel qu'indiqué dans le tableau [60](#orgbda54ca).
+sélection, tel qu'indiqué dans le tableau [1](#orgbda54ca).
 
 <table id="orgbda54ca" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 51 :</span> Codes de sélection et opérations</caption>
+<caption class="t-above"><span class="table-number">Tableau 1 :</span> Codes de sélection et opérations</caption>
 
 <colgroup>
 <col  class="org-right" />

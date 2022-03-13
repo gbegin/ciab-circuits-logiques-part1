@@ -23,12 +23,12 @@ la sortie de la mémoire.
 Les mémoires disponibles sur le marché opte souvent pour une
 combinaison de signaux de contrôle, avec un seul signal qui détermine
 le sens de l'action, comme on peut le voir dans le tableau
-[64](#org472ff24). Le signal *Enable*, parfois appelé *Chip
+[1](#org472ff24). Le signal *Enable*, parfois appelé *Chip
 select*, permet d'activer une mémoire dans un ensemble où plusieurs
 mémoires sont utilisées.
 
 <table id="org472ff24" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 55 :</span> Signaux de contrôle d'une mémoire</caption>
+<caption class="t-above"><span class="table-number">Tableau 1 :</span> Signaux de contrôle d'une mémoire</caption>
 
 <colgroup>
 <col  class="org-right" />

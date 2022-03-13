@@ -12,13 +12,13 @@ d'un circuit séquentiel synchrone.
 
 Le diagramme d'état d'un compteur trois bits (huit états) est un
 cycle, comme on peut le voir sur la figure suivante. Le tableau
-d'états correspondant est donné dans le tableau [62](#orgbb470fd).
+d'états correspondant est donné dans le tableau [3](#orgbb470fd).
 
 ![img]({{site.baseurl}}/img/compt8_FSM.svg "Diagramme d'état d'un compteur")
 *Diagramme d'état d'un compteur*
 
 <table id="orgbb470fd" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 53 :</span> Tableau d'état du compteur</caption>
+<caption class="t-above"><span class="table-number">Tableau 3 :</span> Tableau d'état du compteur</caption>
 
 <colgroup>
 <col  class="org-right" />

@@ -9,7 +9,7 @@ On résume le fonctionnement des différentes bascules au moyen de tableaux qui 
 
 
 <table id="orgd45c9c7" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 37 :</span> Bascule D</caption>
+<caption class="t-above"><span class="table-number">Tableau 5 :</span> Bascule D</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -48,7 +48,7 @@ On résume le fonctionnement des différentes bascules au moyen de tableaux qui 
 </table>
 
 <table id="org0899270" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 38 :</span> Bascule JK</caption>
+<caption class="t-above"><span class="table-number">Tableau 6 :</span> Bascule JK</caption>
 
 <colgroup>
 <col  class="org-right" />
@@ -110,7 +110,7 @@ On résume le fonctionnement des différentes bascules au moyen de tableaux qui 
 </table>
 
 <table id="org29d5fb7" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 39 :</span> Bascule T</caption>
+<caption class="t-above"><span class="table-number">Tableau 7 :</span> Bascule T</caption>
 
 <colgroup>
 <col  class="org-right" />

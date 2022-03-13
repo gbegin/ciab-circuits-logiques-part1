@@ -279,3 +279,11 @@ footer {
     transition: all 0.3s linear;
   }
 }
+
+.mbtablestyle {
+        border-collapse: collapse;
+
+   > table, td, th {
+        border: 1px solid black;
+        }
+}

@@ -44,7 +44,7 @@ couverture réduit suivant. $$m_c$$ est sans doute couvert pas un
 i.p.e. qui n'est pas montré ici.
 
 <table id="org08ebcc0" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
-<caption class="t-above"><span class="table-number">Tableau 20 :</span> Tableau réduit</caption>
+<caption class="t-above"><span class="table-number">Tableau 3 :</span> Tableau réduit</caption>
 
 <colgroup>
 <col  class="org-left" />
