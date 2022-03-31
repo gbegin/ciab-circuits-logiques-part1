@@ -607,6 +607,63 @@ La soustraction s'effectue en faisant $$ A - B = A + (-B) $$, comme suit:
 
 Le résultat s'interprétera comme un nombre signé en complément à deux. 
 
+## Extension de signe
+
+Dans la représentation des nombres signés en complément à deux, le bit
+de signe (bit le plus à gauche) est un indication directe du signe
+d'un nombre. Si on change la taille des nombres, c'est-à-dire, le
+nombre de bits utilisés au total pour la représentation, il faut une
+opération spécifique pour préserver l'encodage en complément à deux.
+
+Considérons par exemple le nombre 5, représenté d'abord sur quatre
+bits et ensuite sur huit bits. On a pour 5
+
+$$ 0101 $$
+
+ou encore
+
+$$ 00000101 $$
+
+Quand on compare ces deux représentations, on observe que:
+
+-   elles se terminent de la même façon, avec les trois bits 101 qui
+    représentent la grandeur du nombre
+-   le bit le plus à gauche est 0 dans les deux cas (même signe)
+-   dans la représentation sur huit bits, il y a des bits 0 entre le
+    bit de signe et les trois derniers bits.
+
+Considérons maintenant un nombre négatif, le nombre -5, représenté
+d'abord sur quatre bits et ensuite sur huit bits. Le complément à deux
+de 5 = (0101)2 est
+
+$$ 1011 $$
+
+alors que le complément à deux de 5 = (00000101)2 est
+
+$$ 11111011 $$
+
+Quand on compare ces deux représentations, on observe que:
+
+-   elles se terminent de la même façon, avec les trois bits 011
+-   le bit le plus à gauche est 1 dans les deux cas (même signe)
+-   dans la représentation sur huit bits, il y a des bits 1 entre le
+    bit de signe et les trois derniers bits.
+
+Ces constatations nous amènent à conclure que lorsqu'on augmente la
+taille de représentation d'un nombre signé, il faut faire une
+**extension de signe** pour intercaler les bonnes valeurs binaires
+entre le bit de signe et les bits qui représentent la grandeur du
+nombre. Pour un nombre positif, on doit intercaler des bits 0, alors
+que pour un nombre négatif, on intercale des bits 1. On peut donc
+énoncer la règle comme *on doit intercaler des bits dont la valeur est
+la même que le bit de signe.*
+
+Si, à l'inverse, on réduit la taille des nombres signés, on n'aura
+qu'à supprimer des bits, tous égaux au bit de signe, entre le bit de
+signe et ceux qui représentent la grandeur du nombre. Si les bits à
+supprimer ne sont pas tous égaux au bit de signe, c'est une indication
+que la réduction de taille n'est pas possible: la nouvelle taille est
+insuffisante pour représenter les nombres correctement.
 
 # Codes binaires
 
