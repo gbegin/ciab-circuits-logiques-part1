@@ -30,45 +30,48 @@ respecte un jeu d'axiomes ou postulats. Une algèbre nécessite donc:
         -  Distributivité
 
 Selon le choix des postulats, on arrive à définir différents types de
-systèmes algébriques. Par exemple, les nombres réels avec
-lequel nous sommes familiers est un système algébrique d'un type appelé **corps**.
+systèmes algébriques. Par exemple, les nombres réels avec lequel nous
+sommes familiers est un système algébrique d'un type appelé **corps**.
 
 
 ## Algèbre de Boole
 
 Une algèbre de Boole est un type de système algébrique défini sur un
-ensemble $$B$$, muni de deux opérateurs dénotés $$+$$ et $$\cdot$$, et qui
-respecte les postulats suivants (postulats de Huntington):
+ensemble $$B$$, muni de deux opérateurs dénotés $+$ et $\cdot$, et qui
+respecte les postulats suivants<sup><a id="fnr.2" class="footref"
+href="#fn.2" role="doc-backlink">2</a></sup> (postulats de
+Huntington):
 
-1.  Fermeture: tout résultat de l'opération sur un élément de
+1.  Fermeture: tout résultat d'une opération sur un élément de
     l'ensemble donne un élément de l'ensemble.
-    1.  (a) Fermeture par rapport à $$+$$.
+    1.  &spades; Fermeture par rapport à $$+$$.
     
-    2.  (b) Fermeture par rapport à $$\cdot$$.
+    2.  &hearts; Fermeture par rapport à $$\cdot$$.
 
 2.  Éléments identité
-    1.  (a) Élément identité de $$+$$, noté 0. $$x + 0 = 0 + x = x$$.
+    1.  &spades; Élément identité de $$+$$, noté 0. $$x + 0 = 0 + x = x$$.
     
-    2.  (b) Élément identité de $$\cdot$$, noté 1. $$x \cdot 1 = 1 \cdot x = x$$.
+    2.  &hearts; Élément identité de $$\cdot$$, noté 1. $$x \cdot 1 =
+        1 \cdot x = x$$.
 
 3.  Commutativité
-    1.  (a) Commutativité par rapport à $$+$$: $$x + y = y + x$$.
+    1.  &spades; Commutativité par rapport à $$+$$. $$x + y = y + x$$.
     
-    2.  (b) Commutativité par rapport à $$\cdot$$: $$x \cdot y = y
-                \cdot x$$.
+    2.  &hearts; Commutativité par rapport à $$\cdot$$. $$x \cdot y =
+        y \cdot x$$.
 
 4.  Distributivité
-    1.  (a)  $$\cdot$$ est distributif sur $$+$$: $$x \cdot (y + z)= (x \cdot y) +
-                (x \cdot z)$$.
+    1.  &spades; $$\cdot$$ est distributif sur $$+$$. $$x \cdot (y +
+        z)= (x \cdot y) + (x \cdot z)$$.
     
-    2.  (b) $$+$$ est distributif sur $$\cdot$$: $$x + (y \cdot z)= (x + y) \cdot
-                (x + z)$$.
+    2.  &hearts; $$+$$ est distributif sur $$\cdot$$. $$x + (y \cdot
+        z)= (x + y) \cdot (x + z)$$.
 
-5.  Pour chaque élément $$x \in B$$, il existe un élément
-    $$x^{\prime} \in B$$ (appelé complément de $$x$$) tel que
-    1.  (a) $$x + x^{\prime} = 1$$,
+5.  Pour chaque élément $$x \in B$$, il existe un élément $$x^{\prime}
+    \in B$$ (appelé complément de $$x$$) tel que
+    1.  &spades; $$x + x^{\prime} = 1$$.
     
-    2.  (b) $$x \cdot x^{\prime} = 0$$.
+    2.  &hearts; $$x \cdot x^{\prime} = 0$$.
 
 6.  Il existe au moins deux éléments $$x, y \in B$$ tels que $$x \neq y$$.
 
@@ -278,3 +281,7 @@ Règle de complémentation:
 
 6.  Le postulat 6 est vérifié car il y a deux éléments distincts: 0 et 1.
 
+
+<sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> Certains
+postulats viennent en paires; nous les distinguons ici au moyen
+d'étiquettes &spades; ou &hearts;.

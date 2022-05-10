@@ -9,10 +9,10 @@ correspondance entre expression et fonction logique n'est pas
 biunivoque: plusieurs expressions différentes peuvent correspondre à
 une seule et même fonction. De plus, certaines des expressions
 équivalentes peuvent être plus complexes que d'autres. Lorsque vient
-de temps d'implémenter avec des portes une fonction logique, il est la
-plupart du temps plus efficace d'implémenter selon un expression plus
+le temps d'implémenter avec des portes une fonction logique, il est la
+plupart du temps plus efficace d'implémenter selon une expression plus
 simple, voir minimale. On doit donc considérer des approches
-systématiques pour simplifier les expressions logiques.
+systématiques et efficaces pour simplifier les expressions logiques.
 
 Quand une expression Booléenne est implémentée avec des portes
 logiques, chaque terme nécessite une porte et chaque variable au sein
@@ -309,6 +309,7 @@ Pour simplifier la notation, on peut écrire de façon plus compacte
 
 $$F_1 = \prod (0,1,3)$$
 
+où on ne met que les numéros des minterms participant à la somme.
 
 ## Somme de produits
 
@@ -347,9 +348,15 @@ change pas la valeur de la fonction puisque $$x \cdot x^\prime = 0$$.
 
 ## Conversion entre formes canoniques
 
-Prenons notre exemple précédent $$F_1 = \sum (2, 4, 5, 6, 7)$$. On sait que $$F_1^\prime = \sum (0,1,3)$$. Si on prend le complément de $$F_1^\prime$$ par le théorème de DeMorgan, on obtient $$F_1 = (m_0 + m_1 + m_3)^\prime = m_0^\prime \cdot m_1^\prime \cdot  m_3^\prime = M_0 \cdot M_1 \cdot M_3  = \prod (0,1,3) $$.
+Prenons notre exemple précédent $$F_1 = \sum (2, 4, 5, 6, 7)$$. On
+sait que $$F_1^\prime = \sum (0,1,3)$$. Si on prend le complément de
+$$F_1^\prime$$ par le théorème de DeMorgan, on obtient $$F_1 = (m_0 +
+m_1 + m_3)^\prime = m_0^\prime \cdot m_1^\prime \cdot m_3^\prime = M_0
+\cdot M_1 \cdot M_3 = \prod (0,1,3) $$.
 
-En effet, de minterm à maxterm, on a $$m_j^\prime = M_j$$. Le maxterm d'indice $$j$$ est le complément du minterm de même indice  $$j$$, et vice versa.
+En effet, de minterm à maxterm, on a $$m_j^\prime = M_j$$. Le maxterm
+d'indice $$j$$ est le complément du minterm de même indice $$j$$, et
+vice versa.
 
 
 ## Formes standard

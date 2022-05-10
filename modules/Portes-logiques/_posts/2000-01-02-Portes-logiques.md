@@ -149,25 +149,27 @@ façons équivalentes.
 ![img]({{site.baseurl}}/img/NANDequiv.svg "NAND représentations équivalentes")
 
 
-### Porte OU-exclusif (EXOR)
+### Porte OU-exclusif (XOR)
 
 La porte XOR à deux entrées donne une sortie 1 seulement lorsque ses
 deux entrées sont différentes. Il est possible de définir des portes
 XOR à plus de deux entrées, mais il y a différentes interprétations de
 ce qu'une telle porte devrait avoir comme comportement. De plus, comme
 la réalisation pratique de cette fonction n'est pas aussi simple que
-pour les autres fonctions, on se retrouve le plus souvent à mettre des
-portes à deux entrées en cascade pour augmenter le nombre d'entrées.
+pour les autres fonctions, on se retrouve plus souvent qu'autrement à
+devoir mettre des portes à deux entrées en cascade pour augmenter le
+nombre d'entrées, ce qui rend moins intéressantes les portes XOR avec
+entrées nombreuses.
 
 $$ S= A \cdot B^\prime + A^\prime \cdot B $$ 
 
 ![img]({{site.baseurl}}/img/exor_logique.svg "Porte XOR à deux entrées")
 
 
-### Porte NON-OU-exclusif ou équivalence (XNOR)
+### Porte NON-OU-exclusif ou Équivalence (XNOR)
 
-La porte équivalence produit une sortie 1 lorsque ses entrées ont la
-même valeur (et sont donc équivalentes). Comme pour les portes XOR,
+La porte **Équivalence** produit une sortie 1 lorsque ses entrées ont
+la même valeur (et sont donc équivalentes). Comme pour les portes XOR,
 les portes XNOR à plus de trois entrées peuvent s'interpréter de
 différentes façons.
 
@@ -182,9 +184,9 @@ possible de réaliser les trois opérateurs de base.
 
 1.  Pour réaliser un inverseur, on utilise une porte NAND à une seule
     entrée (ou dont toutes les entrées sont reliées ensemble).
-2.  Pour réaliser une porte AND, on fait suivre une porte NAND d'un
+2.  Pour réaliser une porte ET, on fait suivre une porte NAND d'un
     inverseur.
-3.  Pour réaliser une porte OR, on précède chaque entrée d'une porte
+3.  Pour réaliser une porte OU, on précède chaque entrée d'une porte
     NAND d'un inverseur.
 
 On verra plus loin qu'il est aussi possible de réaliser

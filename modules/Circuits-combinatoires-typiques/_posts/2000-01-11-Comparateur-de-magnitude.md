@@ -50,5 +50,7 @@ $$ (A < B) = a_3^\prime b_3 + x_3  a_2^\prime b_2  +  x_3 x_2  a_1^\prime b_1 + 
 
 $$ (A > B) = a_3 b_3^\prime + x_3  a_2 b_2^\prime  +  x_3 x_2  a_1 b_1^\prime +  x_3 x_2 x_1  a_0 b_0^\prime $$
 
+On obtient ainsi un comparateur pour des nombres de 4 bits, tel qu'illustré.
+
 ![img]({{site.baseurl}}/img/comparateur_4b.svg "Comparateur de magnitude 4 bits")
 *Comparateur de magnitude 4 bits*

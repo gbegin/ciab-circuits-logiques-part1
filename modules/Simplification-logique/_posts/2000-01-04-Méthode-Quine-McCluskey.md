@@ -7,11 +7,11 @@ La méthode de Quine-McCluskey systématise la sélection des impliquants
 en se basant sur des relations qui s'expriment en fonction d'un
 tableau de couverture.
 
-Un **tableau de couverture** comporte une ligne pour chaque i.p. et une
-colonne pour chaque minterm de la fonction à minimiser $$z$$. Un x est
-inscrit à l'intersection de la ligne $$i$$ et de la colonne  $$j$$ si
-l'i.p.  $$P_i$$ de la ligne  $$i$$ couvre le minterm  $$m_j$$ de la colonne
- $$j$$.
+Un **tableau de couverture** comporte une ligne pour chaque i.p. et
+une colonne pour chaque minterm de la fonction à minimiser $$z$$. Un
+&check; est inscrit à l'intersection de la ligne $$i$$ et de la
+colonne $$j$$ si l'i.p.  $$P_i$$ de la ligne $$i$$ couvre le minterm
+$$m_j$$ de la colonne $$j$$.
 
 Le problème de minimisation devient alors: trouver une couverture pour
 la fonction $$z$$ qui
@@ -23,8 +23,8 @@ la fonction $$z$$ qui
     ligne.
 
 Dans le tableau de couverture, on identifie facilement les i.p.e. par
-les colonnes qui ne contiennent qu'un x. L'i.p. qui couvre une colonne
-qui ne contient qu'un x est un i.p.e.
+les colonnes qui ne contiennent qu'un &check;. L'i.p. qui couvre une
+colonne qui ne contient qu'un &check; est un i.p.e.
 
 Puisque les i.p.e. doivent faire partie de la solution finale, toutes
 les colonnes couvertes par des i.p.e. seront couvertes dans n'importe

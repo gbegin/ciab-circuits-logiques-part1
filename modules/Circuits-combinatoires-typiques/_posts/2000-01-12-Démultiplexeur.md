@@ -37,7 +37,7 @@ affectées par celle-ci. Pour activer cet état de sortie
 haute-impédance, une entrée de contrôle est ajoutée.
 
 Le figure ci-dessous montre une porte tampon à trois états. Avec
-*Contrôle* = 0, la sortie est en haute impédance; avec *Contrôle* = 1,
+`Contrôle` = 0, la sortie est en haute impédance; avec`Contrôle` = 1,
 la sortie est égale à l'entrée. 
 
 ![img]({{site.baseurl}}/img/buf_3s.svg "Porte tampon à trois états")
@@ -167,11 +167,11 @@ en haute-impédance.
 
 La fonctionnalité trois-états permet aussi de concevoir un
 émetteur-récepteur de bus. Ce dispositif, illustré à la figure
-suivante, permet d'établir une connexion bidirectionnelle entre I/O et
-O/I. Lorsque l'entrée de contrôle $$E = 0 $$, c'est le tampon du haut
-qui est actif, et O/I détermine la valeur de O/I. Lorsque $$E = 1 $$,
-c'est le tampon du bas qui est actif, et I/O détermine la valeur de
-O/I.
+suivante, permet d'établir une connexion bidirectionnelle entre `I/O`
+et `O/I`. Lorsque l'entrée de contrôle $$E = 0 $$, c'est le tampon du
+haut qui est actif, et `O/I` détermine la valeur de `I/O`. Lorsque $$E
+= 1 $$, c'est le tampon du bas qui est actif, et `I/O` détermine la
+valeur de  `O/I`.
 
 ![img]({{site.baseurl}}/img/bus_trans.svg "Emetteur-récepteur de bus")
 *Emetteur-récepteur de bus*

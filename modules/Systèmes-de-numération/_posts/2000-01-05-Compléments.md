@@ -8,10 +8,10 @@ Les compléments de nombres jouent un rôle dans la simplification de
 certaines opérations mathématiques et logiques. Dans un système de
 numération de base $$b$$, on considère deux types de compléments: le
 complément à $$b$$ et le complément à $$b-1$$. Pour la base dix, nous
-aurons donc le complément à dix et le complément à neuf. Pour les nombres
-binaires (base 2), on aura le complément à deux et le complément à un. 
-Pour évaluer les compléments, on doit tenir compte du nombre de
-chiffres que comporte le nombre.
+aurons donc le complément à dix et le complément à neuf. Pour les
+nombres binaires (base 2), on aura le complément à deux et le
+complément à un.  Pour évaluer les compléments d'un nombre, on doit
+tenir compte du nombre de chiffres que comporte ce nombre.
 
 ## Complément à neuf et complément à un
 
@@ -55,9 +55,10 @@ $$(13)10 = (1101)2 $$.
 L'évaluation directe à la main, sans calculs, du complément à deux est
 également possible en suivant la démarche suivante:
 
-1.  On parcourt le nombre binaire initial à partir (à droite) du bit le moins
-    significatif, et on retranscrit les bits rencontrés jusqu'à
-    atteindre un premier bit 1, que l'on retranscrit également.
+1.  On parcourt le nombre binaire initial à partir (à droite) du bit
+    le moins significatif, et on retranscrit les bits rencontrés
+    jusqu'à atteindre un premier bit 1, que l'on retranscrit
+    également.
 2.  On continue la retranscription vers la gauche, en inversant cette
     fois les bits subséquents.
 
@@ -223,7 +224,7 @@ surtout lorsque les nombres seront stockés et manipulés dans un
 système électronique, il faut définir un format binaire «tout compris»
 qui permette de le faire.
 
-Nous devons donc établir **code**, c'est-à-dire, une **convention** qui
+Nous devons donc établir un **code**, c'est-à-dire, une **convention** qui
 permettra de donner un sens à un groupe de bits. Le choix de la
 convention devrait être guidé par les usages qui seront ultimement
 faits des nombres qui seront représentés.
@@ -250,7 +251,7 @@ en théorie de représenter un total de 16 valeurs.)
     il serait logique de placer la représentation pour zéro au centre
     de ce découpage.
 
-2.  Les codes binaires utilisés pour un nombre et son inverse additif
+2.  Les codes binaires utilisés pour un nombre et pour son inverse additif
     devraient être disposés symétriquement autour du code utilisé pour
     représenter le zéro. Il est naturel de représenter la valeur zéro
     avec le code 0000.
@@ -283,8 +284,8 @@ En suivant cette logique, on pourra, comme indiqué sur la figure,
 assigner les codes en jaune à des valeurs positives et les codes en
 vert à des valeurs négatives. Si on assigne autant de valeur positives
 que de valeurs négatives, un seul code binaire ne sera pas utilisable,
-le code 1000. Tout déplacement selon le sens des flèches correspond à
-une addition; tout déplacement en sens inverse correspond à une
+le code 1000. Tout mouvement selon le sens des flèches correspond à
+une addition; tout mouvement en sens inverse correspond à une
 soustraction. Les nombres binaires seront ainsi symétriques par
 rapport à notre zéro.
 
@@ -566,7 +567,7 @@ plus significative ne doit pas être prise en compte.
 
 Exemple 1:
 
-Additionnons A=-2 et B=4, représentés respectivement (1110)2 et (0100)2.
+Additionnons $$A=-2$$ et $$B=4$$, représentés respectivement (1110)2 et (0100)2.
 
 A: 1110
 B: 0100
@@ -577,7 +578,7 @@ qui nous donne bien le résultat escompté: S = (0010)2 = (2)10.
 
 Exemple 2:
 
-Additionnons A=3 et B=-5, représentés respectivement (0011)2 et (1011)2.
+Additionnons $$A=3$$ et $$B=-5$$, représentés respectivement (0011)2 et (1011)2.
 
 A: 0011
 B: 1011

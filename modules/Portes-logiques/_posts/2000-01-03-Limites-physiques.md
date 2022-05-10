@@ -23,7 +23,7 @@ définissent leurs valeurs d'entrée et de sortie, il y a une limite
 pratique à la capacité d'une porte de fournir le courant nécessaire
 pour faire réagir la sortie des portes qu'elle devrait commander. Le
 *fan-out* mesure cette limite, en nombre de portes à commander. Si on
-connecte plus d'entrées à une sortie que sa valeur de *fan-out*, la
+connecte plus d'entrées à une sortie que sa valeur de *fan-out*, cette
 sortie ne pourra pas atteindre le niveau de tension adéquat, et les
 opérations logiques seront faussées.
 
@@ -47,7 +47,8 @@ une action à l'entrée et son effet sur la sortie. Ce délai limite la
 vitesse à laquelle on peut utiliser notre circuit logique. Si on
 essaie d'effectuer des transitions plus rapides que le délai, le
 comportement ne sera plus conforme aux attentes de conception. On doit
-donc respecter une vitesse de commutation maximale.
+donc respecter une vitesse de commutation maximale imposée par les
+délais de propagation.
 
 Le délai de propagation peut dépendre de plusieurs facteurs: la
 famille logique, le type de porte, le sens de la transition, le
@@ -63,15 +64,14 @@ de nanosecondes, permettant des vitesse de commutation dans les
 dizaines, centaines, voire, des milliers de MHz.
 
 Lorsqu'un signal doit se propager à travers plusieurs portes, les
-délais de propagation s'ajoutent, limitant encore davantage la vitesse
-de commutation de l'ensemble du circuit. La vitesse qui pourra être
-atteinte pour l'ensemble d'un circuit sera typiquement déterminée par
-le plus lent chemin en terme de temps de propagation.
+délais de propagation s'accumulent, limitant encore davantage la
+vitesse de commutation de l'ensemble du circuit. La vitesse qui pourra
+être atteinte pour l'ensemble d'un circuit sera typiquement déterminée
+par le plus lent chemin en terme de temps de propagation.
 
 ### Modèles simples
 
 Considérons pour illustrer une porte ET à deux entrées $$S = A B$$.
-
 Le modèle le plus simple suppose une porte idéale, sans aucun délai:
 le chronogramme suivant montre la sortie qui commute immédiatement
 lorsque les conditions d'entrée changent.
@@ -79,7 +79,7 @@ lorsque les conditions d'entrée changent.
 ![img]({{site.baseurl}}/img/chronopasdelais.svg "Porte ET sans délai")
 *Porte ET sans délai*
 
-#### Avec délai en sortie
+#### Modèle avec délai en sortie
 
 Le modèle avec délai en sortie consiste à considérer un délai
 fixe, qui affecte la sortie de la porte: la commutation prend
@@ -88,7 +88,7 @@ effet en sortie après un délai $$t_p$$.
 ![img]({{site.baseurl}}/img/chrononodelaisortie.svg "Porte ET avec délai en sortie")
 	*Porte ET avec délai en sortie*
 
-#### Avec délai en entrée
+#### Modèle avec délai en entrée
 
 Le modèle avec délai en entrée est plus nuancé, car il permet de
 spécifier un délai différent selon l'entrée qui entraîne le

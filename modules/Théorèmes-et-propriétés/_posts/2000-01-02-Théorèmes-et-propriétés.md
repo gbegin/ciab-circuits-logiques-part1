@@ -4,12 +4,12 @@ title: Théorèmes et propriétés
 
 # Dualité
 
-Les postulats ont été formulés en paires, identifiés par (a) et
-(b). En interchangeant les opérateurs et les éléments identité, on
-transforme un postulat de forme (a) en un postulat de forme (b). C'est
-le principe de **dualité**. Ainsi, n'importe quelle expression
-algébrique demeurera valide si les opérateurs et les valeurs
-d'éléments identité sont interchangés.
+Les postulats ont été formulés en paires, identifiés par &spades; et
+&hearts;. En interchangeant les opérateurs et les éléments identité,
+on transforme un postulat de forme &spades; en un postulat de forme
+&hearts;. C'est le principe de **dualité**. Ainsi, n'importe quelle
+expression algébrique demeurera valide si les opérateurs et les
+valeurs d'éléments identité sont interchangés.
 
 Puisque notre algèbre ne comporte que deux éléments, les deux éléments
 identité sont en fait les deux seuls éléments, 0 et 1. On obtient donc
@@ -35,8 +35,8 @@ algèbre. On présente en parallèle chaque version et sa version duale.
 <thead>
 <tr>
 <th scope="col" class="org-left">&#xa0;</th>
-<th scope="col" class="org-left">Version (a)</th>
-<th scope="col" class="org-left">Version (b)</th>
+<th scope="col" class="org-left">Version &spades;</th>
+<th scope="col" class="org-left">Version &hearts;</th>
 </tr>
 </thead>
 
@@ -441,6 +441,8 @@ valeurs de la fonction. Par exemple, en complémentant les valeurs de
 sorte dans le tableau de vérité, on effectue ce changement.
 
 On peut aussi effectuer ce changement en appliquant les théorèmes de
-DeMorgan (Théorème 5 (a) et (b) du tableau dans [Théorèmes de base]({{site.baseurl}}{% post_url modules/Théorèmes-et-propriétés/2000-01-02-Théorèmes-et-propriétés %}) qui
-peuvent se généraliser à plus de deux variables.
+DeMorgan (Théorème 5 &spades; et &hearts; du tableau dans [Théorèmes
+de base]({{site.baseurl}}{% post_url
+modules/Théorèmes-et-propriétés/2000-01-02-Théorèmes-et-propriétés %})
+qui peuvent se généraliser à plus de deux variables.
 

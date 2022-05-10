@@ -5,9 +5,9 @@ title: Opérations
 
 Il est aussi possible de représenter des nombres fractionnaires en
 base deux. En gardant à l'esprit que la position d'un bit détermine sa
-valeur, il suffit d'étendre le principe déjà établi pour les bits qui
+valeur, il suffit d'étendre le principe déjà établi aux bits qui
 seront placés après la virgule qui sépare la partie entière de la
-partie fractionnaire. Les indices de positions à droite de la virgule
+partie fractionnaire. Les indices des positions à droite de la virgule
 seront négatifs.
 
 Le tableau [7](#org473ef5b) donne par exemple le détail de l'évaluation
@@ -118,5 +118,5 @@ suivant.
 	$$ (10011)2 \div 2 = (1001)2 $$
     
 	Il est évident de généraliser ces opérations pour les multiplications
-	ou divisions par des puissances de 2: 4, 8, 16, etc.
+	ou divisions par des puissances de 2: par 4, 8, 16, etc.
 

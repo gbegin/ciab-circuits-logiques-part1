@@ -8,5 +8,5 @@ title: Objectifs
     les appliquer correctement
 -   Pouvoir passer d'une version d'un théorème à sa version duale
 -   Connaître les autres fonctions logiques importantes
--   Savoir utiliser un tableau de vérité
+-   Pouvoir construire un tableau de vérité
 

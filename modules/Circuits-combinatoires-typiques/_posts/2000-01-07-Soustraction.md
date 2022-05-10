@@ -46,8 +46,10 @@ négatifs.
 Prenons le cas de nombres représentés sur huit bits en complément à
 deux. La gamme représentable va de -128 à +127 avec un bit qui
 représente le signe. Si on additionne (+50)10 = (00110010)2 avec
-(+100)10 = (01100100)2, on voit dans le tableau suivant les retenues
-des deux derniers niveaux. Le bit de signe a été séparé des autres.
+(+100)10 = (01100100)2, aura un débordement, car $$150 > 127$$. On
+voit dans le tableau suivant les bits qui seront produits par l'addition,
+avec en évidence les retenues des deux derniers niveaux. Le bit de
+signe a été séparé des autres.
 
 <table id="orgf92473f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 4 :</span> Addition de (+50)10 + (+100)10 = (00110010)2 + (01100100)2</caption>
@@ -97,7 +99,8 @@ des deux derniers niveaux. Le bit de signe a été séparé des autres.
 </table>
 
 Refaisons le même exercice avec deux nombres négatifs: on additionne
-(-50)10 = (1100 1110)2 avec (-100)10 = (1001 1100)2. 
+(-50)10 = (1100 1110)2 avec (-100)10 = (1001 1100)2, qui créera un
+débordement aussi. 
 
 <table id="orgeae1ca6" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 5 :</span> Addition de (-50)10 + (-100)10 = (1100 1110)2 + (1001 1100)2</caption>

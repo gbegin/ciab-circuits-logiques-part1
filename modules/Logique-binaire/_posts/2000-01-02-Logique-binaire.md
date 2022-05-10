@@ -66,15 +66,15 @@ partir d'elles.
     la valeur est 0.
 2.  OU: cette opération est représentée (comme l'addition) par un signe
     +. Par exemple, $$x + y$$. La valeur de l'expression est 1 si au
-    moins une des variables a la valeur 1. Si aucune des variable ne
+    moins une des variables a la valeur 1. Si aucune des variables ne
     vaut 1, la valeur de l'expression est 0.
 3.  NON: cette opération est représentée par un prime, comme par
-    exemple $$x \prime$$, ou par une barre au-dessus de la variable
-    $$\overline{x}$$.  L'opération NON renverse la valeur binaire de son
-    argument: si $$x =0$$ alors $$x \prime = 1$$; si $$x =1$$ alors $$x
-       \prime = 0$$. Cette opération de négation, est aussi appelée
-    complément, car complémenter une valeur binaire revient à faire
-    basculer sa valeur.
+    exemple $$x^\prime$$, ou par une barre au-dessus de la variable
+    $$\overline{x}$$.  L'opération NON renverse la valeur binaire de
+    son argument: si $$x =0$$ alors $$x^\prime = 1$$; si $$x =1$$
+    alors $$x^ \prime = 0$$. Cette opération de négation, est aussi
+    appelée complément, car complémenter une valeur binaire revient à
+    faire basculer sa valeur.
 
 
 ## Expression logique

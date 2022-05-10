@@ -37,9 +37,9 @@ arguments et la retenue d'entrée sont présentés en même temps à
 l'additionneur.  Comme dans tout circuit combinatoire, il faut un
 certain délai avant que les sorties n'atteignent leur niveau de sortie
 final.  Ce délai de propagation dépend de la profondeur du circuit, en
-nombre de portes élémentaires, à franchir de l'entrée vers la
+nombre de portes élémentaires à franchir de l'entrée vers la
 sortie.  Et c'est évidemment le chemin le plus long qui détermine le
-délai de propagation global.  
+délai de propagation global.
 
 Dans le cas de l'additionneur, le chemin de propagation le plus long
 est celui qui mène à la dernière retenue finale $$R_{n-1}$$.  En
@@ -74,7 +74,7 @@ aux différentes sorties assumeront typiquement des valeurs changeantes
 jusqu'à stabilisation finale. Le délai de propagation de retenue est
 un facteur qui limite la vitesse à laquelle on pourra calculer la
 somme de deux nombres. Et comme l'addition est une opération courante,
-souvent utilisée, parfois à répétition pour réaliser d'autres
+souvent utilisée, parfois à répétition, pour réaliser d'autres
 opérations arithmétiques, cette limitation est problématique. 
 
 Il serait en théorie possible de ramener à un minimum le délai de
@@ -101,7 +101,7 @@ détermine si la retenue du niveau précédent $$r_{i-1}$$ sera propagée
 
 En partant du niveau 0, voici les expressions pour les différentes retenues:
 
-$$ R_0 = r_0 = \mbox{ entrée }$$
+$$ R_0 = r_0 = \operatorname{in}$$
 
 $$ R_1 = G_0 + P_0 R_0 $$
 

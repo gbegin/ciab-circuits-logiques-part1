@@ -10,7 +10,7 @@ capacité à représenter l'information sous toutes ses formes et à
 permettre la manipulation de cette information. Tout ensemble dont les
 éléments peuvent être dénombrés, comme un alphabet ou un ensemble fini
 de couleurs, se prête naturellement à une représentation
-numérique. Mais il et également possible de représenter des
+numérique. Mais il est également possible de représenter des
 informations qui correspondent à des informations provenant
 d'ensembles continus, comme par exemple des informations sonores, en
 procédant à une numérisation par échantillonnage et codage.
@@ -24,7 +24,7 @@ notre exploration des circuits logiques.
 ## Nombres binaires
 
 Les nombres binaires sont essentiellement construits de la même façon
-que les nombres décimaux avec lesquels nous sont plus familiers. La
+que les nombres décimaux avec lesquels nous sommes plus familiers. La
 différence fondamentale tient au fait qu'il n'est possible d'utiliser
 que deux symboles (chiffres), 0 et 1, plutôt que les dix chiffres de 0
 à 9. Les chiffres sont nommées bits (contraction de **b** inary dig
@@ -49,7 +49,7 @@ fois-ci 2. Par exemple, la valeur attribuée au nombre binaire
 $$10101$$ est 
 
 $$ 1 \times 2^4 + 0 \times 2^3 + 1 \times 2^2 + 0 \times 2^1 + 1
-\times 2^0 = 16+4+1= 21 $$,
+\times 2^0 = 16+4+1= 21 $$
 
 comme on peut voir dans le tableau [1](#org9d95b45).
 
@@ -202,3 +202,4 @@ dans le tableau [2](#org26bffc8).
 
 On obtient ainsi 100101.
 
+y
