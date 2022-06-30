@@ -27,7 +27,7 @@ Les nombres binaires sont essentiellement construits de la même façon
 que les nombres décimaux avec lesquels nous sommes plus familiers. La
 différence fondamentale tient au fait qu'il n'est possible d'utiliser
 que deux symboles (chiffres), 0 et 1, plutôt que les dix chiffres de 0
-à 9. Les chiffres sont nommées bits (contraction de **b** inary dig
+à 9. Les chiffres sont nommés bits (contraction de **b** inary dig
 **it**).
 
 Par exemple, le nombre décimal que nous écrivons $$2843$$ correspond à
