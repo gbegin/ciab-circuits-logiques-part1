@@ -276,7 +276,7 @@ pour passer de -2 à -1, on parcourt le cycle dans le même sens qu'en
 ajoutant 1 pour passer de 1 à 2.
 
 
-![img]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
+![Relations entre les codes dans l'assignation en complément à deux"]({{site.baseurl}}/img/cycle.png "Relations entre les codes dans l'assignation en complément à deux"){:id="org0ae272e"}
 *Relations entre les codes dans l'assignation en complément à deux*
 
 

@@ -41,7 +41,7 @@ Pour déterminer l'expression logique, on procède ainsi:
 Considérons le circuit combinatoire à analyser à illustré à la figure
 suivante:
 
-![img]({{site.baseurl}}/img/circuit_logique_inconnu.svg "Circuit combinatoire à analyser")
+![Circuit combinatoire à analyser.]({{site.baseurl}}/img/circuit_logique_inconnu.svg "Circuit combinatoire à analyser")
 *Circuit combinatoire à analyser*
 
 1.  Il n'est pas la peine d'étiqueter la sortie de la porte

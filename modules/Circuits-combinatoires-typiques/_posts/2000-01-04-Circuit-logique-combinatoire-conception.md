@@ -46,8 +46,8 @@ d'orienter les décisions finales.
 Considérons la fonction logique correspondant au diag-K de la figure
 suivante.
 
-![img]({{site.baseurl}}/img/kmap3altern.svg "Fonction combinatoire $$Y$$ à réaliser") 
-*Fonction combinatoire $$Y$$ à réaliser*
+![Diag-K d'une fonction combinatoire Y à réaliser.]({{site.baseurl}}/img/kmap3altern.svg "Diag-K d'une fonction combinatoire $$Y$$ à réaliser") 
+*Diag-K d'une fonction combinatoire $$Y$$ à réaliser*
 
 ### Implémentations via la fonction directe
 
@@ -59,10 +59,10 @@ suivante.
     implémentations possibles pour la fonction directe sont illustrées
     ci-dessous.
     
-    ![img]({{site.baseurl}}/img/circ_altern_1.svg "Implémentation de $$Y$$ en *somme de produits*")
+    ![Implémentation de Y en somme de produits.]({{site.baseurl}}/img/circ_altern_1.svg "Implémentation de $$Y$$ en *somme de produits*")
 	*Implémentation de $$Y$$ en S de P*
     
-    ![img]({{site.baseurl}}/img/circ_altern_2.svg "Implémentation (en NAND) de $$Y$$ en *somme de produits*")
+    ![Implémentation (en NAND) de Y en somme de produits.]({{site.baseurl}}/img/circ_altern_2.svg "Implémentation (en NAND) de $$Y$$ en *somme de produits*")
 	*Implémentation (en NAND) de $$Y$$ en S de P*
 
 2.  Implémentation en *produit de sommes*
@@ -73,10 +73,10 @@ suivante.
     implémentations possibles pour la fonction directe sont illustrées
     ci-dessous.
     
-    ![img]({{site.baseurl}}/img/circ_altern_ps1.svg "Implémentation de $$Y$$ en *produit de sommes*")
+    ![Implémentation de Y en produit de sommes.]({{site.baseurl}}/img/circ_altern_ps1.svg "Implémentation de $$Y$$ en *produit de sommes*")
 	*Implémentation de $$Y$$ en P de S*
     
-    ![img]({{site.baseurl}}/img/circ_altern_ps2.svg "Implémentation (en NOR) de $$Y$$ en *produit de sommes*")
+    ![Implémentation (en NOR) de Y en produit de sommes.]({{site.baseurl}}/img/circ_altern_ps2.svg "Implémentation (en NOR) de $$Y$$ en *produit de sommes*")
 	*Implémentation (en NOR) de $$Y$$ en P de S*
 
 
@@ -89,10 +89,10 @@ la sortie. Voici les implémentations que l'on obtient alors.
 
 1.  Implémentation en *somme de produits*
 
-    ![img]({{site.baseurl}}/img/circ_altern_comp_sp1.svg "Implémentation via $$Y^\prime$$ en *somme de produits*")
+    ![Implémentation via Y prime en somme de produits.]({{site.baseurl}}/img/circ_altern_comp_sp1.svg "Implémentation via $$Y^\prime$$ en *somme de produits*")
 	*Implémentation via $$Y^\prime$$ en S de P*
     
-    ![img]({{site.baseurl}}/img/circ_altern_comp_sp2.svg "Implémentation via $$Y^\prime$$ en *somme de produits*")
+    ![Implémentation via Y prime en somme de produits.]({{site.baseurl}}/img/circ_altern_comp_sp2.svg "Implémentation via $$Y^\prime$$ en *somme de produits*")
 	*Implémentation via $$Y^\prime$$ en S de P, autre forme*
 
 2.  Implémentation en *produit de sommes*
@@ -100,8 +100,8 @@ la sortie. Voici les implémentations que l'on obtient alors.
     En *produit de sommes*, en se basant sur le complément $$Y^\prime =
     (b^\prime +c^\prime )(a+b^\prime )(a^\prime +b+c)$$.
     
-    ![img]({{site.baseurl}}/img/circ_altern_comp_ps1.svg "Implémentation via $$Y^\prime$$ en *produit de sommes*") 
+    ![Implémentation via Y prime en produit de sommes.]({{site.baseurl}}/img/circ_altern_comp_ps1.svg "Implémentation via $$Y^\prime$$ en *produit de sommes*") 
 	*Implémentation via $$Y^\prime$$ en P de S*
     
-    ![img]({{site.baseurl}}/img/circ_altern_comp_ps2.svg "Implémentation via $$Y^\prime$$ en *produit de sommes*") 
+    ![Implémentation via Y  prime en produit de sommes.]({{site.baseurl}}/img/circ_altern_comp_ps2.svg "Implémentation via $$Y^\prime$$ en *produit de sommes*") 
 *Implémentation via $$Y^\prime$$ en P de S, autre forme*

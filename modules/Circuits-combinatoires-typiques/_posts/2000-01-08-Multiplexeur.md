@@ -18,10 +18,10 @@ Le multiplexeur le plus simple utilise un seul signal de sélection
 $$S$$ qui permet de choisir une de deux entrées $$I_0$$ ou $$I_1$$
 pour agir sur la sortie $$Y$$.
 
-![img]({{site.baseurl}}/img/mux2b.svg "Circuit du multiplexeur deux-vers-un")
+![Circuit du multiplexeur deux-vers-un.]({{site.baseurl}}/img/mux2b.svg "Circuit du multiplexeur deux-vers-un")
 *Circuit du multiplexeur deux-vers-un*
 
-![img]({{site.baseurl}}/img/mux2symb.svg "Symbole du multiplexeur deux-vers-un")
+![Symbole du multiplexeur deux-vers-un.]({{site.baseurl}}/img/mux2symb.svg "Symbole du multiplexeur deux-vers-un")
 *Symbole du multiplexeur deux-vers-un*
 
 
@@ -34,10 +34,10 @@ représentés comme un seul fil, qui correspond en fait à une paire de
 signaux $$S_0$$ et $$S_1$$. Pour un multiplexeur à $$2^n$$ entrées, on
 aurait un vecteur de $$n$$ signaux de sélection.
 
-![img]({{site.baseurl}}/img/mux4.svg "Circuit du multiplexeur quatre-vers-un")
+![Circuit du multiplexeur quatre-vers-un.]({{site.baseurl}}/img/mux4.svg "Circuit du multiplexeur quatre-vers-un")
 *Circuit du multiplexeur quatre-vers-un*
 
-![img]({{site.baseurl}}/img/mux4symb.svg "Symbole du multiplexeur quatre-vers-un")
+![Symbole du multiplexeur quatre-vers-un.]({{site.baseurl}}/img/mux4symb.svg "Symbole du multiplexeur quatre-vers-un")
 *Symbole du multiplexeur quatre-vers-un*
 
 

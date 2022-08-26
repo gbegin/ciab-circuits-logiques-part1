@@ -23,7 +23,7 @@ $$A > B$$, et, à l'inverse, $$a_i = 0 $$ nous indique que $$A < B$$. Nous avons
 les éléments qui permettent d'effectuer une comparaison pour un bit,
 comme on peut en voir l'implémentation sur la figure suivante.
 
-![img]({{site.baseurl}}/img/comparateur.svg "Comparateur de magnitude")
+![Comparateur de magnitude.]({{site.baseurl}}/img/comparateur.svg "Comparateur de magnitude")
 *Comparateur de magnitude*
 
 Notre démarche de conception pour $$n$$ bits sera calquée sur la
@@ -52,5 +52,5 @@ $$ (A > B) = a_3 b_3^\prime + x_3  a_2 b_2^\prime  +  x_3 x_2  a_1 b_1^\prime + 
 
 On obtient ainsi un comparateur pour des nombres de 4 bits, tel qu'illustré.
 
-![img]({{site.baseurl}}/img/comparateur_4b.svg "Comparateur de magnitude 4 bits")
+![Comparateur de magnitude 4 bits.]({{site.baseurl}}/img/comparateur_4b.svg "Comparateur de magnitude 4 bits")
 *Comparateur de magnitude 4 bits*

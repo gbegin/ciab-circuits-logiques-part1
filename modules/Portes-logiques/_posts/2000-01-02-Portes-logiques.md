@@ -79,7 +79,7 @@ l'autre.
 
 À deux entrées $$S =  A \cdot B$$
 
-![img]({{site.baseurl}}/img/and_logique.svg "Porte ET à deux entrées")
+![Porte ET à deux entrées.]({{site.baseurl}}/img/and_logique.svg "Porte ET à deux entrées")
 
 Les portes qui réalisent des fonctions qui sont associative et
 commutatives peuvent aussi se définir avec plus de deux entrées. C'est
@@ -87,14 +87,14 @@ le cas avec les fonctions ET et OU.
 
 À trois entrées $$S =  A \cdot B \cdot C$$
 
-![img]({{site.baseurl}}/img/and3_logique.svg "Porte ET à trois entrées")
+![Porte ET à trois entrées.]({{site.baseurl}}/img/and3_logique.svg "Porte ET à trois entrées")
 
 
 ### Porte OU
 
 À deux entrées $$S =  A + B$$
 
-![img]({{site.baseurl}}/img/or_logique.svg "Porte OU à deux entrées")
+![Porte OU à deux entrées.]({{site.baseurl}}/img/or_logique.svg "Porte OU à deux entrées")
 
 
 ### Porte inverseur
@@ -103,12 +103,12 @@ L'opération NON qui consiste à complémenter une valeur binaire
 s'effectue avec une porte appelée **inverseur**.  Il n'y a toujours
 qu'une seule entrée. $$B = A^\prime$$
 
-![img]({{site.baseurl}}/img/not_logique.svg "Porte inverseur") 
+![Porte inverseur.]({{site.baseurl}}/img/not_logique.svg "Porte inverseur") 
 
 
 ### Porte NON-OU (NOR)
 
-![img]({{site.baseurl}}/img/nor_logique.svg "NOR à deux entrées")
+![Porte NOR à deux entrées.]({{site.baseurl}}/img/nor_logique.svg "Porte NOR à deux entrées")
 
 
 ### Porte NON-ET (NAND)
@@ -119,7 +119,7 @@ $$. On peut néanmoins définir des versions à plusieurs entrées de ces
 fonctions en ajustant la priorité d'évaluation. Pour une porte NOR à
 trois entrées, on fera $$ (A + B + C)^\prime $$.
 
-![img]({{site.baseurl}}/img/nand3_logique.svg "NAND à trois entrées")
+![Porte NAND à trois entrées.]({{site.baseurl}}/img/nand3_logique.svg "NAND à trois entrées")
 
 Pour une porte NAND à trois entrées, on fera $$S = (A \cdot B \cdot
 C)^\prime $$.
@@ -134,7 +134,7 @@ et NOR comme on vient de le voir. Un autre exemple est la porte NAND
 de la figure suivante, où une des entrées est également
 inversée. La porte évalue donc $$S =  (A^\prime \cdot B  \cdot C)^\prime $$.
 
-![img]({{site.baseurl}}/img/nand3_logique_invin1.svg "NAND à trois entrées dont une inversée"){:id="orgee17092"} 
+![porte NAND à trois entrées dont une inversée.]({{site.baseurl}}/img/nand3_logique_invin1.svg "NAND à trois entrées dont une inversée"){:id="orgee17092"} 
 
 
 ### NAND et NOR, représentations équivalentes
@@ -144,9 +144,9 @@ x^{\prime} y^{\prime}$$ et que $$(xy)^{\prime} = x^{\prime} +
 y^{\prime}$$. On peut donc représenter les portes NAND et NOR de deux
 façons équivalentes.
 
-![img]({{site.baseurl}}/img/NORequiv.svg "NOR représentations équivalentes")
+![Deux représentations équivalentes pour une porte NOR.]({{site.baseurl}}/img/NORequiv.svg "Deux représentations équivalentes pour une porte NOR")
 
-![img]({{site.baseurl}}/img/NANDequiv.svg "NAND représentations équivalentes")
+![Deux représentations équivalentes pour une porte NAND.]({{site.baseurl}}/img/NANDequiv.svg "Deux représentations équivalentes pour une porte NAND")
 
 
 ### Porte OU-exclusif (XOR)
@@ -163,7 +163,7 @@ entrées nombreuses.
 
 $$ S= A \cdot B^\prime + A^\prime \cdot B $$ 
 
-![img]({{site.baseurl}}/img/exor_logique.svg "Porte XOR à deux entrées")
+![Porte XOR à deux entrées.]({{site.baseurl}}/img/exor_logique.svg "Porte XOR à deux entrées")
 
 
 ### Porte NON-OU-exclusif ou Équivalence (XNOR)
@@ -173,7 +173,7 @@ la même valeur (et sont donc équivalentes). Comme pour les portes XOR,
 les portes XNOR à plus de trois entrées peuvent s'interpréter de
 différentes façons.
 
-![img]({{site.baseurl}}/img/xnor_logique.svg "Porte XNOR")
+![Porte XNOR.]({{site.baseurl}}/img/xnor_logique.svg "Porte XNOR")
 
 
 ## Universalité des NAND et NOR

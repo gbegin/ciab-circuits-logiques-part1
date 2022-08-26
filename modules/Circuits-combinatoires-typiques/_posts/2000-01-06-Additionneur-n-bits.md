@@ -18,7 +18,7 @@ une sortie pour une retenue du dernier niveau $$n-1$$, $$R_{n-1}$$. On
 doit donc, pour le chaînage, acheminer la sortie retenue du niveau
 courant à l'entrée de retenue du niveau suivant.
 
-![img]({{site.baseurl}}/img/additionneur_cascade.png "Chaîne d'addition"){:id="org0eda19e"}
+![Chaîne d'addition.]({{site.baseurl}}/img/additionneur_cascade.png "Chaîne d'addition"){:id="org0eda19e"}
 *Chaîne d'addition*
 
 Cette réalisation en forme de chaîne, en réutilisant de façon
@@ -61,8 +61,8 @@ porte ET et une porte OU. Pour un additionneur de $$n$$ bits
 comprenant $$n$$ additionneurs complets, on aura une profondeur de
 retenue totale de $$2n$$ portes.
 
-![img]({{site.baseurl}}/img/fulladderxorPG.svg "Circuit additionneur complet, signaux intermédiaires")
-*Circuit additionneur complet, signaux intermédiaires*
+![Circuit additionneur complet montrant les signaux intermédiaires P_i et G_i.]({{site.baseurl}}/img/fulladderxorPG.svg "Circuit additionneur complet, signaux intermédiaires")
+*Circuit additionneur complet montrant les signaux intermédiaires $$P_i$$ et $$G_i$$*
 
 
 ### Anticipation de retenue
@@ -122,5 +122,5 @@ alimenter le circuit d'anticipateur de retenue et d'autre part,
 effectuer $$S_i = P_i \mbox{ XOR } r_i $$, on obtient un additionneur parallèle
 plus rapide que la configuration en cascade.
 
-![img]({{site.baseurl}}/img/lookahead1.svg "Circuit d'anticipateur de retenue pour $$n= 4$$")
+![Circuit d'anticipateur de retenue pour n= 4.]({{site.baseurl}}/img/lookahead1.svg "Circuit d'anticipateur de retenue pour $$n= 4$$")
 *Circuit d'anticipateur de retenue pour $$n= 4$$*

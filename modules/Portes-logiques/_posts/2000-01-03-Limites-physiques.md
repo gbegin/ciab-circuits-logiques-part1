@@ -76,7 +76,7 @@ Le modèle le plus simple suppose une porte idéale, sans aucun délai:
 le chronogramme suivant montre la sortie qui commute immédiatement
 lorsque les conditions d'entrée changent.
 
-![img]({{site.baseurl}}/img/chronopasdelais.svg "Porte ET sans délai")
+![Porte ET sans délai.]({{site.baseurl}}/img/chronopasdelais.svg "Porte ET sans délai")
 *Porte ET sans délai*
 
 #### Modèle avec délai en sortie
@@ -84,9 +84,9 @@ lorsque les conditions d'entrée changent.
 Le modèle avec délai en sortie consiste à considérer un délai
 fixe, qui affecte la sortie de la porte: la commutation prend
 effet en sortie après un délai $$t_p$$.
-    
-![img]({{site.baseurl}}/img/chrononodelaisortie.svg "Porte ET avec délai en sortie")
-	*Porte ET avec délai en sortie*
+
+![Porte ET avec délai en sortie.]({{site.baseurl}}/img/chrononodelaisortie.svg "Porte ET avec délai en sortie")
+*Porte ET avec délai en sortie*
 
 #### Modèle avec délai en entrée
 
@@ -94,7 +94,7 @@ Le modèle avec délai en entrée est plus nuancé, car il permet de
 spécifier un délai différent selon l'entrée qui entraîne le
 changement à la sortie.
 
-![img]({{site.baseurl}}/img/chrononodelaientree.svg "Porte ET avec délai aux entrées")
+![Porte ET avec délai aux entrées.]({{site.baseurl}}/img/chrononodelaientree.svg "Porte ET avec délai aux entrées")
 *Porte ET avec délai aux entrées*
 
 #### Modèle combiné
@@ -113,7 +113,7 @@ court (en termes de délais) que le chemin qui mène à l'entrée du
 bas. En effet, le signal $$a^\prime$$ est retardé d'un délai de
 propagation $$t_{p1}$$ par rapport à $$a$$.
 
-![img]({{site.baseurl}}/img/course.svg "Cas à risque de condition de course")
+![Cas à risque de condition de course.]({{site.baseurl}}/img/course.svg "Cas à risque de condition de course")
 *Cas à risque de condition de course*
 
 En pratique, on pourrait observer un chronogramme qui s'apparente à
@@ -125,7 +125,7 @@ de propagation $$t_{p2}$$ de celle-ci. Cette impulsion, qui ne
 correspond à rien selon la logique du circuit est appelé un **aléa** (ou
 en anglais, *glitch*).
 
-![img]({{site.baseurl}}/img/chronocourse.svg "Chronogramme de la condition de course")
+![Chronogramme de la condition de course.]({{site.baseurl}}/img/chronocourse.svg "Chronogramme de la condition de course")
 *Chronogramme de la condition de course*
 
 Ces aléas peuvent être la source de problèmes et de dysfonctionnements

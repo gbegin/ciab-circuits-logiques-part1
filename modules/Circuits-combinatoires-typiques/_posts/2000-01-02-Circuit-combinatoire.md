@@ -9,7 +9,7 @@ entrées à cet instant. Un circuit combinatoire à $$n$$ entrées et
 $$m$$ sorties peut être représenté par un schéma-bloc, dans lequel on
 place généralement les entrées à gauche et les sorties à droite.
 
-![img]({{site.baseurl}}/img/circuit_comb.png "Circuit combinatoire")
+![Circuit combinatoire à n entrées et m sorties.]({{site.baseurl}}/img/circuit_comb.png "Circuit combinatoire")
 *Circuit combinatoire*
 
 Avec $$n$$ entrées, il est possible de créer $$2^n$$ combinaisons

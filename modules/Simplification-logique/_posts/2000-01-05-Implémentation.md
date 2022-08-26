@@ -12,13 +12,13 @@ Une fonction en forme *somme de produits* s'implémente évidemment avec
 des portes ET pour les produits et une porte OU pour la somme
 finale. Considérons par exemple $$F = AB + CD$$.
 
-![img]({{site.baseurl}}/img/produit_somme.svg "Produit de sommes pour \(F = AB + CD\)") 
+![Produit de sommes pour F = AB + CD.]({{site.baseurl}}/img/somme_produits.svg "Produit de sommes pour \(F = AB + CD\)") 
 
 La fonction peut aussi s'implémenter tout naturellement en faisant
 appel uniquement à des portes NAND. On peut vérifier facilement que le
 circuit suivant implémente la même fonction $$F = ((AB)^\prime \cdot  (CD)^\prime)^\prime = AB + CD$$
 
-![img]({{site.baseurl}}/img/produit_sommeNAND2.svg "Produit de sommes NAND") 
+![Produit de sommes NAND.]({{site.baseurl}}/img/somme_produitsNAND2.svg "Produit de sommes NAND") 
 
 Cette configuration s'interprète plus facilement en représentant la
 porte de sortie comme une porte NOR avec les entrées complémentées
@@ -26,5 +26,5 @@ porte de sortie comme une porte NOR avec les entrées complémentées
 de chaque sortie de somme est compensée par la complémentation à
 l'entrée de la porte de sortie.
 
-![img]({{site.baseurl}}/img/produit_sommeNAND.svg "Produit de sommes NAND plus évidente")
+![Produit de sommes NAND plus évidente.]({{site.baseurl}}/img/somme_produitsNAND.svg "Produit de sommes NAND plus évidente")
 

@@ -35,11 +35,11 @@ $$m_5 + m_7 = xy^\prime z + xyz = xz(y^\prime + y) = xz $$. Ici les
 deux minterms adjacents diffèrent par la variable $$y$$, qui sera donc
 supprimée du terme produit résultant.
 
-![img]({{site.baseurl}}/img/kmap2.svg "Diag-K à deux variables")
+![Diag-K à deux variables.]({{site.baseurl}}/img/kmap2.svg "Diag-K à deux variables")
 *Diag-K à deux variables*
 
 
-![img]({{site.baseurl}}/img/kmap3minterms.svg "Diag-k à trois variables, avec minterms")
+![Diag-k à trois variables, avec minterms.]({{site.baseurl}}/img/kmap3minterms.svg "Diag-k à trois variables, avec minterms")
 *Diag-k à trois variables, avec minterms*
 
 
@@ -51,7 +51,7 @@ exemple, la cellule 100 ($m_4$) est adjacente horizontalement à la
 cellule 000 ($m_0$). On peut imaginer le diagramme comme replié sur
 lui-même pour visualiser cette adjacence.
 
-![img]({{site.baseurl}}/img/kmap3.svg "Diag-K à trois variables")
+![Diag-K à trois variables.]({{site.baseurl}}/img/kmap3.svg "Diag-K à trois variables")
 
 Sur le diagramme à quatre variables, l'adjacence repliée est autant
 horizontale que verticale.
@@ -61,7 +61,7 @@ méthode: les diagrammes sont de grande taille et surtout, les règles
 d'adjacence ne sont plus aussi facilement observables. Les risques
 d'erreurs sont plus grands.
 
-![img]({{site.baseurl}}/img/kmap4.svg "Diag-K à quatre variables")
+![Diag-K à quatre variables.]({{site.baseurl}}/img/kmap4.svg "Diag-K à quatre variables")
 *Diag-K à quatre variables*
 
 ## Procédure de simplification
@@ -87,11 +87,11 @@ Pour utiliser un diag-K pour minimiser une fonction logique,
 Considérons par exemple la fonction $$F(A,B,C) = \sum (0, 4, 6,
 7)$$. Après la première étape, on obtient
 
-![img]({{site.baseurl}}/img/kmap3fonct.svg "Diagramme après l'étape 1")
+![Diagramme après l'étape 1.]({{site.baseurl}}/img/kmap3fonct.svg "Diagramme après l'étape 1")
 
 Après les regroupements, on obtient un diag-K comportant trois regroupements
 
-![img]({{site.baseurl}}/img/kmap3fonctsimp.svg "Diagramme après les regroupements")
+![Diagramme après les regroupements.]({{site.baseurl}}/img/kmap3fonctsimp.svg "Diagramme après les regroupements")
 
 Le groupe en rouge corresond au produit $$B^\prime C^\prime $$, celui
 en bleu correspond à $$A B $$ et celui en vert correspond à $$A
@@ -117,7 +117,7 @@ dans un regroupement, ce qui signifie qu'il a été traité comme
 un 0. La fonction résultante est donc $$A C^\prime D^\prime + BD + AB
 $$.
 
-![img]({{site.baseurl}}/img/kmap4fonct.svg "Diag-K avec cas facultatifs")
+![Diag-K avec cas facultatifs.]({{site.baseurl}}/img/kmap4fonct.svg "Diag-K avec cas facultatifs")
 
 
 
@@ -155,7 +155,7 @@ $$a b$$, $$b c$$, $$a b^{\prime} c$$ sont des impliquants évidents de $$z_1$$.
 $$a^{\prime} b c$$, $$a b c^{\prime}$$, $$a b c$$, $$a c$$ sont aussi des
 impliquants de $$z_1$$.
 
-![img]({{site.baseurl}}/img/kmap3fonctimp.svg "Diag-K pour l'exemple des impliquants")
+![Diag-K pour l'exemple des impliquants.]({{site.baseurl}}/img/kmap3fonctimp.svg "Diag-K pour l'exemple des impliquants")
 *Diag-K pour l'exemple des impliquants*
 
 ## Impliquant premier
@@ -239,10 +239,10 @@ $$z_1 = a c + a^{\prime} b c^{\prime} + a^{\prime} c^{\prime} d$$
 $$z_2 = a c + a^{\prime}  b c^{\prime} d^{\prime} +
 a^{\prime} b^{\prime} c^{\prime} d$$
 
-![img]({{site.baseurl}}/img/kmap4z1.svg "Fonction $$z_1$$")
+![Fonction z_1.]({{site.baseurl}}/img/kmap4z1.svg "Fonction $$z_1$$")
 *Fonction $$z_1$$*
 
-![img]({{site.baseurl}}/img/kmap4z2.svg "Fonction $$z_2$$")
+![Fonction z_2.]({{site.baseurl}}/img/kmap4z2.svg "Fonction $$z_2$$")
 *Fonction $$z_2$$*
 
 Il est alors préférable de réutiliser les termes communs et de générer

@@ -18,8 +18,8 @@ calculent $$O  \mbox{ XOR }  b_i$$ et dont la sortie est acheminée à l'entrée
 $$B$$ de l'additionneur. Lorsque que $$O=1$$, leur sortie vaut
 $$b_i^\prime$$.
 
-![img]({{site.baseurl}}/img/add_sous.svg "Circuit additionneur/ soustracteur 4 bits")
-*Circuit additionneur/ soustracteur 4 bits*
+![Circuit additionneur/soustracteur 4 bits.]({{site.baseurl}}/img/add_sous.svg "Circuit additionneur/soustracteur 4 bits")
+*Circuit additionneur/soustracteur 4 bits*
 
 ### Débordements
 
@@ -158,6 +158,6 @@ mécanisme de détection de débordement a été ajouté au circuit
 additionneur/soustracteur 4 bits dans la figure suivante pour générer
 le signal $$D$$ qui indique un débordement.
 
-![img]({{site.baseurl}}/img/add_sous_deb.svg "Circuit additionneur/soustracteur 4 bits avec débordement")
+![Circuit additionneur/soustracteur 4 bits avec débordement.]({{site.baseurl}}/img/add_sous_deb.svg "Circuit additionneur/soustracteur 4 bits avec débordement")
 *"Circuit additionneur/soustracteur 4 bits avec débordement*
 

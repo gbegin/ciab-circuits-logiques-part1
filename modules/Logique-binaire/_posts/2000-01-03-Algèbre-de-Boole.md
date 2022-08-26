@@ -37,7 +37,7 @@ sommes familiers est un système algébrique d'un type appelé **corps**.
 ## Algèbre de Boole
 
 Une algèbre de Boole est un type de système algébrique défini sur un
-ensemble $$B$$, muni de deux opérateurs dénotés $+$ et $\cdot$, et qui
+ensemble $$B$$, muni de deux opérateurs dénotés $$+$$ et $$\cdot$$, et qui
 respecte les postulats suivants<sup><a id="fnr.2" class="footref"
 href="#fn.2" role="doc-backlink">2</a></sup> (postulats de
 Huntington):

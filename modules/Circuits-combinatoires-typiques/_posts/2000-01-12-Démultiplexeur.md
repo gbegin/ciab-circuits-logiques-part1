@@ -12,7 +12,7 @@ huit sorties $$O_i, i = 0, \ldots, 7$$. On peut aussi interpréter ce
 circuit comme un décodeur trois-vers-huit avec une entrée signal de
 contrôle (*enable*) $$I$$.
 
-![img]({{site.baseurl}}/img/demux8.svg "Démultiplexeur un-vers-huit")
+![Démultiplexeur un-vers-huit.]({{site.baseurl}}/img/demux8.svg "Démultiplexeur un-vers-huit")
 *Démultiplexeur un-vers-huit*
 
 ## Encodeurs divers
@@ -37,10 +37,10 @@ affectées par celle-ci. Pour activer cet état de sortie
 haute-impédance, une entrée de contrôle est ajoutée.
 
 Le figure ci-dessous montre une porte tampon à trois états. Avec
-`Contrôle` = 0, la sortie est en haute impédance; avec`Contrôle` = 1,
+`Contrôle` = 0, la sortie est en haute impédance; avec `Contrôle` = 1,
 la sortie est égale à l'entrée. 
 
-![img]({{site.baseurl}}/img/buf_3s.svg "Porte tampon à trois états")
+![Porte tampon à trois états.]({{site.baseurl}}/img/buf_3s.svg "Porte tampon à trois états")
 *Porte tampon à trois états*
 
 En plaçant des tampons à trois états à chaque sortie d'un décodeur, on
@@ -162,7 +162,7 @@ en haute-impédance.
 </tbody>
 </table>
 
-![img]({{site.baseurl}}/img/mux_4_1_3s.svg "Multiplexeur quatre-vers-un trois états")
+![Multiplexeur quatre-vers-un trois états.]({{site.baseurl}}/img/mux_4_1_3s.svg "Multiplexeur quatre-vers-un trois états")
 *Multiplexeur quatre-vers-un trois états*
 
 La fonctionnalité trois-états permet aussi de concevoir un
@@ -173,7 +173,7 @@ haut qui est actif, et `O/I` détermine la valeur de `I/O`. Lorsque $$E
 = 1 $$, c'est le tampon du bas qui est actif, et `I/O` détermine la
 valeur de  `O/I`.
 
-![img]({{site.baseurl}}/img/bus_trans.svg "Emetteur-récepteur de bus")
+![Emetteur-récepteur de bus.]({{site.baseurl}}/img/bus_trans.svg "Emetteur-récepteur de bus")
 *Emetteur-récepteur de bus*
 
 
