@@ -9,7 +9,7 @@ tableau de couverture.
 
 Un **tableau de couverture** comporte une ligne pour chaque i.p. et
 une colonne pour chaque minterm de la fonction à minimiser $$z$$. Un
-&check; est inscrit à l'intersection de la ligne $$i$$ et de la
+&#10003; est inscrit à l'intersection de la ligne $$i$$ et de la
 colonne $$j$$ si l'i.p.  $$P_i$$ de la ligne $$i$$ couvre le minterm
 $$m_j$$ de la colonne $$j$$.
 
@@ -23,8 +23,8 @@ la fonction $$z$$ qui
     ligne.
 
 Dans le tableau de couverture, on identifie facilement les i.p.e. par
-les colonnes qui ne contiennent qu'un &check;. L'i.p. qui couvre une
-colonne qui ne contient qu'un &check; est un i.p.e.
+les colonnes qui ne contiennent qu'un &#10003;. L'i.p. qui couvre une
+colonne qui ne contient qu'un &#10003; est un i.p.e.
 
 Puisque les i.p.e. doivent faire partie de la solution finale, toutes
 les colonnes couvertes par des i.p.e. seront couvertes dans n'importe
@@ -83,65 +83,65 @@ i.p.e. qui n'est pas montré ici.
 <tr>
 <td class="org-left">$$P_A$$</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">$$P_B$$</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">$$P_C$$</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">$$P_D$$</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
 </tr>
 
 
 <tr>
 <td class="org-left">$$P_E$$</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
 <td class="org-left">&#xa0;</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
-<td class="org-left">X</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
+<td class="org-left">&#10003;</td>
 </tr>
 </tbody>
 </table>
