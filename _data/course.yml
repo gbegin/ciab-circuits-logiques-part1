@@ -1,4 +1,4 @@
-title: Introduction aux circuits logiques, partie 1
+title: Circuits logiques combinatoires et séquentiels, partie 1
 description: Ce cours est une introduction aux circuits logiques, qui sont au coeur de tous les systèmes numériques, du plus simple au plus complexe
 
 modules: [Systèmes-de-numération, Logique-binaire, Théorèmes-et-propriétés, Portes-logiques, Simplification-logique, Circuits-combinatoires-typiques]
