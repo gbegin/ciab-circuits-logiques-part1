@@ -25,7 +25,7 @@ cellules carrées, chaque cellule correspondant à un minterm
 possible. Les cellules sont organisées de façon à ce que lorsqu'on
 passe d'une cellule à une cellule adjacente (horizontalement ou
 verticalement), un seul bit du minterm change, ce qui revient à dire
-qu'une seul variable passe de telle qu'elle à complémentée.
+qu'une seule variable passe de telle qu'elle à complémentée.
 
 Cela fait en sorte que si la fonction est 1 pour deux minterms
 adjacents, la somme des deux minterms pourra être simplifiée en un
@@ -51,7 +51,7 @@ exemple, la cellule 100 ($m_4$) est adjacente horizontalement à la
 cellule 000 ($m_0$). On peut imaginer le diagramme comme replié sur
 lui-même pour visualiser cette adjacence.
 
-![Diag-K à trois variables.]({{site.baseurl}}/img/kmap3.svg "Diag-K à trois variables")
+![Diag-K avec adjacence horizontale.]({{site.baseurl}}/img/kmap3_repli.svg "Diag-K avec adjacence horizontale")
 
 Sur le diagramme à quatre variables, l'adjacence repliée est autant
 horizontale que verticale.

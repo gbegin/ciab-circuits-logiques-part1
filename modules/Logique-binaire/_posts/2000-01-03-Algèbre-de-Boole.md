@@ -20,7 +20,7 @@ respecte un jeu d'axiomes ou postulats. Une algèbre nécessite donc:
 2.   Des opérateurs: $$\cdot$$, $$\star$$, $$+$$
 
 3.   L'application des opérateurs aux différents éléments doit respecter
-    un certain nombre de propriétés appelées postulat, comme par exemple:
+    un certain nombre de propriétés appelées postulats, comme par exemple:
 
         -  Fermeture
         -  Associativité
@@ -49,22 +49,22 @@ Huntington):
     2.  &hearts; Fermeture par rapport à $$\cdot$$.
 
 2.  Éléments identité
-    1.  &spades; Élément identité de $$+$$, noté 0. $$x + 0 = 0 + x = x$$.
+    1.  &spades; Élément identité de $$+$$, noté 0: on a $$x + 0 = 0 + x = x$$.
     
-    2.  &hearts; Élément identité de $$\cdot$$, noté 1. $$x \cdot 1 =
+    2.  &hearts; Élément identité de $$\cdot$$, noté 1: on a $$x \cdot 1 =
         1 \cdot x = x$$.
 
 3.  Commutativité
-    1.  &spades; Commutativité par rapport à $$+$$. $$x + y = y + x$$.
+    1.  &spades; Commutativité par rapport à $$+$$: on a $$x + y = y + x$$.
     
-    2.  &hearts; Commutativité par rapport à $$\cdot$$. $$x \cdot y =
+    2.  &hearts; Commutativité par rapport à $$\cdot$$: on a $$x \cdot y =
         y \cdot x$$.
 
 4.  Distributivité
-    1.  &spades; $$\cdot$$ est distributif sur $$+$$. $$x \cdot (y +
+    1.  &spades; $$\cdot$$ est distributif sur $$+$$: on a $$x \cdot (y +
         z)= (x \cdot y) + (x \cdot z)$$.
     
-    2.  &hearts; $$+$$ est distributif sur $$\cdot$$. $$x + (y \cdot
+    2.  &hearts; $$+$$ est distributif sur $$\cdot$$: on a $$x + (y \cdot
         z)= (x + y) \cdot (x + z)$$.
 
 5.  Pour chaque élément $$x \in B$$, il existe un élément $$x^{\prime}

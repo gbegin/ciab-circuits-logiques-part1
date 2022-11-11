@@ -111,7 +111,7 @@ qu'une seule entrée. $$B = A^\prime$$
 ![Porte NOR à deux entrées.]({{site.baseurl}}/img/nor_logique.svg "Porte NOR à deux entrées")
 
 
-### Porte NON-ET (NAND)
+### Porte NON-ET (NAND) et NON-OU (NOR)
 
 Les fonctions NAND et NOR ne sont pas associatives. Par exemple, $$(x
 \mbox{ NOR } y) \mbox{ NOR } z \neq x \mbox{ NOR } (y \mbox{ NOR } z)
@@ -119,10 +119,10 @@ $$. On peut néanmoins définir des versions à plusieurs entrées de ces
 fonctions en ajustant la priorité d'évaluation. Pour une porte NOR à
 trois entrées, on fera $$ (A + B + C)^\prime $$.
 
-![Porte NAND à trois entrées.]({{site.baseurl}}/img/nand3_logique.svg "NAND à trois entrées")
-
 Pour une porte NAND à trois entrées, on fera $$S = (A \cdot B \cdot
 C)^\prime $$.
+
+![Porte NAND à trois entrées.]({{site.baseurl}}/img/nand3_logique.svg "NAND à trois entrées")
 
 
 ### Entrées inversées

@@ -318,7 +318,7 @@ possibles. Les minterms qui participent à la somme dans l'expression
 en forme canonique *somme de produits* sont ceux qui produisent un 1
 dans le tableau de vérité de la fonction. Puisque la fonction peut
 valoir 0 ou 1 pour chaque minterm, le nombre total de fonctions
-différentes qui peuvent être définies avec $$n$$ variables est de $$2^{2n}$$.
+différentes qui peuvent être définies avec $$n$$ variables est de $$2^{2^n}$$.
 
 Si on veut convertir en forme canonique *somme de produits* l'expression
 pour une fonction qui ne serait pas sous cette forme, on commence par
@@ -333,7 +333,7 @@ fonction puisque $$x + x^\prime = 1$$.
 en se basant sur le tableau de vérité.
 
 
-## Produits de sommes
+## Produit de sommes
 
 Si on veut convertir en forme canonique *produit de sommes* l'expression
 pour une fonction qui ne serait pas sous cette forme, on commence par
