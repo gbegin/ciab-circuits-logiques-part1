@@ -47,8 +47,8 @@ Sur le diagramme à trois variables, on voit que les bits $$AB$$ sont
 ordonnés selon un code Gray, de façon à ce qu'un seul des bits change
 lorsqu'on passe d'une cellule à la suivante
 horizontalement. L'adjacence se poursuit en bout de diagramme: par
-exemple, la cellule 100 ($m_4$) est adjacente horizontalement à la
-cellule 000 ($m_0$). On peut imaginer le diagramme comme replié sur
+exemple, la cellule 100 ($$m_4$$) est adjacente horizontalement à la
+cellule 000 ($$m_0$$). On peut imaginer le diagramme comme replié sur
 lui-même pour visualiser cette adjacence.
 
 ![Diag-K avec adjacence horizontale.]({{site.baseurl}}/img/kmap3_repli.svg "Diag-K avec adjacence horizontale")
