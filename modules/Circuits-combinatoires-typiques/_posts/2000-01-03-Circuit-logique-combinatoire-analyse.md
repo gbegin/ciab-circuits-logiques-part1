@@ -3,12 +3,12 @@ title: Circuit-logique-combinatoire-analyse
 ---
 ## Analyse d'un circuit logique combinatoire
 
-Si on est placé devant le schéma d'un circuit logique dont on ne
+Si on se trouve devant le schéma d'un circuit logique dont on ne
 connaît pas la fonction, on doit en faire l'analyse. La première étape
 consiste à vérifier qu'il s'agit bien d'un circuit combinatoire. Si le
 schéma ne comporte pas de cellules de mémoire ou de boucles de
 rétroaction, on peut conclure que le circuit est combinatoire. Une
-boucle de rétroaction consiste en un chemin dans le circuit dans
+boucle de rétroaction consiste en un chemin du circuit par
 lequel une valeur d'entrée d'une porte provient, directement ou
 indirectement (par l'intermédiaire d'autres portes), de la sortie de
 la même porte. La présence de rétroaction est une caractéristique des
@@ -22,7 +22,7 @@ Pour déterminer l'expression logique, on procède ainsi:
 
 1.  Étiqueter toutes les sorties des portes qui sont alimentées par
     les variables d'entrée du système. Les noms de variables seront
-    arbitraire, mais devraenit être choisis de façon à faciliter
+    arbitraires, mais devraient être choisis de façon à faciliter
     l'interprétation par la suite. Déterminer les fonctions logiques
     pour ces variables.
 2.  Étiqueter les sorties des portes qui sont alimentées par les
@@ -38,14 +38,14 @@ Pour déterminer l'expression logique, on procède ainsi:
 
 ### Exemple
 
-Considérons le circuit combinatoire à analyser à illustré à la figure
-suivante:
+Analysons le circuit combinatoire illustré à la figure
+suivante.
 
 ![Circuit combinatoire à analyser.]({{site.baseurl}}/img/circuit_logique_inconnu.svg "Circuit combinatoire à analyser")
 *Circuit combinatoire à analyser*
 
 1.  Il n'est pas la peine d'étiqueter la sortie de la porte
-    inverseur. Comme variables intermédiaire, nous considérons $$I_1$$
+    inverseur. Comme variables intermédiaire, on considère $$I_1$$
     en sortie de la porte ET à trois entrées et $$I_2$$ en sortie de la
     porte NOR. On trouve que $$ I_1 = A^\prime \cdot B \cdot C $$ et que
     $$ I_2 = (A + D)^\prime = A^\prime \cdot D^\prime $$.

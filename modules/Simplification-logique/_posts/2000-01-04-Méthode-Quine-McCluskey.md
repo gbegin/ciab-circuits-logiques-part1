@@ -18,7 +18,7 @@ la fonction $$z$$ qui
 
 1.  contient le nombre minimum de lignes
 
-2.  est telle qu'aucune autre couverture à nombre de ligne minimum
+2.  est telle qu'aucune autre couverture à nombre de lignes minimum
     comprend moins d'entrées 1 et 0 dans ses codes d'impliquants de
     ligne.
 
@@ -39,8 +39,8 @@ finale.**
 
 Le tableau de couverture réduit permet de se concentrer sur la
 sélection des i.p. dont la sélection n'est pas évidente *a
-priori*. Considérons pour illustrer la discussion le tableau de
-couverture réduit suivant. $$m_c$$ est sans doute couvert pas un
+priori*. Pour illustrer la discussion, considérons le tableau de
+couverture réduit suivant. $$m_c$$ est sans doute couvert par un
 i.p.e. qui n'est pas montré ici.
 
 <table id="org08ebcc0" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -149,7 +149,7 @@ i.p.e. qui n'est pas montré ici.
 
 ## Dominance de lignes
 
-Une ligne $$P_i$$ domine une ligne $$P_j$$ (noté $$P_i \supseteq
+Une ligne $$P_i$$ domine une ligne $$P_j$$ (ce qui est noté $$P_i \supseteq
 P_j$$) si la ligne $$P_i$$ contient un x dans toutes les colonnes où
 la ligne $$P_j$$ contient un x. Ici, on a $$P_B \supseteq P_D$$ mais
 $$P_B$$ ne domine pas $$P_A$$. On peut voir aussi que $$P_E$$ domine
@@ -166,12 +166,12 @@ couverture à condition que son nombre de littéraux soit supérieur ou
 
 ## Dominance de colonnes
 
-Une colonne $$m_i$$ domine une colonne $$m_j$$ (noté $$m_i \supseteq
+Une colonne $$m_i$$ domine une colonne $$m_j$$ (ce qui est noté $$m_i \supseteq
 m_j$$) si la colonne $$m_i$$ contient un x dans toutes les lignes où
 la colonne $$m_j$$ contient un x. Ici, la colonne $$m_h \supseteq
 m_g$$ mais $$m_b$$ ne domine pas $$m_a$$. 
 
-Une colonne **dominant** une autre peut être éliminée du tableau de
+Une colonne **dominant** une autre colonne peut être éliminée du tableau de
 couverture, car le fait que la solution finale couvre la colonne
 dominée assure que la colonne dominante sera couverte aussi. Donc ici,
 la colonne $$m_h$$ peut être éliminée.

@@ -2,7 +2,7 @@
 
 Les circuits logiques simplifiés en forme *produit de sommes* ou
 *somme de produits* sont souvent mis en oeuvre au moyen de portes NAND
-ou NOR plutôt qu'avec des portes ET et OU. La raison est qu'il est
+ou NOR plutôt qu'avec des portes ET et OU. La raison en est qu'il est
 plus simple en pratique de réaliser ces portes.
 
 

@@ -43,7 +43,7 @@ d'orienter les décisions finales.
 
 ## Alternatives d'implémentation
 
-Considérons la fonction logique correspondant au diag-K de la figure
+Considérons la fonction logique $$Y$$ correspondant au diag-K de la figure
 suivante.
 
 ![Diag-K d'une fonction combinatoire Y à réaliser.]({{site.baseurl}}/img/kmap3altern.svg "Diag-K d'une fonction combinatoire $$Y$$ à réaliser") 

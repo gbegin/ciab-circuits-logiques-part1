@@ -5,12 +5,14 @@ title: Additionneur binaire n bits
 ### Additionneur binaire pour $$n$$ bits
 
 Un additionneur binaire est un circuit logique qui permet d'évaluer la
-somme arithmétique de deux nombres binaire de $$n$$ bits. Il peut être
+somme arithmétique de deux nombres binaires de $$n$$ bits. Il peut être
 conçu en combinant des additionneurs complets en cascade, en reliant
 la retenue de sortie provenant de la position 0 (la moins
-significative) à l'entrée de retenue de la position 1, &#x2026; la retenue
+significative) à l'entrée de retenue de la position 1, la retenue de
+sortie provenant de la position 1 à l'entrée de retenue de la position
+2,&#x2026;, la retenue
 de sortie provenant de la position $$i-1$$ à l'entrée de retenue de la
-position $$i$$, etc. (Voir figure ci-bas).
+position $$i$$, etc. (figure ci-dessous).
 
 Pour en faire un circuit général pouvant également se combiner en
 chaîne, on prévoit une entrée pour une retenue au niveau 0, $$r_0$$ et
@@ -22,10 +24,11 @@ courant à l'entrée de retenue du niveau suivant.
 *Chaîne d'addition*
 
 Cette réalisation en forme de chaîne, en réutilisant de façon
-systématique un bloc élémentaire, est avantageuse d'un point de vue
-complexité et flexibilité. Imaginons par exemple le défi de concevoir
-un additionneur binaire pour des nombres de quatre bits par la méthode
-classique. Comme il faudrait considérer 9 entrées, le tableau de
+systématique un bloc élémentaire, est avantageuse du point de vue
+de
+la complexité et de la flexibilité. Imaginons par exemple le défi de concevoir
+un additionneur binaire pour des nombres de quatre bits avec la méthode
+classique. Comme il faudrait considérer neuf entrées, le tableau de
 vérité comporterait $$2^9= 512 $$ lignes!
 
 
@@ -47,13 +50,13 @@ effet, pour pouvoir calculer $$R_{n-1}$$, bien que les valeurs de
 $$a_{n-1}$$ et $$b_{n-1}$$ soient déjà disponibles, il faut attendre
 que la valeur de $$r_{n-1} = R_{n-2}$$ soit stabilisée avant que le
 calcul puisse s'effectuer avec les bonnes valeurs. Il en est de même
-avec la bloc précédent, et ainsi, en remontant la chaîne vers $$r_0$$,
-on trouve le chemin de propagation de retenue comme le plus long.
+avec le bloc précédent et ainsi, en remontant la chaîne vers $$r_0$$,
+on trouve le chemin de propagation de retenue comme chemin le plus long.
 
 Pour déterminer le nombre de portes à franchir pour le chemin de
 propagation de retenue, nous avons ajouté deux sorties intermédiaires
 à notre circuit d'additionneur complet, $$P_i$$ et $$G_i$$, permettant
-de récrire la sortie comme $$S_i = P_i  \mbox{ XOR } r_i $$ et la retenue de
+de récrire la sortie comme $$S_i = P_i  \operatorname{Xor} r_i $$ et la retenue de
 sortie comme $$R_i = P_i r_i + G_i $$. Les signaux $$P_i$$ et $$G_i$$
 ne dépendent que des entrées et sont donc disponibles après le délai
 des portes ET et XOR. Le chemin de $$r_i$$ à $$R_i$$ passe par une
@@ -69,11 +72,11 @@ retenue totale de $$2n$$ portes.
 
 Les valeurs calculées par le circuit complet en chaîne ne seront
 valides et ne devront être prises en compte que lorsque le délai
-maximal se sera écoulé. Entre temps, les valeurs binaires présentes
+maximal se sera écoulé. Entre-temps, les valeurs binaires présentes
 aux différentes sorties assumeront typiquement des valeurs changeantes
-jusqu'à stabilisation finale. Le délai de propagation de retenue est
+jusqu'à la stabilisation finale. Le délai de propagation de retenue est
 un facteur qui limite la vitesse à laquelle on pourra calculer la
-somme de deux nombres. Et comme l'addition est une opération courante,
+somme de deux nombres. Et comme l'addition est une opération 
 souvent utilisée, parfois à répétition, pour réaliser d'autres
 opérations arithmétiques, cette limitation est problématique. 
 
@@ -85,10 +88,10 @@ réaliste, car le nombre d'entrées à considérer en parallèle est prohibitif.
 Comme solutions de compromis intermédiaires, un certain nombre de
 mécanismes ont été élaborés, dont l'approche par anticipation de
 retenue, que nous allons explorer ici. On fait appel aux deux signaux
-$$P_i = a_i \mbox{ XOR } b_i$$ et $$G_i = a_i b_i$$, qui donnent
+$$P_i = a_i \operatorname{Xor} b_i$$ et $$G_i = a_i b_i$$, qui donnent
 respectivement pour la sortie et la retenue de sortie
 
-$$ S_i = P_i \mbox{ XOR } r_{i-1} $$
+$$ S_i = P_i \operatorname{Xor} r_{i-1} $$
 
 $$ R_i = P_i r_{i-1} + G_i $$
 
@@ -117,9 +120,9 @@ calculer les retenues rapidement. Contrairement à l'approche de
 propagation de retenue, toutes les retenues sont obtenues après un
 même délai équivalent à une profondeur de deux portes.  En calculant
 d'abord les différentes valeurs de $$P_i$$ et $$G_i$$ pour chaque
-niveau et en utilisant ces résultats intermédiaires pour, d'une part
-alimenter le circuit d'anticipateur de retenue et d'autre part,
-effectuer $$S_i = P_i \mbox{ XOR } r_i $$, on obtient un additionneur parallèle
+niveau et en utilisant ces résultats intermédiaires pour, d'une part, 
+alimenter le circuit d'anticipateur de retenue et, d'autre part,
+effectuer $$S_i = P_i \operatorname{Xor} r_i $$, on obtient un additionneur parallèle
 plus rapide que la configuration en cascade.
 
 ![Circuit d'anticipateur de retenue pour n= 4.]({{site.baseurl}}/img/lookahead1.svg "Circuit d'anticipateur de retenue pour $$n= 4$$")

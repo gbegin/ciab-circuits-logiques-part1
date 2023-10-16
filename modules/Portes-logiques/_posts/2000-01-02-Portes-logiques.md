@@ -21,7 +21,7 @@ pourrait avoir les correspondances suivantes:
 
 
 Les portes logiques sont manufacturées selon différents standards
-technologiques qu'on appelle familièrement des **familles
+technologiques qu'on appelle communément des **familles
 logiques**. Au sein d'une même famille, les portes respectent les
 mêmes références de niveaux pour pouvoir fonctionner ensemble
 adéquatement.
@@ -70,7 +70,7 @@ haut**.
 
 On a défini des symboles pour représenter graphiquement les portes
 logiques courantes. Dans un schéma logique, les portes sont
-interconnecteées entre-elles au moyen de symboles de conducteurs
+interconnectées au moyen de symboles de conducteurs
 (fils) qui permettent d'acheminer les valeurs logiques d'une porte à
 l'autre.
 
@@ -81,7 +81,7 @@ l'autre.
 
 ![Porte ET à deux entrées.]({{site.baseurl}}/img/and_logique.svg "Porte ET à deux entrées")
 
-Les portes qui réalisent des fonctions qui sont associative et
+Les portes qui réalisent des fonctions qui sont associatives et
 commutatives peuvent aussi se définir avec plus de deux entrées. C'est
 le cas avec les fonctions ET et OU.
 
@@ -101,7 +101,7 @@ le cas avec les fonctions ET et OU.
 
 L'opération NON qui consiste à complémenter une valeur binaire
 s'effectue avec une porte appelée **inverseur**.  Il n'y a toujours
-qu'une seule entrée. $$B = A^\prime$$
+qu'une entrée. $$B = A^\prime$$
 
 ![Porte inverseur.]({{site.baseurl}}/img/not_logique.svg "Porte inverseur") 
 
@@ -114,13 +114,12 @@ qu'une seule entrée. $$B = A^\prime$$
 ### Porte NON-ET (NAND) et NON-OU (NOR)
 
 Les fonctions NAND et NOR ne sont pas associatives. Par exemple, $$(x
-\mbox{ NOR } y) \mbox{ NOR } z \neq x \mbox{ NOR } (y \mbox{ NOR } z)
+\operatorname{ Nor } y) \operatorname{ Nor } z \neq x \operatorname{ Nor } (y \operatorname{ Nor } z)
 $$. On peut néanmoins définir des versions à plusieurs entrées de ces
-fonctions en ajustant la priorité d'évaluation. Pour une porte NOR à
-trois entrées, on fera $$ (A + B + C)^\prime $$.
+fonctions en ajustant la priorité d'évaluation. Pour une porte NAND à
+trois entrées, on fera $$ S = (A \cdot B \cdot C)^\prime $$.
 
-Pour une porte NAND à trois entrées, on fera $$S = (A \cdot B \cdot
-C)^\prime $$.
+Pour une porte NOR à trois entrées, on fera $$(A + B + C)^\prime$$.
 
 ![Porte NAND à trois entrées.]({{site.baseurl}}/img/nand3_logique.svg "NAND à trois entrées")
 
@@ -156,7 +155,7 @@ deux entrées sont différentes. Il est possible de définir des portes
 XOR à plus de deux entrées, mais il y a différentes interprétations de
 ce qu'une telle porte devrait avoir comme comportement. De plus, comme
 la réalisation pratique de cette fonction n'est pas aussi simple que
-pour les autres fonctions, on se retrouve plus souvent qu'autrement à
+pour les autres fonctions, on se retrouve la plupart du temps à
 devoir mettre des portes à deux entrées en cascade pour augmenter le
 nombre d'entrées, ce qui rend moins intéressantes les portes XOR avec
 entrées nombreuses.
@@ -186,9 +185,9 @@ possible de réaliser les trois opérateurs de base.
     entrée (ou dont toutes les entrées sont reliées ensemble).
 2.  Pour réaliser une porte ET, on fait suivre une porte NAND d'un
     inverseur.
-3.  Pour réaliser une porte OU, on précède chaque entrée d'une porte
-    NAND d'un inverseur.
+3.  Pour réaliser une porte OU, on place un inverseur devant chaque entrée d'une porte
+    NAND.
 
-On verra plus loin qu'il est aussi possible de réaliser
+Nous verrons plus loin qu'il est aussi possible de réaliser
 avantageusement des fonctions quelconques avec des portes NAND en
-exploitant la forme **somme de produits**.
+exploitant la forme *somme de produits*.

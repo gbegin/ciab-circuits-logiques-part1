@@ -6,7 +6,7 @@ title: Démultiplexeur, encodeurs divers, portes 3 états
 
 Un démultiplexeur achemine la valeur logique de son entrée à une sortie (parmi
 $$2^n$$ sorties) sélectionnée par un code binaire de sélection. Le
-démultiplexeur de la figure suivante comporte trois bits de sélection,
+démultiplexeur de la figure suivante comporte trois bits de sélection
 et permet donc d'acheminer la valeur de l'entrée $$I$$ vers une des
 huit sorties $$O_i, i = 0, \ldots, 7$$. On peut aussi interpréter ce
 circuit comme un décodeur trois-vers-huit avec une entrée signal de
@@ -20,7 +20,7 @@ contrôle (*enable*) $$I$$.
 Il est possible de concevoir des encodeurs pour des fonctions
 spécialisées, comme des encodeurs pour commander des affichages. La
 démarche de conception s'apparente largement à celles que nous avons
-vu dans les exemples précédents.
+vues dans les exemples précédents.
 
 
 <a id="orgc0927dd"></a>
@@ -29,12 +29,12 @@ vu dans les exemples précédents.
 
 Les portes à trois états ajoutent un troisième état de fonctionnement
 aux sorties: en plus des niveaux logiques bas et haut conventionnels,
-un troisième état appelé **haute-impédance** fait en sorte que la sortie
+un troisième état appelé **haute impédance** fait en sorte que la sortie
 se comporte comme si elle n'était plus connectée au circuit. La sortie
 n'agit pas sur le reste du circuit, les autres portes dont les entrées
-sont alimentés par la porte en haute-impédance ne sont aucunement
+sont alimentées par la porte en haute impédance ne sont aucunement
 affectées par celle-ci. Pour activer cet état de sortie
-haute-impédance, une entrée de contrôle est ajoutée.
+haute impédance, une entrée de contrôle est ajoutée.
 
 Le figure ci-dessous montre une porte tampon à trois états. Avec
 `Contrôle` = 0, la sortie est en haute impédance; avec `Contrôle` = 1,
@@ -45,11 +45,11 @@ la sortie est égale à l'entrée.
 
 En plaçant des tampons à trois états à chaque sortie d'un décodeur, on
 peut réaliser un multiplexeur $$n$$-vers-un en reliant les sorties des
-tampons à une sortie unique. Ainsi, lorsque qu'une entrée est
+tampons à une sortie unique. Ainsi, lorsqu'une entrée est
 sélectionnée au moyen des entrées de sélection, c'est sa valeur qui se
 retrouve à la sortie du dispositif. La valeur Z représente l'état
-haute-impédance.  Lorsque l'entrée de contrôle $$E = 0$$, la sortie est
-en haute-impédance.
+haute impédance.  Lorsque l'entrée de contrôle $$E = 0$$, la sortie est
+en haute impédance.
 
 <table id="org7c00c7f" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 12 :</span> Tableau de vérité pour un  multiplexeur quatre-vers-un trois états</caption>

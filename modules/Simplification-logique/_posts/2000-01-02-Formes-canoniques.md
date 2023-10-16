@@ -4,17 +4,17 @@ title: Formes canoniques
 
 # Expressions équivalentes
 
-Un des aspects ennuyeux avec les expressions logiques est que la
+Un des aspects ennuyeux des expressions logiques est que la
 correspondance entre expression et fonction logique n'est pas
 biunivoque: plusieurs expressions différentes peuvent correspondre à
 une seule et même fonction. De plus, certaines des expressions
 équivalentes peuvent être plus complexes que d'autres. Lorsque vient
 le temps d'implémenter avec des portes une fonction logique, il est la
 plupart du temps plus efficace d'implémenter selon une expression plus
-simple, voir minimale. On doit donc considérer des approches
+simple, voire minimale. On doit donc considérer des approches
 systématiques et efficaces pour simplifier les expressions logiques.
 
-Quand une expression Booléenne est implémentée avec des portes
+Quand une expression booléenne est implémentée avec des portes
 logiques, chaque terme nécessite une porte et chaque variable au sein
 d'un terme correspond à une entrée de la porte. On appelle **littéral**
 une variable qui apparaît dans un terme, sous forme complémentée ou
@@ -29,26 +29,35 @@ expression qui sera plus simple à implémenter avec des portes.
 
 ## Minterms et maxterms
 
-Dans une expression, une variable $$x$$ peut apparaître telle qu'elle
-$$x$$ ou complémentée $$x^\prime$$. Si on considère les combinaisons
-possibles de deux variables via un opérateur ET, on a alors quatres
+Dans une expression, une variable $$x$$ peut apparaître telle quelle
+$x$ ou complémentée $$x^\prime$$. Si on considère les combinaisons
+possibles de deux variables via un opérateur ET, on a alors quatre
 possibilités: $$x^\prime y^\prime, x^\prime y, x y^\prime,x
-y$$. Chacun de ces quatres termes s'appelle un **minterm**.
-
-De façon générale, pour $$n$$ variables, on aura $$2^n$$ minterms
-différents possibles.
+y$$. Chacun de ces quatre termes s'appelle un **minterm**.
 
 De façon équivalente (duale, en vérité), $$n$$ variables reliées par
 une fonction OU peuvent donner lieu à $$2^n$$ termes distincts,
-appelés **maxterms**. Dans le OU d'un maxterm, une variable est 
-telle qu'elle si le bit correspondant est 0 et complémentée si le bit
-est 1. Chaque maxterm est le complément du minterm correspondant, et
-*vice versa*.
+appelés **maxterms**.
 
-Dans le tableau [1](#orgf76f003), on utilise pour les minterms les
-symboles de la forme $$m_j$$ avec $$j$$ qui est l'équivalent décimal
-de la combinaison de bits correspondante. Les maxterms sont dénotés
-$$M_j$$.
+De façon générale, pour $$n$$ variables, on aura $$2^n$$ minterms ou
+$2^n$ maxterms différents possibles.
+
+Pour étiqueter les différents minterms ou maxterms, on a établi une
+convention de numérotation. Le numéro d'étiquette d'un minterm est
+construit de la façon suivante. Une variable complémentée amène un bit
+d'étiquette 0, une variable telle quelle amène un bit d'étiquette 1.
+En ordonnant les bits selon l'ordre alphabétique des variables, on
+obtient un vecteur de bits qui donnera le numéro à assigner au
+minterm.  Par exemple, le minterm $$x y^\prime z$$ donnera l'étiquette
+101, donc le numéro de minterm (en équivalent décimal) 5.
+
+La règle pour les maxterms est duale: une étiquette 0 pour une
+variable telle quelle, et une étiquette 1 pour une variable
+complémentée. Chaque maxterm est le complément du minterm
+correspondant (de même numéro), et *vice versa*.
+
+Dans le tableau [1](#orgf76f003), on montre les
+symboles de la forme $$m_j$$ pour les minterms et $$M_j$$ pour les maxterms, avec $$j$$ qui est l'équivalent décimal de la combinaison de bits correspondante. 
 
 <table id="orgf76f003" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 <caption class="t-above"><span class="table-number">Tableau 1 :</span> Minterms et maxterms pour trois variables</caption>
@@ -170,7 +179,7 @@ $$M_j$$.
 </tbody>
 </table>
 
-Pour la fonction $$F_1$$:
+Pour la fonction $$F_1$$ dont le tableau de vérité est le suivant:
 
 
 <table id="orgee31b82" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -273,22 +282,25 @@ Pour la fonction $$F_1$$:
 
 on peut donc écrire
 
-$$ F_1 = x y^\prime
+$$ F_1 = x ^\prime y
 z^\prime + x y^\prime z^\prime + x y^\prime z + x y z^\prime + x y z =
 m_2 + m_4 + m_5 + m_6 + m_7 $$
 
 puisque ce sont les termes pour lesquels la fonction vaut 1. Cette
-forme d'expression est une forme canonique appelée **somme de
-produits**.
+forme d'expression est une forme canonique appelée *somme de
+produits*.
 
 Pour simplifier la notation, on peut écrire de façon plus compacte  
 
 $$F_1 = \sum (2, 4, 5, 6, 7)$$
 
+où on ne met que les numéros des minterms participant à la somme.
+
 Si on veut exprimer le complément d'une fonction, on peut lire dans le
 tableau de vérité les combinaisons pour lesquelles la fonction
 vaut 0. En prenant un minterm pour chaque combinaison où la fonction
-vaut 0 et en faisant un OU de ces termes, on obtient l'expression pour
+vaut 0 et en faisant un OU de ces termes, on obtient une expression en
+*somme de produits* pour
 le complément de la fonction. Ainsi, pour la fonction $$F_1^\prime$$,
 on a
 
@@ -303,13 +315,14 @@ $$F_1 = (x+ y+ z)(x + y + z^\prime)(x + y^\prime + z^\prime) = M_0
 \cdot M_1 \cdot M_3 $$
 
 Cette forme d'expression est aussi une forme canonique appelée
-**produit de sommes**.
+*produit de sommes*.
 
 Pour simplifier la notation, on peut écrire de façon plus compacte 
 
 $$F_1 = \prod (0,1,3)$$
 
-où on ne met que les numéros des minterms participant à la somme.
+où on ne met cette fois que les numéros des maxterms participant au
+produit.
 
 ## Somme de produits
 
@@ -337,7 +350,7 @@ en se basant sur le tableau de vérité.
 
 Si on veut convertir en forme canonique *produit de sommes* l'expression
 pour une fonction qui ne serait pas sous cette forme, on commence par
-faire l'expansion de l'expression en forme *somme de produits*. On peut
+faire l'expansion de l'expression en forme *produit de sommes*. Pour ce faire, on peut
 avantageusement faire appel à la distributivité de $$+$$ sur $$\cdot$$
 pour ce faire. Ensuite, on vérifie chaque terme pour voir si toutes
 les variables en font partie. S'il manque une ou des variables, on
@@ -356,7 +369,7 @@ m_1 + m_3)^\prime = m_0^\prime \cdot m_1^\prime \cdot m_3^\prime = M_0
 
 En effet, de minterm à maxterm, on a $$m_j^\prime = M_j$$. Le maxterm
 d'indice $$j$$ est le complément du minterm de même indice $$j$$, et
-vice versa.
+*vice versa*.
 
 
 ## Formes standard

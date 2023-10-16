@@ -24,7 +24,7 @@ notre exploration des circuits logiques.
 ## Nombres binaires
 
 Les nombres binaires sont essentiellement construits de la même façon
-que les nombres décimaux avec lesquels nous sommes plus familiers. La
+que les nombres décimaux qui nous sont plus familiers. La
 différence fondamentale tient au fait qu'il n'est possible d'utiliser
 que deux symboles (chiffres), 0 et 1, plutôt que les dix chiffres de 0
 à 9. Les chiffres sont nommés bits (contraction de **b** inary dig
@@ -41,7 +41,7 @@ grande. C'est le **chiffre le plus significatif**; la position de droite
 correspond au **chiffre le moins significatif**. On peut imaginer une
 virgule après le chiffre le moins significatif, pour délimiter la
 partie entière du nombre. D'autres chiffres, placés à droite de cette
-virgule correspondraient à la partie fractionnaire. On y reviendra.
+virgule correspondraient à la partie fractionnaire. Nous y reviendrons.
 
 Les mêmes règles positionnelles permettent d'attribuer une valeur à un
 nombre binaire, en tenant compte du fait que la base vaut cette
@@ -112,7 +112,7 @@ comme on peut voir dans le tableau [1](#org9d95b45).
 </table>
 
 Nous avons ici le **bit le plus significatif** à gauche et le **bit le
-moins significatif** à droite. Chaque chiffre vaut 2 fois plus que le
+moins significatif** à droite. Chaque chiffre vaut deux fois plus que le
 chiffre immédiatement placé à sa droite.
 
 
@@ -124,9 +124,9 @@ positionnelle. La conversion en sens inverse, de décimal à binaire,
 est un peu moins évidente. La méthode consiste à faire une division
 entière du nombre (et des quotients successifs) par 2 et à noter les
 restes obtenus. Le premier reste correspond au bit le moins
-significatif, et le dernier au bit le plus significatif.
+significatif, et le dernier, au bit le plus significatif.
 
-Par exemple, les opération pour convertir 37 en binaire sont résumées
+Par exemple, les opérations pour convertir 37 en binaire sont résumées
 dans le tableau [2](#org26bffc8).
 
 <table id="org26bffc8" border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
@@ -202,4 +202,3 @@ dans le tableau [2](#org26bffc8).
 
 On obtient ainsi 100101.
 
-y

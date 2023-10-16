@@ -5,7 +5,7 @@ title: Multiplexeur
 ## Multiplexeur
 
 Un multiplexeur est un circuit combinatoire qui sélectionne le signal
-qui provient d'une de ses entrées, et fait que sa sortie soit égale à
+qui provient d'une de ses entrées, et fait que sa sortie est égale à
 l'entrée sélectionnée. Les signaux de sélection fonctionnent
 typiquement selon un encodage binaire, ce qui suppose un nombre
 d'entrées de la forme $$2^n$$. On désigne le multiplexeur par le

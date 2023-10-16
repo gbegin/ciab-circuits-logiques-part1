@@ -42,9 +42,9 @@ peut utiliser un encodage binaire, comme par exemple
 ## Variable binaire
 
 Une variable binaire, dénotée par une lettre, permet de désigner une
-valeur binaire pouvant assumer une de deux valeurs possible, 0
-ou 1. La variable est typiquement associée à une proposition, l'état
-d'un élément ou toute autre condition pouvant admettre deux états
+valeur binaire pouvant assumer une des deux valeurs possible, 0
+ou 1. La variable est typiquement associée à une proposition, à l'état
+d'un élément ou à toute autre condition pouvant admettre deux états
 distincts. En assignant une valeur binaire à la variable, on définit
 une valeur de vérité associée à cette variable, et ainsi à la
 condition qu'elle représente. Par exemple, soit $$S$$ une variable
@@ -61,7 +61,7 @@ partir d'elles.
 
 1.  ET: cette opération est représentée (comme la multiplication) par
     un point central ou par l'absence de signe d'opérateur entre les
-    arguments. Par exemple, $$x \cdot y$$. La valeur de l'expression est
+    arguments. Par exemple, $$x \cdot y$$  ou $$x y$$. La valeur de l'expression est
     1 si et seulement si toutes les variables ont la valeur 1. Sinon,
     la valeur est 0.
 2.  OU: cette opération est représentée (comme l'addition) par un signe
@@ -80,7 +80,7 @@ partir d'elles.
 ## Expression logique
 
 Une expression logique combine des variables logiques et des
-opérations, et peut donc assumer une valeur binaire logique. Cette
+opérations et peut donc assumer une valeur binaire logique. Cette
 valeur logique peut être assignée à une autre variable, en créant
 ainsi une équation logique. Par exemple, $$z = x \cdot y$$ signifie
 que $$z$$ assume la valeur de l'expression $$x \cdot y$$. À partir des
@@ -90,15 +90,14 @@ déterminer la valeur logique de la sortie $$z$$.
 
 ## Tableaux de vérité
 
-Une façon de décrire la valeur logique d'une variable de sortie en
-fonction des valeurs possibles des variables d'entrée est au moyen
+On peut décrire la valeur logique d'une variable de sortie en
+fonction des valeurs possibles des variables d'entrée au moyen
 d'un tableau de vérité. Dans un tel tableau, il y a une ligne pour
-chaque combinaison possible des valeurs d'entrée, et sur chaque ligne,
+chaque combinaison possible des valeurs d'entrée et, sur chaque ligne,
 on indique la valeur de sortie correspondante. C'est en quelque sorte
 une description en extension de la valeur de l'expression de sortie.
 
 Voici par exemple les tableaux de vérité pour les opérations de base.
-
 
 Opération ET:
 

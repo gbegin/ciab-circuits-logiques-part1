@@ -56,21 +56,21 @@ algèbre. On présente en parallèle chaque version et sa version duale.
 
 
 <tr>
-<td class="org-left">Theorème 1</td>
+<td class="org-left">Théorème 1</td>
 <td class="org-left">$$x + x = x$$</td>
 <td class="org-left">$$x \cdot x = x$$</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Theorème 2</td>
+<td class="org-left">Théorème 2</td>
 <td class="org-left">$$x + 1 = 1$$</td>
 <td class="org-left">$$x \cdot 0 = 0$$</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Theorème 3</td>
+<td class="org-left">Théorème 3</td>
 <td class="org-left">$$(x^{\prime})^{\prime} = x$$</td>
 <td class="org-left">&#xa0;</td>
 </tr>
@@ -98,14 +98,14 @@ algèbre. On présente en parallèle chaque version et sa version duale.
 
 
 <tr>
-<td class="org-left">Theorème 5</td>
+<td class="org-left">Théorème 5</td>
 <td class="org-left">$$(x + y)^{\prime} = x^{\prime} y^{\prime}$$</td>
 <td class="org-left">$$(xy)^{\prime} = x^{\prime} + y^{\prime}$$</td>
 </tr>
 
 
 <tr>
-<td class="org-left">Theorème 6</td>
+<td class="org-left">Théorème 6</td>
 <td class="org-left">$$x + xy = x$$</td>
 <td class="org-left">$$x(x+y) = x$$</td>
 </tr>
@@ -119,11 +119,10 @@ Nous avons vu que les opérateurs logiques ET, OU et NON, qu'on peut
 aussi appeler fonctions logiques, sont à la base même de la définition
 de notre algèbre de Boole. Il est possible de concevoir d'autres
 fonctions logiques qui vont s'avérer utiles pour la formulation, la
-conception et la réalisation de systèmes logiques. Voici quelques unes
+conception et la réalisation de systèmes logiques. Voici quelques-unes
 des plus souvent utilisées.
 
-
-### Fonction NON-ET
+### Fonction NON-ET (NAND)
 
 La fonction NON-ET, souvent désignée NAND est obtenue en complémentant
 la sortie d'une fonction ET: $$(x \cdot y)^\prime$$.
@@ -319,14 +318,14 @@ plus d'entrées.
 ## Expressions et fonctions binaires
 
 Une fonction binaire peut être décrite par une expression algébrique
-Booléenne. Selon les valeurs des variables, la valeur de l'expression
-Booléenne détermine la valeur de la fonction. Par exemple, $$F_1$$ est
-une fonction de deux entrées $$a$$ et $$b$$ définie par l'expression
+booléenne. Selon les valeurs des variables, la valeur de l'expression
+booléenne détermine la valeur de la fonction. Par exemple, $$F_1$$ est
+une fonction de trois entrées $$a, b$$ et $$c$$ définie par l'expression
 
 $$ F_1 = a + b \cdot c^\prime $$
 
-La précédence des opération dans les expressions algébriques est (1)
-parenthèses, (2) NON, (3) ET, et (4) OU.
+La priorité des opération dans les expressions algébriques est (1)
+parenthèses, (2) NON, (3) ET, (4) OU.
 
 Il est possible de construire le tableau de vérité pour $$F_1$$ en
 évaluant la fonction pour les $$2^3 = 8$$ combinaisons d'entrées
@@ -437,8 +436,8 @@ comportera $$2^n$$ lignes.
 
 Le complément d'une fonction $$F$$ est $$F^\prime$$ et s'obtient en
 remplaçant tous les 0 par des 1 et tous les 1 par des 0 dans les
-valeurs de la fonction. Par exemple, en complémentant les valeurs de
-sorte dans le tableau de vérité, on effectue ce changement.
+valeurs de la fonction. Par exemple, en complémentant ainsi les
+valeurs dans le tableau de vérité, on effectue ce changement.
 
 On peut aussi effectuer ce changement en appliquant les théorèmes de
 DeMorgan (Théorème 5 &spades; et &hearts; du tableau dans [Théorèmes

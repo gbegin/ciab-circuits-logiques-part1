@@ -19,7 +19,7 @@ modules/Systèmes-de-numération/2000-01-05-Compléments %}) le tableau
 de vérité pour un additionneur binaire dont les entrées sont $$a_{i}$$
 et $$b_{i}$$, les bits des nombres à additionner etaussi $$r_{i-1}$$,
 la retenue provenant de la position $$i-1$$. En sortie, on a la somme
-$$S_{i}$$ et la retenue $$R_{i}$$. Notez bien que pour distinguer la
+$$S_{i}$$ et la retenue $$R_{i}$$. Notez que pour bien distinguer la
 retenue d'entrée de la retenue de sortie, nous utilisons un symbole
 minuscule, $$r_{i-1}$$, pour l'entrée et un symbole majuscule,
 $$R_{i}$$, pour la sortie.
@@ -141,7 +141,7 @@ $$R_{i}$$, pour la sortie.
 
 Un circuit logique qui effectue l'addition de deux bits est appelé un
 demi-additionneur. Mais ce qu'il nous faut vraiment, c'est un
-additionneur complet, c'est-à-dire, un circuit qui fait l’addition de
+**additionneur complet**, c'est-à-dire un circuit de trois entrées qui fait l'addition de
 trois bits, puisqu'il faudra pouvoir tenir compte de la retenue du
 niveau précédent pour effectuer l'addition sur un niveau. Il est
 possible d'implémenter l'additionneur complet avec deux
@@ -210,7 +210,7 @@ demi-additionneurs.
 </table>
 
 À partir du tableau de vérité, on peut trouver que $$S_{i} = a_i
-b_i^\prime + a_i^\prime b_i = a_i  \mbox{ XOR }  b_i $$ et $$R_{i} = a_i b_i $$.
+b_i^\prime + a_i^\prime b_i = a_i \operatorname{Xor}  b_i $$ et $$R_{i} = a_i b_i $$.
 
 ![Circuit demi-additionneur (en S de P).]({{site.baseurl}}/img/demi_add2.svg "Circuit demi-additionneur (en S de P)")
 *Circuit demi-additionneur (en S de P)*
@@ -221,7 +221,7 @@ b_i^\prime + a_i^\prime b_i = a_i  \mbox{ XOR }  b_i $$ et $$R_{i} = a_i b_i $$.
 ### Additionneur complet
 
 Une addition binaire complète de deux arguments constitués de $$n$$
-bits procède du bit le moins significatif vers le bits le plus
+bits procède du bit le moins significatif vers le bit le plus
 significatif, en additionnant à chaque étape trois bits: $$a_{i}$$,
 $$b_{i}$$ et $$r_{i-1}$$ et en produisant une somme $$S_{i}$$ et une
 retenue $$R_{i}$$.
@@ -245,7 +245,7 @@ $$ R_{i} = a_i b_i + a_i r_{i-1} + b_i r_{i-1} $$
 ![Circuit additionneur complet pour R_i.]({{site.baseurl}}/img/fulladderR.svg "Circuit additionneur complet $$R_i$$")
 *Circuit additionneur complet pour $$R_i$$*
 
-Comme on le disait précédemment, il est possible de combiner deux
+Comme nous le disions précédemment, il est possible de combiner deux
 demi-additionneurs pour réaliser un additionneur complet, comme on peut le voir ici.
 
 ![Circuit additionneur complet comportant deux demi-additionneurs et une porte OU.]({{site.baseurl}}/img/fulladderxor.svg "Circuit additionneur complet avec deux demi-additionneurs et une porte OU")

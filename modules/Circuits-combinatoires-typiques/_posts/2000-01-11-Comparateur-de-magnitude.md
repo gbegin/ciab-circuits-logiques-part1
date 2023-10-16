@@ -6,9 +6,9 @@ title: Comparateur de magnitude
 
 Comparer la magnitude de deux nombres binaires est une opération qui
 peut se systématiser, comme on l'a fait pour l'addition. Considérons
-deux nombres binaires non-signés, $$A$$ et $$B$$ de même taille $$n$$,
-avec leurs bits respectifs $$a_i$$ et $$b_i$$. On veut que notre
-comparateur active une de trois sorties, selon le cas: $$A < B$$, $$A
+deux nombres binaires non signés, $$A$$ et $$B$$ de même taille $$n$$,
+avec leurs bits respectifs $$a_i$$ et $$b_i$$. Nous voulons que notre
+comparateur active une des trois sorties, selon le cas: $$A < B$$, $$A
 = B$$ ou $$A > B$$. Pour illustrer, nous considérerons $$n = 4$$.
 
 $$ a_3 a_2 a_1 a_0 $$
@@ -16,7 +16,7 @@ $$ a_3 a_2 a_1 a_0 $$
 $$ b_3 b_2 b_1 b_0 $$
 
 Nous aurons besoin d'une fonction qui permet de déterminer si deux
-bits sont égaux. Cette fonction correspond à la fonction **équivalence**
+bits sont égaux. Cette fonction correspond à la fonction **Équivalence**
 ou NOR-exclusif $$a_i b_i + a_i^\prime b_i^\prime $$.  Si les bits
 diffèrent en position $$i$$, $$a_i = 1$$ nous permet de conclure que
 $$A > B$$, et, à l'inverse, $$a_i = 0 $$ nous indique que $$A < B$$. Nous avons ainsi
@@ -31,14 +31,14 @@ procédure que nous utilisons intuitivement pour faire une telle
 comparaison. La comparaison commence au niveau du bit le plus
 significatif. Si ces bits sont égaux, on considère la position
 suivante, jusqu'à atteindre une position $$i$$ où les bits diffèrent
-ou la fin des nombres $$i=0$$. Si les bits diffèrent en position
+ou jusqu'à atteindre la fin des nombres $$i=0$$. Si les bits diffèrent en position
 $$i$$, $$a_i = 1$$ nous permet de conclure que $$A > B$$, alors que $$a_i = 0
 $$ nous indique que $$A < B$$.
 
 Les signaux intermédiaires $$x_i = a_i b_i + a_i^\prime b_i^\prime $$
 qui indiquent si deux bits d'une position sont égaux seront mis à
-profit pour alimenter un réseau de conditions en forme somme de
-produit qui mettront en application les règles énoncées. Les signaux
+profit pour alimenter un réseau de conditions en forme *somme de
+produits* qui mettront en application les règles énoncées. Les signaux
 de sortie binaires sont $$ (A = B), (A < B), (A > B) $$.  D'une part,
 la régularité des opérations simplifie la conception et, d'autre part,
 l'implémentation sera simplifiée du fait que certains des termes
@@ -50,7 +50,7 @@ $$ (A < B) = a_3^\prime b_3 + x_3  a_2^\prime b_2  +  x_3 x_2  a_1^\prime b_1 + 
 
 $$ (A > B) = a_3 b_3^\prime + x_3  a_2 b_2^\prime  +  x_3 x_2  a_1 b_1^\prime +  x_3 x_2 x_1  a_0 b_0^\prime $$
 
-On obtient ainsi un comparateur pour des nombres de 4 bits, tel qu'illustré.
+On obtient ainsi un comparateur pour des nombres de quatre bits, tel qu'illustré.
 
 ![Comparateur de magnitude 4 bits.]({{site.baseurl}}/img/comparateur_4b.svg "Comparateur de magnitude 4 bits")
 *Comparateur de magnitude 4 bits*

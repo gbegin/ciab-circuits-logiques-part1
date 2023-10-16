@@ -15,7 +15,7 @@ place généralement les entrées à gauche et les sorties à droite.
 Avec $$n$$ entrées, il est possible de créer $$2^n$$ combinaisons
 différentes des entrées binaires. Pour chaque combinaison, le circuit
 peut donner une sortie 0 ou 1. On peut donc préciser la fonction
-réalisée par le circuit par un tableau de vérité comportant $$2^n$$
+réalisée par le circuit au moyen d'un tableau de vérité comportant $$2^n$$
 lignes. Comme nous avons $$m$$ sorties différentes, il y aura $$m$$
 colonnes dans le tableau de vérité pour les fonctions de
 sortie. Traditionnellement, on présente les entrées en ordre croissant
