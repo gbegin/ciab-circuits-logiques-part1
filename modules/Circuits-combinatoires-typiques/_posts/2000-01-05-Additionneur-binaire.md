@@ -229,7 +229,7 @@ retenue $$R_{i}$$.
 ![Diag-K pour S_i.]({{site.baseurl}}/img/kmapSi_fulladder.svg "Diag-K pour $$S_i$$")
 *Diag-K pour $$S_i$$*
 
-![Diag-K pour $R_i.]({{site.baseurl}}/img/kmap3fulladderR.svg "Diag-K pour $$R_i$$")
+![Diag-K pour R_i.]({{site.baseurl}}/img/kmap3fulladderR.svg "Diag-K pour $$R_i$$")
 *Diag-K pour $$R_i$$*
 
 Les expressions simplifiées sont 
