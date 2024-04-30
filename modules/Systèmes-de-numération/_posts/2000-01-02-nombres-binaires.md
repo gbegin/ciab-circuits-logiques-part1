@@ -115,7 +115,6 @@ Nous avons ici le **bit le plus significatif** à gauche et le **bit le
 moins significatif** à droite. Chaque chiffre vaut deux fois plus que le
 chiffre immédiatement placé à sa droite.
 
-
 ## Conversion binaire <-> décimal
 
 Convertir un nombre entier binaire en nombre décimal se fait
